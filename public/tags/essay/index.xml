@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Essay on Blowfish</title>
+    <link>http://localhost:1313/tags/essay/</link>
+    <description>Recent content in Essay on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EVERYONE needs a Home Server</title>
+      <link>http://localhost:1313/5-reasons-build-home-server/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/5-reasons-build-home-server/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/5-reasons-build-home-server/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Zen browser is making me DITCH Microsoft Edge</title>
+      <link>http://localhost:1313/zen-browser-better-firefox/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zen-browser-better-firefox/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/zen-browser-better-firefox/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>The Future of AI NEEDS to Deal with Copyright Laws</title>
+      <link>http://localhost:1313/ai-needs-to-deal-with-copyright-laws/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ai-needs-to-deal-with-copyright-laws/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ai-needs-to-deal-with-copyright-laws/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>The Death of Mozilla is the Death of the Open Web</title>
+      <link>http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>The Sudden Fall of JingOS and their Linux Tablet</title>
+      <link>http://localhost:1313/fall-of-jingos-linux-tablet/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fall-of-jingos-linux-tablet/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/fall-of-jingos-linux-tablet/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Chrome OS Flex is a NIGHTMARE!</title>
+      <link>http://localhost:1313/chrome-os-flex-is-a-nightmare/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/chrome-os-flex-is-a-nightmare/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chrome-os-flex-is-a-nightmare/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

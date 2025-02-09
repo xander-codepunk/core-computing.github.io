@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cameron Knaff on Blowfish</title>
+    <link>http://localhost:1313/author/cameron-knaff/</link>
+    <description>Recent content in Cameron Knaff on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/author/cameron-knaff/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Death of Mozilla is the Death of the Open Web</title>
+      <link>http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

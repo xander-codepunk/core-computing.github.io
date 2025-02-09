@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manjaro on Blowfish</title>
+    <link>http://localhost:1313/tags/manjaro/</link>
+    <description>Recent content in Manjaro on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>No, Manjaro is NOT Arch</title>
+      <link>http://localhost:1313/no-manjaro-is-not-arch/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/no-manjaro-is-not-arch/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/no-manjaro-is-not-arch/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

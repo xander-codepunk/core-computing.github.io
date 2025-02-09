@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distros on Blowfish</title>
+    <link>http://localhost:1313/tags/distros/</link>
+    <description>Recent content in Distros on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/distros/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NixOS - The New Best Server OS?</title>
+      <link>http://localhost:1313/nixos-best-server-os-setup/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/nixos-best-server-os-setup/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/nixos-best-server-os-setup/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>COSMIC might be the future of the Linux Desktop.</title>
+      <link>http://localhost:1313/cosmic-pre-alpha/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/cosmic-pre-alpha/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/cosmic-pre-alpha/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Top 5 FAVORITE Linux Distros</title>
+      <link>http://localhost:1313/top-5-favorite-linux-distros/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/top-5-favorite-linux-distros/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/top-5-favorite-linux-distros/cover.png" />
+    </item>
+    
+    <item>
+      <title>Rocky Linux, AlmaLinux, RHEL, CentOS - Which Is BEST for You?</title>
+      <link>http://localhost:1313/rocky-linux-almalinux-rhel-centos-which-is-best-for-you/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/rocky-linux-almalinux-rhel-centos-which-is-best-for-you/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/rocky-linux-almalinux-rhel-centos-which-is-best-for-you/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Windows 10 and Pop!_OS (Legacy/GRUB)</title>
+      <link>http://localhost:1313/dual-boot-windows-10-pop-os/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dual-boot-windows-10-pop-os/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/dual-boot-windows-10-pop-os/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Installing Arch Linux the EASY WAY! – archfi Guide</title>
+      <link>http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Fedora and Windows 11</title>
+      <link>http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Linux Distros Based on Fedora</title>
+      <link>http://localhost:1313/linux-distros-based-on-fedora/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux-distros-based-on-fedora/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/linux-distros-based-on-fedora/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>No, Manjaro is NOT Arch</title>
+      <link>http://localhost:1313/no-manjaro-is-not-arch/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/no-manjaro-is-not-arch/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/no-manjaro-is-not-arch/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>These Linux Distros are ACTUALLY FREE. Stallman Approved!</title>
+      <link>http://localhost:1313/free-software-foundation-distros/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/free-software-foundation-distros/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/free-software-foundation-distros/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Fedora vs Arch Linux - Battle of the Best!</title>
+      <link>http://localhost:1313/fedora-vs-arch-linux/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fedora-vs-arch-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/fedora-vs-arch-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Switch Arch Linux Kernels</title>
+      <link>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>5 Things You MUST DO after Installing Pop!_OS</title>
+      <link>http://localhost:1313/after-installing-pop-os-cosmic/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/after-installing-pop-os-cosmic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/after-installing-pop-os-cosmic/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>OpenSUSE – 5 Things You MUST Do After Installing</title>
+      <link>http://localhost:1313/opensuse-5-things-you-must-do-after-installing/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/opensuse-5-things-you-must-do-after-installing/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/opensuse-5-things-you-must-do-after-installing/cover.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

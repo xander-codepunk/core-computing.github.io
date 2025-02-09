@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021s on Blowfish</title>
+    <link>http://localhost:1313/2021/</link>
+    <description>Recent content in 2021s on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Switch Arch Linux Kernels</title>
+      <link>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Auto-Mount Drives in Linux</title>
+      <link>http://localhost:1313/auto-mount-drives-in-linux-fstab/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/auto-mount-drives-in-linux-fstab/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/auto-mount-drives-in-linux-fstab/cover.png" />
+    </item>
+    
+    <item>
+      <title>Top 10 Linux Apps – Truly Essential Software!</title>
+      <link>http://localhost:1313/top-10-linux-apps-ubuntu/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/top-10-linux-apps-ubuntu/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/top-10-linux-apps-ubuntu/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Monitor AMD RYZEN Temps in Linux</title>
+      <link>http://localhost:1313/monitor-amd-ryzen-temps-in-linux/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/monitor-amd-ryzen-temps-in-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/monitor-amd-ryzen-temps-in-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>10 BEST Linux Applications: Must Have Software (2021)</title>
+      <link>http://localhost:1313/10-best-linux-applications-must-have-software/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/10-best-linux-applications-must-have-software/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/10-best-linux-applications-must-have-software/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>5 Things You MUST DO after Installing Pop!_OS</title>
+      <link>http://localhost:1313/after-installing-pop-os-cosmic/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/after-installing-pop-os-cosmic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/after-installing-pop-os-cosmic/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Easily Install AMD Ryzen CPU and Wraith Prism Cooler</title>
+      <link>http://localhost:1313/install-amd-ryzen-cpu-and-wraith-prism-cooler/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/install-amd-ryzen-cpu-and-wraith-prism-cooler/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/install-amd-ryzen-cpu-and-wraith-prism-cooler/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Control AMD Wraith Prism Cooler RGB (and more)</title>
+      <link>http://localhost:1313/control-amd-wraith-prism-cooler-master/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/control-amd-wraith-prism-cooler-master/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/control-amd-wraith-prism-cooler-master/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>OpenSUSE – 5 Things You MUST Do After Installing</title>
+      <link>http://localhost:1313/opensuse-5-things-you-must-do-after-installing/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/opensuse-5-things-you-must-do-after-installing/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/opensuse-5-things-you-must-do-after-installing/cover.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

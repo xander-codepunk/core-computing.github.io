@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB) &middot; Blowfish</title>
+  <meta name="title" content="BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB) &middot; Blowfish" />
+  
+  <meta name="description" content="My awesome website" />
+  <meta name="keywords" content="Guides, Homelab, Monitoring, " />
+  
+  
+  <link rel="canonical" href="http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1c9cd0d1ebaf117272b5c4f6bd49878475cb210d5e0da4f061632d779f5bb46851881c187e6e634dba5071c4e3d80e7d5cec1dd80443b2fa68acd358f9eda881.css"
+    integrity="sha512-HJzQ0euvEXJytcT2vUmHhHXLIQ1eDaTwYWMtd59btGhRiBwYfm5jTbpQccTj2A59XOwd2ARDsvporNNY&#43;e2ogQ==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.c178288131a2f1ad46910438db47ac5f7e1c48cf949e49f6dc3310c8ec9660e23fe505805eba4e2e73711335808500360d773a2b64322feb35df52856edca286.js"
+    integrity="sha512-wXgogTGi8a1GkQQ420esX34cSM&#43;Unkn23DMQyOyWYOI/5QWAXrpOLnNxEzWAhQA2DXc6K2QyL&#43;s131KFbtyihg==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/">
+  <meta property="og:site_name" content="Blowfish">
+  <meta property="og:title" content="BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)">
+  <meta property="og:description" content="My awesome website">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="2024">
+    <meta property="article:published_time" content="2024-07-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-06T00:00:00+00:00">
+    <meta property="article:tag" content="Guides">
+    <meta property="article:tag" content="Homelab">
+    <meta property="article:tag" content="Monitoring">
+    <meta property="og:image" content="http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/cover.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/cover.jpg">
+  <meta name="twitter:title" content="BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)">
+  <meta name="twitter:description" content="My awesome website">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "2024s",
+    "name": "BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)",
+    "headline": "BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)",
+    
+    
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/monitor-home-server-grafana-prometheus-influxdb\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-07-06T00:00:00\u002b00:00",
+    "datePublished": "2024-07-06T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-07-06T00:00:00\u002b00:00",
+    
+    "keywords": ["Guides","Homelab","Monitoring"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "4696"
+  }]
+  </script>
+
+
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blowfish</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span  class="mr-1" >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M88 48C101.3 48 112 58.75 112 72V120C112 133.3 101.3 144 88 144H40C26.75 144 16 133.3 16 120V72C16 58.75 26.75 48 40 48H88zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 232C16 218.7 26.75 208 40 208H88C101.3 208 112 218.7 112 232V280C112 293.3 101.3 304 88 304H40C26.75 304 16 293.3 16 280V232zM88 368C101.3 368 112 378.7 112 392V440C112 453.3 101.3 464 88 464H40C26.75 464 16 453.3 16 440V392C16 378.7 26.75 368 40 368H88z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        Navigation
+    </p>
+</a>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class=" flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div  class="mr-2" >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M88 48C101.3 48 112 58.75 112 72V120C112 133.3 101.3 144 88 144H40C26.75 144 16 133.3 16 120V72C16 58.75 26.75 48 40 48H88zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 232C16 218.7 26.75 208 40 208H88C101.3 208 112 218.7 112 232V280C112 293.3 101.3 304 88 304H40C26.75 304 16 293.3 16 280V232zM88 368C101.3 368 112 378.7 112 392V440C112 453.3 101.3 464 88 464H40C26.75 464 16 453.3 16 440V392C16 378.7 26.75 368 40 368H88z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            Navigation
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/monitor-home-server-grafana-prometheus-influxdb/cover_hu_1cc0336c12c1ddeb.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-07-06T00:00:00&#43;00:00">6 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>4696 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">23 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/TechHutTV/TechHut.tv/2024/07/monitor-home-server-grafana-prometheus-influxdb/index.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"/></svg>
+  </span>
+
+</span></a
+  >
+</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#grafana-prometheus-and-node-exporter">Grafana, Prometheus, and Node Exporter</a></li>
+        <li><a href="#influxdb-and-telegraf">InfluxDB and Telegraf</a></li>
+      </ul>
+    </li>
+    <li><a href="#installing-and-starting-node-exporter">Installing and Starting Node Exporter</a>
+      <ul>
+        <li><a href="#monitoring-linux-host-metrics-with-the-node-exporter--prometheus">Monitoring Linux host metrics with the Node Exporter | Prometheus</a></li>
+      </ul>
+    </li>
+    <li><a href="#deploying-the-docker-containers">Deploying the Docker Containers</a>
+      <ul>
+        <li><a href="#7-docker-basics-for-beginners">7 Docker Basics for Beginners</a></li>
+        <li><a href="#docker-compose-configuration">Docker Compose Configuration</a></li>
+        <li><a href="#prometheus-configuration">Prometheus Configuration</a></li>
+        <li><a href="#grafana-configuration">Grafana Configuration</a></li>
+      </ul>
+    </li>
+    <li><a href="#starting-the-services">Starting the Services</a>
+      <ul>
+        <li><a href="#influxdb-2-setup">InfluxDB 2 Setup</a>
+          <ul>
+            <li><a href="#grafana-setup">Grafana Setup</a></li>
+            <li><a href="#optional-hosts-config">Optional Hosts Config</a></li>
+            <li><a href="#node-exporter-dashboard">Node Exporter Dashboard</a></li>
+            <li><a href="#unraid-and-prometheus-node-exporter">unRAID and Prometheus Node Exporter</a></li>
+          </ul>
+        </li>
+        <li><a href="#proxmox-and-influxdb-setup">Proxmox and InfluxDB Setup</a></li>
+        <li><a href="#monitor-docker-with-telegraf">Monitor Docker with Telegraf</a></li>
+        <li><a href="#monitor-unraid-with-telegraf">Monitor Unraid with Telegraf</a></li>
+        <li><a href="#server-monitoringunraid-at-main--techhuttvserver-monitoring">server-monitoring/unraid at main · TechHutTV/server-monitoring</a></li>
+      </ul>
+    </li>
+    <li><a href="#wrapping-up">Wrapping Up</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#grafana-prometheus-and-node-exporter">Grafana, Prometheus, and Node Exporter</a></li>
+        <li><a href="#influxdb-and-telegraf">InfluxDB and Telegraf</a></li>
+      </ul>
+    </li>
+    <li><a href="#installing-and-starting-node-exporter">Installing and Starting Node Exporter</a>
+      <ul>
+        <li><a href="#monitoring-linux-host-metrics-with-the-node-exporter--prometheus">Monitoring Linux host metrics with the Node Exporter | Prometheus</a></li>
+      </ul>
+    </li>
+    <li><a href="#deploying-the-docker-containers">Deploying the Docker Containers</a>
+      <ul>
+        <li><a href="#7-docker-basics-for-beginners">7 Docker Basics for Beginners</a></li>
+        <li><a href="#docker-compose-configuration">Docker Compose Configuration</a></li>
+        <li><a href="#prometheus-configuration">Prometheus Configuration</a></li>
+        <li><a href="#grafana-configuration">Grafana Configuration</a></li>
+      </ul>
+    </li>
+    <li><a href="#starting-the-services">Starting the Services</a>
+      <ul>
+        <li><a href="#influxdb-2-setup">InfluxDB 2 Setup</a>
+          <ul>
+            <li><a href="#grafana-setup">Grafana Setup</a></li>
+            <li><a href="#optional-hosts-config">Optional Hosts Config</a></li>
+            <li><a href="#node-exporter-dashboard">Node Exporter Dashboard</a></li>
+            <li><a href="#unraid-and-prometheus-node-exporter">unRAID and Prometheus Node Exporter</a></li>
+          </ul>
+        </li>
+        <li><a href="#proxmox-and-influxdb-setup">Proxmox and InfluxDB Setup</a></li>
+        <li><a href="#monitor-docker-with-telegraf">Monitor Docker with Telegraf</a></li>
+        <li><a href="#monitor-unraid-with-telegraf">Monitor Unraid with Telegraf</a></li>
+        <li><a href="#server-monitoringunraid-at-main--techhuttvserver-monitoring">server-monitoring/unraid at main · TechHutTV/server-monitoring</a></li>
+      </ul>
+    </li>
+    <li><a href="#wrapping-up">Wrapping Up</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>Today I&rsquo;ll be showing you how it can actually be pretty simple to get a self hosted monitoring system set up for your home lab. The idea is to collect and visualize key data about your machines, like how much CPU, RAM, and disk capacity is being used over time.</p>
+<p>Having monitoring in place can be really useful for understanding if there are adequate resources dedicated to your various services, and it can also just be a lot of fun to look at. Before we go any further, here&rsquo;s a sample screen shot of what our end result will look like:</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-2-1024x417_hu_230cb1d2b3bce5cb.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-2-1024x417_hu_894035907e153bb8.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-2-1024x417_hu_e52a011f7aa40ea8.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-2-1024x417_hu_14ab2908f5858401.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/image-2-1024x417_hu_894035907e153bb8.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">Grafana, Prometheus, and Node Exporter 
+    <div id="grafana-prometheus-and-node-exporter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#grafana-prometheus-and-node-exporter" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>What you&rsquo;re looking at above is a Grafana dashboard. In the IT industry, Grafana has become essentially the standard tool for visualizing various performance metrics both about systems and services themselves. But it&rsquo;s definitely not limited to that domain, and you&rsquo;ll also see Grafana being used sometimes in home monitoring and home automation setups. So that&rsquo;s to say that it&rsquo;s a valuable tool to learn which we&rsquo;ll really just scratch the surface of in this tutorial.</p>
+<p>When it comes to monitoring computers, whether those are bare metal systems or virtual machines, Grafana is commonly paired with another industry standard tool known as Prometheus. The role of Prometheus is gathering data points at regular intervals in a process known as &ldquo;scraping&rdquo;. That data is then made available to Grafana to be visualized in the dashboard.</p>
+<p>The full deployment consists of two main aspects. First are the Grafana and Prometheus services which in this case we&rsquo;ll be running in Docker containers. Second is what&rsquo;s known at the &ldquo;node exporter&rdquo; service that is part of the Prometheus project. The exporter runs on each machine to be monitored and makes the machine&rsquo;s metrics available to be scraped by the main Prometheus app.</p>
+<p>That also means of course that all of the machines in the monitoring group need to be reachable in the same network as the machine hosting the Prometheus Docker container. It doesn&rsquo;t matter if that&rsquo;s a regular LAN or some kind of private overlay networking solution. There are more advanced options, like connecting multiple Prometheus instances together or using authenticated connections over the public internet, but we won&rsquo;t cover any of that here.</p>
+
+
+<h3 class="relative group">InfluxDB and Telegraf 
+    <div id="influxdb-and-telegraf" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#influxdb-and-telegraf" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>InfluxDB and Telegraf and very similar to Prometheus and the Node Exporter. The reason I&rsquo;m adding these tools to the step up is because it gives us more options to gather data to visualize with Grafana. While there are many services that provide direct support for Prometheus, that&rsquo;s not always the case. Telegraf has a wide range of plugins and for some services it&rsquo;s just a more natural fit than Prometheus. Having both of them set up means that you&rsquo;ll likely have a very simple way to get started with monitoring anything in your lab with one or the other.</p>
+<p>InfluxDB is a specialized time-series database designed to store and manage data indexed and queried by time. It’s particularly useful for handling metrics, events, and other time-based data. InfluxDB provides a query language called InfluxQL and APIs for retrieving and analyzing time-series data. Don&rsquo;t worry if that sounds like a lot—you don&rsquo;t need to write queries or use the API directly to do awesome things. In fact, the UI of InfluxDB is rather nice as you&rsquo;ll see below and it works as a standalone visualization tool too.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-data-preview-1024x522_hu_5afb7384739ca3f6.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-data-preview-1024x522_hu_9b2d8ea9bea1afc.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-data-preview-1024x522_hu_fb65c83279231128.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-data-preview-1024x522_hu_447df978a0dc6638.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/unraid-data-preview-1024x522_hu_9b2d8ea9bea1afc.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Telegraf, on the other hand, is an open-source server agent developed by InfluxData, the same people behind InfluxDB. Its main purpose is to collect and send metrics and events from various sources, including databases, systems, and IoT sensors. It offers a wide range of input plugins (300+ community-contributed) and can be customized to collect data from cloud platforms, containers, and more. Telegraf is especially useful when paired with InfluxDB, as it efficiently sends collected metrics to the database for storage and analysis.</p>
+
+
+<h2 class="relative group">Installing and Starting Node Exporter 
+    <div id="installing-and-starting-node-exporter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#installing-and-starting-node-exporter" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>The Prometheus node exporter is widely available as a package in the official repos of various Linux distros. To start we will be installing this Exporter on the same machine that we plan on running with our stack. For Ubuntu and other Debian based distros, you can install it like this:</p>
+<pre tabindex="0"><code>sudo apt install prometheus-node-exporter
+</code></pre><p>While apt should start and enable the systemd service for the node exporter automatically, you can double check that like this:</p>
+<pre tabindex="0"><code>sudo systemctl status prometheus-node-exporter
+</code></pre><p>As an aside, you might be wondering why we&rsquo;re using a system package for the node exporter while using Docker containers for the rest. While it&rsquo;s true that the node exporter can run inside a container too, doing so limits the visibility it has into the system&rsquo;s resources, particularly disk space. Using a system package is the simplest way to ensure that all the data is available.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/android-chrome-192x192_hu_8f7b7c08243dd180.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/android-chrome-192x192_hu_b760c5e034e0cc78.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/android-chrome-192x192_hu_c1d7826fa631d331.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/android-chrome-192x192_hu_a7dc28ade6a23db2.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/android-chrome-192x192_hu_b760c5e034e0cc78.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">Monitoring Linux host metrics with the Node Exporter | Prometheus 
+    <div id="monitoring-linux-host-metrics-with-the-node-exporter--prometheus" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#monitoring-linux-host-metrics-with-the-node-exporter--prometheus" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.</p>
+
+
+<h2 class="relative group">Deploying the Docker Containers 
+    <div id="deploying-the-docker-containers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#deploying-the-docker-containers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Alright, now let&rsquo;s get started with the deployment of the containers. For this part I&rsquo;ll assume you have a machine set up with Docker already. If not, we have an <a href="https://techhut.tv/7-docker-basics-for-beginners/" target="_blank">article and video on getting started with Docker</a> that will get you up to speed. What I&rsquo;ll show here is using a Docker Compose file and Docker&rsquo;s command line interface.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/docker-basics_hu_2b2f40e44faf1b43.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/docker-basics_hu_dba175eb5fef55c6.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/docker-basics_hu_3f98c371e3bccb98.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/docker-basics_hu_c1fb8f6bc2003d99.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/docker-basics_hu_dba175eb5fef55c6.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">7 Docker Basics for Beginners 
+    <div id="7-docker-basics-for-beginners" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#7-docker-basics-for-beginners" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Docker is a platform that allows you to work with containers and containerized applications&hellip;.</p>
+<p>I&rsquo;ve uploaded my configurations and compose.yaml file to Github making it really easy to clone and get started. I will do my best to keep both this guide and the repository updated with any changes and improvements. Also, if you&rsquo;re following the video guide I will post changes here.</p>
+<p>When you clone the repository make sure it&rsquo;s wherever you want some configuration files and scripts for services to be stored. Generally, I just do this in my user home directory.</p>
+<pre tabindex="0"><code>git clone https://github.com/TechHutTV/server-monitoring.git
+</code></pre><p>After you pull the repo, it will be in the &lsquo;server-monitoring&rsquo; directory. Now is a good time to rename that if you&rsquo;d like. Now let&rsquo;s move to that directory and see what we&rsquo;re working with.</p>
+<pre tabindex="0"><code>cd server-monitoring
+</code></pre><p>Now we can see how the included files are laid out:</p>
+<pre tabindex="0"><code>tree
+.
+├── compose.yaml
+├── grafana
+│   └── datasource.yml
+├── prometheus
+│   └── prometheus.yml
+├── README.md
+├── telegraf
+│   └── telegraf.conf
+└── unraid
+    ├── README.md
+    ├── telegraf.conf
+    └── unraid-data-preview.png
+
+4 directories, 8 files
+</code></pre>
+
+<h3 class="relative group">Docker Compose Configuration 
+    <div id="docker-compose-configuration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#docker-compose-configuration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Let&rsquo;s go through each file and cover any changes that you might need to make for your particular setup. First is <code>compose.yaml</code>, which is our Docker Compose file.</p>
+<p>One thing we added is an <code>extra_hosts</code> section under some of the services. This will enable them to access the data exporters running on the host system outside of Docker by adding an entry to the container&rsquo;s <code>/etc/hosts</code> file. If you have DNS set up for your LAN, then this part is not necessary. You can just substitute the DNS name as needed.</p>
+<p>Below I show using an example hostname on my test machine of &ldquo;dockerlab&rdquo; but replace this with yours throughout the guide. The important thing to note is that the data will be tagged with this name inside Prometheus as the machine name, and if you change it later, you&rsquo;ll end up with multiple entries for the same machine. Using the same name as the host name for this machine is a good idea. To check it, run this in a terminal:</p>
+<pre tabindex="0"><code>hostname
+</code></pre><p>The volumes are one thing that you might also want to change. With the defaults shown below, all the data collected will be stored in the Docker data directory of the machine running Docker. If you need more space or have another reason to store the data elsewhere, you might consider using a bind mount to networked storage or another disk. Volumes and bind mounts are covered in out <a href="https://techhut.tv/7-docker-basics-for-beginners/" target="_blank">Docker guide</a>. Note that Grafana itself stores only a little data for things like settings. The bulk of the data is stored in the Prometheus and InfluxDB data volumes.</p>
+<p>With that noted, let&rsquo;s jump into the compose file.</p>
+<pre tabindex="0"><code>nano compose.yaml
+</code></pre><p>Here&rsquo;s what it should look like. Don&rsquo;t forget to replace &ldquo;dockerlab&rdquo; with your own host name:</p>
+<pre tabindex="0"><code>services:
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    command:
+      - &#39;--config.file=/etc/prometheus/prometheus.yml&#39;
+    ports:
+      - 9090:9090
+    restart: unless-stopped
+    extra_hosts:
+      - &#34;dockerlab:host-gateway&#34;
+    volumes:
+      - ./prometheus:/etc/prometheus
+      - prom_data:/prometheus
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    volumes:
+      - ./grafana:/etc/grafana/provisioning/datasources
+      - grafana_data:/var/lib/grafana
+  influxdb:
+    image: influxdb:2.7.6-alpine
+    container_name: influxdb2
+    ports:
+      - 8086:8086
+    extra_hosts:
+      - &#34;dockerlab:host-gateway&#34;
+    volumes:
+      - influxdb2_data:/var/lib/influxdb2
+      - ./influxdb2/config:/etc/influxdb2
+      - ./influxdb2/scripts:/docker-entrypoint-initdb.d
+  telegraf:
+    image: telegraf:latest
+    pid: &#34;host&#34;
+    container_name: telegraf
+    user: telegraf:999
+    restart: always
+    entrypoint: /bin/bash -c &#34;/entrypoint.sh telegraf&#34;
+    extra_hosts:
+      - &#34;dockerlab:host-gateway&#34;
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+      - /:/hostfs:ro
+    environment:
+      - HOST_ETC=/hostfs/etc
+      - HOST_PROC=/hostfs/proc
+      - HOST_SYS=/hostfs/sys
+      - HOST_VAR=/hostfs/var
+      - HOST_RUN=/hostfs/run
+      - HOST_MOUNT_PREFIX=/hostfs
+volumes:
+  prom_data:
+  grafana_data:
+  influxdb2_data:
+</code></pre><p>Before running this stack ensure there won&rsquo;t be any conflicting network ports. Here we are exposing the default ports: 3000, 9090, and 8086. If any of these ports are already used on your Docker machine, you can edit these as needed by changing the port number to the left of the colon. Since Grafana will access Prometheus and InfluxDB over Docker&rsquo;s internal network, you don&rsquo;t need to change it&rsquo;s configuration when you change the exposed ports. It will only matter when you want to connect to each service directly. Mostly that will be Grafana, but each exposed port has a web UI that we&rsquo;ll be visiting in this guide, so substitute your updated port numbers as needed if you change them.</p>
+
+
+<h3 class="relative group">Prometheus Configuration 
+    <div id="prometheus-configuration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#prometheus-configuration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Let&rsquo;s save and close the compose.yaml file, and then go check the Prometheus configuration:</p>
+<pre tabindex="0"><code>nano prometheus/prometheus.yml
+</code></pre><p>This file already contains some default values, mostly notably a default global scraping interval of 15 seconds. That means that you would get a data point from each machine you are monitoring every 15 seconds.</p>
+<p>.stk-372b0ea{margin-bottom:0px !important}</p>
+<pre tabindex="0"><code>global:
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  evaluation_interval: 15s
+</code></pre><p>This is a reasonable default, but you can edit it if you like. Just note that if you do change the interval, it&rsquo;s important that you also set the same interval inside the Grafana interface later. So, keep that in mind and we&rsquo;ll see where to do it in just a bit.</p>
+<p>.stk-c13962b{margin-bottom:0px !important}</p>
+<p>@media screen and (min-width:768px){.stk-54ca266{flex:var(&ndash;stk-flex-grow,1) 1 calc(50% - var(&ndash;stk-column-gap,0px) * 1 / 2 ) !important}}</p>
+<pre tabindex="0"><code>alerting:
+  alertmanagers:
+  - static_configs:
+    - targets: []
+    scheme: http
+    timeout: 10s
+    api_version: v1
+</code></pre><p>@media screen and (min-width:768px){.stk-5ca674f{flex:var(&ndash;stk-flex-grow,1) 1 calc(50% - var(&ndash;stk-column-gap,0px) * 1 / 2 ) !important}}</p>
+<p>After the global settings section at the top, there&rsquo;s an alerts section. Prometheus has the ability to trigger alerts, for example if a disk is getting too full, and actually Grafana has its own separate alerts feature as well. We won&rsquo;t get into that aspect for this tutorial though and so we can leave that part of the config alone.</p>
+<p>.stk-b80397f{margin-bottom:0px !important}</p>
+<pre tabindex="0"><code>scrape_configs:
+- job_name: prometheus
+  honor_timestamps: true
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  metrics_path: /metrics
+  scheme: http
+  static_configs:
+  - targets:
+    - localhost:9090
+</code></pre><p>Below the alerts section there&rsquo;s the first scraping target, which is actually Prometheus itself. That&rsquo;s right, Prometheus can gather data on itself, such as whether it&rsquo;s experiencing any errors or failures. The data Prometheus gathers on itself is probably more relevant in large scale and high stakes environments, but it won&rsquo;t take up much disk space and you might find it interesting to have at some point.</p>
+<p>What we want to do is add an additional job that scrapes the node exporter service running on each machine we want to monitor. Here&rsquo;s the template for what to add:</p>
+<pre tabindex="0"><code>- job_name: node_exporter
+  static_configs:
+    - targets:
+      - hostname/IP:9100
+</code></pre><p>This instructs Promethus to scrape data from the node exporter&rsquo;s default port of 9100 on a given host. One important note here is that the data in Grafana will be labeled with the hostname that we write here. So while &ldquo;localhost&rdquo; is a valid target for monitoring the machine that Prometheus is running on, you might find it makes things clearer later if you use the hostname instead. To check the machine&rsquo;s hostname, you can use the `hostname` command in the terminal.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/prometheus.yml__hu_a8d9f81d68813f41.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/prometheus.yml__hu_ba79ea8235aef68a.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/prometheus.yml__hu_d7fcc2497108e2c7.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/prometheus.yml__hu_1aa95a3da6d8cfd8.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/prometheus.yml__hu_ba79ea8235aef68a.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>We can access a web UI for Prometheus by visiting port 9090 in a web browser. Prometheus includes some of its own graphing capabilities via this interface, but what we&rsquo;re interested in is the <em>Targets</em> view under <em>Status</em>. Here we can see each of the node exporter targets, as well the Prometheus self monitoring target.</p>
+<p>When Prometheus can reach the targets for scraping, these show a green <em>Up</em> icon. If something has gone wrong, you&rsquo;ll see a red <em>Down</em> icon. So, this view is good for troubleshooting, to discover if Prometheus is able to reach the node exporter services running on the machines you want to monitor.</p>
+
+
+<h3 class="relative group">Grafana Configuration 
+    <div id="grafana-configuration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#grafana-configuration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/datasource_hu_560b24e8a7b0b9cc.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/datasource_hu_5b734de2f9cff0a1.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/datasource_hu_d9c16c38dec5fd6f.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/datasource_hu_2268e0a884b35a48.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/datasource_hu_5b734de2f9cff0a1.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>There&rsquo;s also a datasource.yml in the <code>grafana</code> folder. We don&rsquo;t need to make any edits as it just specifies that Prometheus will be a data source and where to reach it on the network. Since these two containers are in the same Compose deployment, Grafana can reach Prometheus by Docker DNS at the name <code>prometheus</code> and on its default port of 9090.</p>
+
+
+<h2 class="relative group">Starting the Services 
+    <div id="starting-the-services" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#starting-the-services" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>.stk-147acba{margin-bottom:0px !important}</p>
+<p>That concludes the initial config file changes that we need to do. At this point we&rsquo;re ready to start up the containers and connect to our new services. Just make a note of whichever is present on your system and substitute the right form in the commands below if needed. To start the deployment run this:</p>
+<p>.stk-ded6301{margin-bottom:0px !important}.stk-ded6301-column{row-gap:0px !important}</p>
+<p>@media screen and (min-width:768px){.stk-1f75796{flex:var(&ndash;stk-flex-grow,1) 1 calc(46.4% - var(&ndash;stk-column-gap,0px) * 1 / 2 ) !important}}</p>
+<pre tabindex="0"><code>docker compose up -d
+</code></pre><p>@media screen and (min-width:768px){.stk-57258cc{flex:var(&ndash;stk-flex-grow,1) 1 calc(53.6% - var(&ndash;stk-column-gap,0px) * 1 / 2 ) !important}}</p>
+<p>The <code>-d</code> flag here instructs Docker to run the deployment in the background and not print all the logs directly to the screen.</p>
+<p>If you see any errors, it&rsquo;s possible that there&rsquo;s a mistake in your <code>compose.yaml</code> file or in one of the configuration files. In that case I&rsquo;d suggest to go back and look for any errors or deviations from what I showed above.</p>
+
+
+<h3 class="relative group">InfluxDB 2 Setup 
+    <div id="influxdb-2-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#influxdb-2-setup" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>With InfluxDB there is no manual configuration required. However, we will need to setup our credentials to create buckets later on. Open your browser and navigate to your IP address followed by the port 8086. Fill in everything. In our example, I am setting up the initial bucket as &lsquo;influxdb&rsquo; as the software will have some of its own data to store.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-setup-1024x785_hu_23cdb8844c39b2d6.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-setup-1024x785_hu_cdef6f73308bebed.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-setup-1024x785_hu_b4929cf5400b5dac.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-setup-1024x785_hu_91c84bd0084e5c35.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/influxdb-setup-1024x785_hu_cdef6f73308bebed.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Once you hit continue there will be a secret key. Make sure you save this as we will use it later. Alternatively, we can create API keys in the dashboard in the future.</p>
+<p>InfluxDB is a very powerful tool with a ton of features. I highly recommend you read up on the documentation and learn a little about it. It&rsquo;s designed so well that if you just wanted a database platform with simple graphs this could be a great stand-alone option for you. Below is a screenshot of Proxmox data that we will import later in this guide.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-charts-1-1024x721_hu_443145969527c9bf.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-charts-1-1024x721_hu_c76e0563e51ffdf9.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-charts-1-1024x721_hu_e11a66efc56665e9.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-charts-1-1024x721_hu_f8306f5763ee55ab.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/influxdb-charts-1-1024x721_hu_c76e0563e51ffdf9.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h4 class="relative group">Grafana Setup 
+    <div id="grafana-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#grafana-setup" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>With the containers up, we can now go and connect to Grafana and set up our dashboard. By default, Grafana will be exposed on port 3000 on the machine running Docker. Go ahead and type the IP/port or host/port combo into your browser, and then log into Grafana with the admin/admin for the username and password. It will then prompt you to change it.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/grafana-login-1024x739_hu_a12eb6961094abe5.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/grafana-login-1024x739_hu_c475c150961229b2.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/grafana-login-1024x739_hu_c36eef9e79b4c4d6.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/grafana-login-1024x739_hu_ccb71a48ac2459ee.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/grafana-login-1024x739_hu_c475c150961229b2.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>First, here in the Grafana interface, let&rsquo;s go to the <em>Connections</em> section and select <em>Data sources</em>. This is where we manage and add all the sources that Grafana will use to display data.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/data-sources-1024x349_hu_276d9d778839e84a.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/data-sources-1024x349_hu_20b4019fea6d20fa.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/data-sources-1024x349_hu_1ad0644c77d10766.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/data-sources-1024x349_hu_fadfa1fa55ed910.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/data-sources-1024x349_hu_20b4019fea6d20fa.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h5 class="relative group">Prometheus 
+    <div id="prometheus" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#prometheus" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<p>By default, we should see our Prometheus data source here, which was added according to the Grafana config file. If we open up the Prometheus data source and scroll down a bit, we can see the scrape interval configuration. As I mentioned earlier, if you changed your scrape interval in the Prometheus configuration, you should also change it here so they are the same. Otherwise you can run into issues where the data does not display properly on the graphs.</p>
+<p>Scrolling down a bit more, we can see the <em>Save &amp; test</em> button, which also provides a helpful way to confirm that Grafana can reach Prometheus to grab data. Now speaking of diagnostics, let&rsquo;s go take a look in the Prometheus web interface to see how we can check the status of Prometheus scrape jobs.</p>
+
+
+<h5 class="relative group">InfluxDB 2 
+    <div id="influxdb-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#influxdb-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<p>The InfluxDB source won&rsquo;t be loaded in there automatically like our Prometheus data source was. We will need to add this manually. Under &lsquo;Connections&rsquo; in the left navigation pane click on &lsquo;Add new connection&rsquo;, then type &ldquo;InfluxDB&rdquo; within the search bar. Click on the result to setup the connection. Name this what you&rsquo;d like, and for my setup I will be using InfluxQL as the language. Flux is another good option, but it is in beta and many of the popular dashboards will not work with Flux.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/influx-data-auth-1024x675_hu_994f9f3454a97cc9.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influx-data-auth-1024x675_hu_d754cd40a7d83beb.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influx-data-auth-1024x675_hu_5608eb672eac55bc.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influx-data-auth-1024x675_hu_8f03f228f565cf18.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/influx-data-auth-1024x675_hu_d754cd40a7d83beb.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Since all 3 of these services are in the same Docker compose file we can use the Docker DNS hostname in the URL section sending in the port 8086. My initial setup is an unecryped HTTP connection so the only Auth option I&rsquo;ll have selected is &lsquo;Skip TLS Verify&rsquo;.</p>
+<p>For the InfluxDB Details, I&rsquo;m going to be starting with my Proxmox bucket. For Database I added the name of the initial bucket we created earlier. My username and the password is the key we saved earlier from the InfluxDB setup. When you click save and test you should get a message similar to the one below.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-details-1024x522_hu_dcfe0e908fc719e7.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-details-1024x522_hu_38f6b4c228e59f7c.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-details-1024x522_hu_de66ca622ae9884e.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/influxdb-details-1024x522_hu_580a54863ab7f7b5.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/influxdb-details-1024x522_hu_38f6b4c228e59f7c.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h4 class="relative group">Optional Hosts Config 
+    <div id="optional-hosts-config" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#optional-hosts-config" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>While you can use IP addresses for any machines that you want to monitor, it is again helpful to use names instead. If you already have some kind of internal DNS setup for your network, you can use those names. If not, you can also add entries to the hosts file at <code>/etc/hosts</code>.</p>
+<pre tabindex="0"><code>sudo nano /etc/hosts
+</code></pre><p>Below the default hostnames, I added some for local servers that I would like to use names for. To do this you simply add a new line with the local IP address followed by the name you&rsquo;d like to use. You can also use additional local domains and extra names as shown in the unRAID example. A system reboot will be required to change host names.</p>
+<pre tabindex="0"><code># System Default
+127.0.0.1 localhost
+127.0.1.1 dockerlab
+
+# Custom Hostnames
+10.0.0.65 Nextcloud
+10.0.0.90 unRAID unraid.local
+10.0.0.218 proxmox
+</code></pre><p>Now inside the Prometheus configuration, you can use that name. Here&rsquo;s an expanded example showing three targets for the node exporter including the new hostnames we just added:</p>
+<pre tabindex="0"><code>- job_name: node_exporter
+  static_configs:
+    - targets:
+      - dockerlab:9100
+      - Nextcloud:9100
+      - unRAID:9100
+</code></pre><p>You can add as many machines as you want like this on new lines. Note that anytime you add another machine to the config you will need to restart the Prometheus container. The simplest way to do that in this case will be to restart the entire Docker Compose deployment, which is done in the directory with the compose file using the command below.</p>
+<pre tabindex="0"><code>docker compose restart
+</code></pre>
+
+<h5 class="relative group">Docker Compose Tips 
+    <div id="docker-compose-tips" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#docker-compose-tips" aria-label="Anchor">#</a>
+    </span>        
+    
+</h5>
+<p>Also, here are a couple quick tips for managing this deployment with Docker compose. If you ever want to bring the deployment down for any reason, use the down command.If you are having issue and want to view the logs from both the Grafana and Prometheus containers, run the logs command.</p>
+<p>.stk-c78fa4c{margin-bottom:0px !important}</p>
+<pre tabindex="0"><code>docker compose down
+</code></pre><pre tabindex="0"><code>docker compose logs
+</code></pre>
+
+<h4 class="relative group">Node Exporter Dashboard 
+    <div id="node-exporter-dashboard" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#node-exporter-dashboard" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Now let&rsquo;s set up the node exporter dashboard in Grafana. The good news is that there&rsquo;s an excellent premade dashboard available as a community submission to the Grafana library. That&rsquo;s actually true for many common use cases, as we&rsquo;ll see below. Building custom Grafana dashboards isn&rsquo;t something we&rsquo;ll cover in this guide, but it is totally possible.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-13-1024x350_hu_e734062a5f27ffc8.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-13-1024x350_hu_72cb2a2e4958564b.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-13-1024x350_hu_d9977fd8c4375c8b.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-13-1024x350_hu_94c03029752f6aa5.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/image-13-1024x350_hu_72cb2a2e4958564b.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>The Grafana interface has a few sections in the left side bar menu. Select <em>Dashboards</em> and hit the <em>Create Dashboard</em> button to create a new dashboard.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-16_hu_961ac5492106efe9.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-16_hu_3e63b2913b170892.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-16_hu_8f1b1280ce3a1651.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-16_hu_f4ab7aedf3fed52.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/image-16_hu_3e63b2913b170892.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>In this case we are importing a dashboard, so press <em>Import dashboard</em>. The dashboard we&rsquo;ll be importing is called <em>Node Exporter Full</em>. Grafana hosts a <a href="https://grafana.com/grafana/dashboards/1860-node-exporter-full/" target="_blank">library</a> of dashboards that different people have shared, and <em>Node Exporter Full</em> is on <a href="https://grafana.com/grafana/dashboards/1860-node-exporter-full/" target="_blank">this link</a>. To import the dashboard, enter the dashboard&rsquo;s number, 1860, or past the URL into the appropriate box and hit <em>Load</em>.</p>
+<p>Name your dahbaord whatever you&rsquo;d like and click the dropdown at the bottom that says <em>Select a Prometheus data source</em> and select the default Prometheus. Then hit the import button to complete the import process.</p>
+<p>You&rsquo;ll be taken directly to the dashboard, and it will be available to select later from the main dashboards page. If you already started up the node exporter service on one machine and everything is working properly, you should already see that machine in the <em>Host</em> dropdown.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-20_hu_4ba77caf44ed8231.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-20_hu_47f9454c1c4b9deb.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-20_hu_c20184def2191927.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-20_hu_b06d782292c3caf4.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/image-20_hu_47f9454c1c4b9deb.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>The gauges at the top should already be showing readings too. It will take a while though before you collect enough data for the charts below to be interesting.</p>
+<p>Alright, so that&rsquo;s the basic setup. If you have multiple machines configured you can select them from the <em>Host</em> dropdown. By default Grafana displays the last 24 hours of data, but you can change that by clicking on the date and time selector in the upper right.</p>
+<p>There&rsquo;s a few convenient shortcuts, and you can also select precise date and time ranges using the fields on the left side. Click the calendar icons to select dates from a visual calendar, then hit the <em>Apply time range</em> button to see just that data in the charts. You can also click and drag on any chart to zoom in on a specific time period.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-19_hu_f7a2aecc3d2487e5.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-19_hu_abc72a3981522403.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-19_hu_516c7f7f7cb36294.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/image-19_hu_eb33ffb9a42279f.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/image-19_hu_abc72a3981522403.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Beside the time range selector there is also a widget to set the auto refresh rate, as well as a button to refresh immediately. If you scroll down, you&rsquo;ll see more sections that can be expanded with graphs of different data. That pretty much sums it up for the important controls here on the dashboard page, but of course there&rsquo;s a lot more to Grafana for you to explore if you want, such as building custom dashboards.</p>
+
+
+<h4 class="relative group">unRAID and Prometheus Node Exporter 
+    <div id="unraid-and-prometheus-node-exporter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#unraid-and-prometheus-node-exporter" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>In the <em>Optional Hosts Config</em> section above you can see that I added my unRAID server to both my hosts file as well as the Prometheus configuration under the node_exporter job. Yet, we have not installed the node exporter on unRAID. Doing this is a very straight forward process.</p>
+<p>Head over to the application page and search for &lsquo;prometheus node exporter&rsquo; and install the plugin as show in the image below.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-prometheis-exporter_hu_d52a0ef6d249dd46.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-prometheis-exporter_hu_89b5fef07cc91510.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-prometheis-exporter_hu_9e63a4db53d97809.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/unraid-prometheis-exporter_hu_692d415f0c3434d6.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/unraid-prometheis-exporter_hu_89b5fef07cc91510.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Once this is installed data will be available for Prometheus to collect. You may need to restart your containers to begin pulling data. Now in your existing Node Exporter dashboard you will see the new unRAID option under the hosts selection.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/exporter-hosts_hu_5152187e2fe12f5c.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/exporter-hosts_hu_3f63a4e5694b530e.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/exporter-hosts_hu_cce4d2b8f78fc410.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/exporter-hosts_hu_1abbbaa2f8e6342.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/exporter-hosts_hu_3f63a4e5694b530e.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">Proxmox and InfluxDB Setup 
+    <div id="proxmox-and-influxdb-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#proxmox-and-influxdb-setup" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Proxmox is one of the main platforms running on my home lab so gathering metrics and viewing them easily is critical. Thankfully, Proxmox has a build in exporter for InfluxDB. Above when we setup our web UI for InfluxDB we created an initial bucket for Proxmox. If you created a bucket for a different data set, now is a good time to make a bucket specifically for Proxmox.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-metric-server_hu_e16704f7ffdfea30.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-metric-server_hu_f4533628c09999b7.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-metric-server_hu_b8d21d49a9db6de.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-metric-server_hu_c10f99443566a269.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/proxmox-metric-server_hu_f4533628c09999b7.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Once you have a bucket ready for Proxmox we can begin exporting metrics. To do this login to your Proxmox dashboard and click on &lsquo;Datacenter&rsquo; in the top left. In the Datacenter menu scroll down until you find the &lsquo;Metrics Server&rsquo; setting pane. When you click add there will be two different options. For our setup pick InfluxDB. Check the image below to see how I filled it out with my information. Server will be the IP of the machine InfluxDB is running on.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-bucket-connection-1024x290_hu_35d51246d6270e02.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-bucket-connection-1024x290_hu_6d6c6904a983e786.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-bucket-connection-1024x290_hu_b5db2e98edb3a766.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-bucket-connection-1024x290_hu_20c83b4ac435af15.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/proxmox-bucket-connection-1024x290_hu_6d6c6904a983e786.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Be sure to use the token that was generated when setting up InfluxDB. If needed you can create new API keys within the InfluxDB web UI. Click on create and within a few minutes you will start to see data populate within your bucket. Now, we can use the connection we added eariler in Grafana with our Proxmox data to visualize the data. Follow the steps we used eariler to import a dashboard, but this time we will import the one labeled as <a href="https://grafana.com/grafana/dashboards/10048-proxmox/" target="_blank">Proxmox</a> (10048) my personal favorite dashboard for Proxmox. Select the InfluxDB you created earlier as the data source and import. Once in select all your storage and interfaces, make any edits you need and you&rsquo;re good to go!</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-dashbboard-1024x653_hu_6c05d0cc8b050eaa.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-dashbboard-1024x653_hu_c39a923fb222101.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-dashbboard-1024x653_hu_3c68a35a62a28ec1.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/proxmox-dashbboard-1024x653_hu_6e9d8adb8b8a6fc3.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/proxmox-dashbboard-1024x653_hu_c39a923fb222101.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">Monitor Docker with Telegraf 
+    <div id="monitor-docker-with-telegraf" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#monitor-docker-with-telegraf" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>For my setup I&rsquo;m using Telegraf as a container to monitor Docker on this host system and any other systems with Docker containers. <strong>I will note, I&rsquo;m not necessarily using best practices for this in terms of security.</strong> This container is running as privileged with access to the root file system of the machine. If you&rsquo;d prefer you can remove this service from the docker compose file and come up with your own implementation.</p>
+<p>First, create a new bucket specifically for docker on our host system. Later will will do this with a seperate machine running Unraid and link it to InfluxDB on our dockerlab machine. After you create a bucket for Docker head over to your Telegraf config in your project directory.</p>
+<pre tabindex="0"><code>nano telegraf/telegraf.conf
+</code></pre><p>You can see in my default configuration is setup only to monitor docker with some system monitoring <a href="https://docs.influxdata.com/telegraf/v1/plugins/" target="_blank">plugins</a> commented out. I recommend you read up on their <a href="https://docs.influxdata.com/telegraf/v1/get-started/" target="_blank">documentation</a> for plugin specific configuration. To monitor docker with the included configuration you&rsquo;ll only need to change the information under the outputs plugin to match your setup. You shouldn&rsquo;t need to change the URL since it&rsquo;s running in the same stack.</p>
+<pre tabindex="0"><code>[[outputs.influxdb_v2]]
+  urls = [&#34;http://influxdb:8086&#34;]
+  token = &#34;yourtoken&#34;
+  organization = &#34;yourorg&#34;
+  bucket = &#34;localbucket&#34;
+</code></pre><p>After you save your configuration restart docker compose and head over to your InfluxDB dashboard to see if it is gathering data from Telegraf. It may take a few for data to populate and you may need to log in and out of this dashboard. If everything is looking good we can import another dashboard in Grafana to monitor Docker!</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-47-38_hu_81101b487130d3ec.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-47-38_hu_415e6cd170e5795a.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-47-38_hu_cd02af874872f765.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-47-38_hu_9ea37e3297c0cdf3.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-47-38_hu_415e6cd170e5795a.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Since our InfluxDB Proxmox data is using InfluxQL we are going to want to create a new connection to the same InfluxDB instance, but this time using Flux. Our Docker dashboard supports Flux and this will allow use to visualize multiple buckets within a single dashboard. Similar to have having multiple instances of the Node Exporter in your configuration will show up. Change the name to something identifiable. I usually just match the bucket name.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-48-03_hu_4a4620f2a912b1e5.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-48-03_hu_b3478b853583817e.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-48-03_hu_c22861ca2ce4e145.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-48-03_hu_e942c90ac378cceb.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-from-2024-06-30-17-48-03_hu_b3478b853583817e.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>After you add the data source we will be importing the <a href="https://grafana.com/grafana/dashboards/18389-influxdb-2-x-telegraf-docker-dashboard/" target="_blank">Docker Monitoring</a> (18389) and selecting the new data we setup with Flux. Once the dashboard is imported select the bucket download and pick the bucket that has your Docker data!</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/flux-docker-dashboard-1024x634_hu_e825c979df5c997c.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/flux-docker-dashboard-1024x634_hu_e2d73774aac8d8a3.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/flux-docker-dashboard-1024x634_hu_935480eeabcc579f.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/flux-docker-dashboard-1024x634_hu_5f49c56cb4a35f51.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/flux-docker-dashboard-1024x634_hu_e2d73774aac8d8a3.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">Monitor Unraid with Telegraf 
+    <div id="monitor-unraid-with-telegraf" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#monitor-unraid-with-telegraf" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>The whole reason I decided to fight with Telegraf to begin with is to get a very specific Unraid dashboard. Actually getting Unriad to work with Telegraf proved to be a very difficult endeavour. But, I got everything working! This article is already way to long so I outlined all the steps it took within the compainion Github repo for this article.</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://opengraph.githubassets.com/fdf8b8524ea8ae015948565312df5f7e3fcd5931fd100de10106af99ea34b064/TechHutTV/server-monitoring" alt="" />
+    
+  </figure>
+</p>
+
+
+<h3 class="relative group">server-monitoring/unraid at main · TechHutTV/server-monitoring 
+    <div id="server-monitoringunraid-at-main--techhuttvserver-monitoring" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#server-monitoringunraid-at-main--techhuttvserver-monitoring" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Docker compose featuring Grafana, Prometheus, and Influxdb2 - TechHutTV/server-monitoring</p>
+<p>Was it all worth it? I think so, just look at that dashboard!</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-2024-07-02-at-11-51-14-Unraid-System-Dashboard-V2-Dashboards-Grafana-1024x797_hu_c18af372c32420.png 330w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-2024-07-02-at-11-51-14-Unraid-System-Dashboard-V2-Dashboards-Grafana-1024x797_hu_3be5f7bd9ea0d5c3.png 660w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-2024-07-02-at-11-51-14-Unraid-System-Dashboard-V2-Dashboards-Grafana-1024x797_hu_333b9479ea9c2439.png 1024w,
+        /monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-2024-07-02-at-11-51-14-Unraid-System-Dashboard-V2-Dashboards-Grafana-1024x797_hu_6a7e33383f960d99.png 2x"
+        src="/monitor-home-server-grafana-prometheus-influxdb/images/Screenshot-2024-07-02-at-11-51-14-Unraid-System-Dashboard-V2-Dashboards-Grafana-1024x797_hu_3be5f7bd9ea0d5c3.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h2 class="relative group">Wrapping Up 
+    <div id="wrapping-up" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#wrapping-up" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>With that, we have deployed and explored a self hosted system for monitoring any machines in your lab and beyond. While the set up is relatively straightforward, these are in fact industrial grade tools with a variety of use cases beyond what we covered today.</p>
+<p>I hope that this setup will serve you well in understanding what&rsquo;s happening with the machines in your lab, and that you&rsquo;re feeling inspired to experiment and learn more about the world of monitoring and alerts. Have a beautiful day, and I&rsquo;ll see you next time.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;title=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Share on LinkedIn"
+      aria-label="Share on LinkedIn"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;text=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Tweet on Twitter"
+      aria-label="Tweet on Twitter"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://bsky.app/intent/compose?text=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29&#43;http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/"
+      title="Post on Bluesky"
+      aria-label="Post on Bluesky"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,232.562c-21.183,-41.196 -78.868,-117.97 -132.503,-155.834c-51.378,-36.272 -70.978,-29.987 -83.828,-24.181c-14.872,6.72 -17.577,29.554 -17.577,42.988c0,13.433 7.365,110.138 12.169,126.281c15.873,53.336 72.376,71.358 124.413,65.574c2.66,-0.395 5.357,-0.759 8.089,-1.097c-2.68,0.429 -5.379,0.796 -8.089,1.097c-76.259,11.294 -143.984,39.085 -55.158,137.972c97.708,101.165 133.908,-21.692 152.484,-83.983c18.576,62.291 39.972,180.718 150.734,83.983c83.174,-83.983 22.851,-126.674 -53.408,-137.969c-2.71,-0.302 -5.409,-0.667 -8.089,-1.096c2.732,0.337 5.429,0.702 8.089,1.096c52.037,5.785 108.54,-12.239 124.413,-65.574c4.804,-16.142 12.169,-112.847 12.169,-126.281c-0,-13.434 -2.705,-36.267 -17.577,-42.988c-12.85,-5.806 -32.45,-12.09 -83.829,24.181c-53.634,37.864 -111.319,114.635 -132.502,155.831Z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://s2f.kytta.dev/?text=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29%20http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/"
+      title=""
+      aria-label=""
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://reddit.com/submit/?url=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;resubmit=true&amp;title=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Submit to Reddit"
+      aria-label="Submit to Reddit"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;description=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Pin on Pinterest"
+      aria-label="Pin on Pinterest"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;quote=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Share on Facebook"
+      aria-label="Share on Facebook"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="mailto:?body=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;subject=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Send via email"
+      aria-label="Send via email"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;resubmit=true&amp;title=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Share via WhatsApp"
+      aria-label="Share via WhatsApp"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://t.me/share/url?url=http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/&amp;resubmit=true&amp;title=BEST%20Way%20to%20Monitor%20your%20Home%20Server!%20%28Grafana,%20Prometheus,%20InfluxDB%29"
+      title="Share via Telegram"
+      aria-label="Share via Telegram"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+  </section>
+
+
+        
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/nixos-best-server-os-setup/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/nixos-best-server-os-setup/cover_hu_be1beef951412b23.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/nixos-best-server-os-setup/">NixOS - The New Best Server OS?</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-06-13T00:00:00&#43;00:00">13 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2093 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/how-to-apache-webserver-ssl/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/how-to-apache-webserver-ssl/cover_hu_7e6d55afba475177.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/how-to-apache-webserver-ssl/">How to make an Apache Webserver with SSL</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2022-12-05T00:00:00&#43;00:00">5 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>996 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/ultimate-retropie-setup-guide/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/ultimate-retropie-setup-guide/cover_hu_918e9e895ca15c60.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/ultimate-retropie-setup-guide/">The ULTIMATE RetroPie Setup Guide</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2022-10-19T00:00:00&#43;00:00">19 October 2022</time><span class="px-2 text-primary-500">&middot;</span><span>1340 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+</section>
+
+  
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_2024\/07\/monitor-home-server-grafana-prometheus-influxdb\/index.md"
+        var oid_likes = "likes_2024\/07\/monitor-home-server-grafana-prometheus-influxdb\/index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/2024/06/system76s-cosmic-new-logo-branding/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >System76's COSMIC now has a new logo and brand!</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-06-30T00:00:00&#43;00:00">30 June 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/zen-browser-better-firefox/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Zen browser is making me DITCH Microsoft Edge</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-08-29T00:00:00&#43;00:00">29 August 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href=""
+            title="">
+            
+            
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      Copy, <em>right?</em> :thinking_face:
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

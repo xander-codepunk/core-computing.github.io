@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Single Board Computers on Blowfish</title>
+    <link>http://localhost:1313/tags/single-board-computers/</link>
+    <description>Recent content in Single Board Computers on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/single-board-computers/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The ULTIMATE RetroPie Setup Guide</title>
+      <link>http://localhost:1313/ultimate-retropie-setup-guide/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ultimate-retropie-setup-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ultimate-retropie-setup-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>The Edge2 Pro is a CRAZY Powerful ARM Single Board Computer</title>
+      <link>http://localhost:1313/edge2-powerfull-arm-sb/</link>
+      <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/edge2-powerfull-arm-sb/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/edge2-powerfull-arm-sb/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

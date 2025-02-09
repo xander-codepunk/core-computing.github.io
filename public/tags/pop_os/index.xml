@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pop!_OS on Blowfish</title>
+    <link>http://localhost:1313/tags/pop_os/</link>
+    <description>Recent content in Pop!_OS on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/pop_os/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>COSMIC might be the future of the Linux Desktop.</title>
+      <link>http://localhost:1313/cosmic-pre-alpha/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/cosmic-pre-alpha/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/cosmic-pre-alpha/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Windows 10 and Pop!_OS (Legacy/GRUB)</title>
+      <link>http://localhost:1313/dual-boot-windows-10-pop-os/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dual-boot-windows-10-pop-os/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/dual-boot-windows-10-pop-os/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>5 Things You MUST DO after Installing Pop!_OS</title>
+      <link>http://localhost:1313/after-installing-pop-os-cosmic/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/after-installing-pop-os-cosmic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/after-installing-pop-os-cosmic/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

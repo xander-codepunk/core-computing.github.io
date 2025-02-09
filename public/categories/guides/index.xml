@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Blowfish</title>
+    <link>http://localhost:1313/categories/guides/</link>
+    <description>Recent content in Guides on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Self-Host with Immich!</title>
+      <link>http://localhost:1313/self-host-immich-photo-backup/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/self-host-immich-photo-backup/</guid>
+      <description>what is it about</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/self-host-immich-photo-backup/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Git for Everyone</title>
+      <link>http://localhost:1313/git-for-everyone-guide/</link>
+      <pubDate>Mon, 03 Feb 2025 16:40:55 -0800</pubDate>
+      
+      <guid>http://localhost:1313/git-for-everyone-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/git-for-everyone-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>the OFFICIAL Windows (lite) from Microsoft</title>
+      <link>http://localhost:1313/windows-lite-ltsc-microsoft/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/windows-lite-ltsc-microsoft/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/windows-lite-ltsc-microsoft/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)</title>
+      <link>http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/monitor-home-server-grafana-prometheus-influxdb/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>NixOS - The New Best Server OS?</title>
+      <link>http://localhost:1313/nixos-best-server-os-setup/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/nixos-best-server-os-setup/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/nixos-best-server-os-setup/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Guide: Setting Up Windows as a NAS Operating System</title>
+      <link>http://localhost:1313/run-windows-nas-home-server/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/run-windows-nas-home-server/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/run-windows-nas-home-server/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>7 Docker Basics for Beginners</title>
+      <link>http://localhost:1313/7-docker-basics-for-beginners/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/7-docker-basics-for-beginners/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/7-docker-basics-for-beginners/cover.png" />
+    </item>
+    
+    <item>
+      <title>ChatGPT in YOUR Terminal</title>
+      <link>http://localhost:1313/chatgpt-in-your-terminal/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/chatgpt-in-your-terminal/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chatgpt-in-your-terminal/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to make an Apache Webserver with SSL</title>
+      <link>http://localhost:1313/how-to-apache-webserver-ssl/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-apache-webserver-ssl/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-apache-webserver-ssl/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>The ULTIMATE RetroPie Setup Guide</title>
+      <link>http://localhost:1313/ultimate-retropie-setup-guide/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ultimate-retropie-setup-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ultimate-retropie-setup-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Windows 10 and Pop!_OS (Legacy/GRUB)</title>
+      <link>http://localhost:1313/dual-boot-windows-10-pop-os/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dual-boot-windows-10-pop-os/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/dual-boot-windows-10-pop-os/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Installing Arch Linux the EASY WAY! – archfi Guide</title>
+      <link>http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Fedora and Windows 11</title>
+      <link>http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to make ZIP Files in Windows</title>
+      <link>http://localhost:1313/how-to-make-zip-files-in-windows/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-make-zip-files-in-windows/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-make-zip-files-in-windows/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)</title>
+      <link>http://localhost:1313/old-pc-laptop-media-server/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/old-pc-laptop-media-server/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/old-pc-laptop-media-server/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Perfect Windows 11 Virtual Machine on Linux (VMware Guide)</title>
+      <link>http://localhost:1313/windows-11-vmware-guide-linux/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/windows-11-vmware-guide-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/windows-11-vmware-guide-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Flash Linux on the PinePhone</title>
+      <link>http://localhost:1313/how-to-flash-linux-on-the-pinephone/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-flash-linux-on-the-pinephone/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-flash-linux-on-the-pinephone/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Install DaVinci Resolve in Linux (Ubuntu, Arch, and Fedora)</title>
+      <link>http://localhost:1313/how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Switch Arch Linux Kernels</title>
+      <link>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Auto-Mount Drives in Linux</title>
+      <link>http://localhost:1313/auto-mount-drives-in-linux-fstab/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/auto-mount-drives-in-linux-fstab/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/auto-mount-drives-in-linux-fstab/cover.png" />
+    </item>
+    
+    <item>
+      <title>Monitor AMD RYZEN Temps in Linux</title>
+      <link>http://localhost:1313/monitor-amd-ryzen-temps-in-linux/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/monitor-amd-ryzen-temps-in-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/monitor-amd-ryzen-temps-in-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>5 Things You MUST DO after Installing Pop!_OS</title>
+      <link>http://localhost:1313/after-installing-pop-os-cosmic/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/after-installing-pop-os-cosmic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/after-installing-pop-os-cosmic/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Easily Install AMD Ryzen CPU and Wraith Prism Cooler</title>
+      <link>http://localhost:1313/install-amd-ryzen-cpu-and-wraith-prism-cooler/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/install-amd-ryzen-cpu-and-wraith-prism-cooler/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/install-amd-ryzen-cpu-and-wraith-prism-cooler/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Control AMD Wraith Prism Cooler RGB (and more)</title>
+      <link>http://localhost:1313/control-amd-wraith-prism-cooler-master/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/control-amd-wraith-prism-cooler-master/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/control-amd-wraith-prism-cooler-master/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>OpenSUSE – 5 Things You MUST Do After Installing</title>
+      <link>http://localhost:1313/opensuse-5-things-you-must-do-after-installing/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/opensuse-5-things-you-must-do-after-installing/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/opensuse-5-things-you-must-do-after-installing/cover.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

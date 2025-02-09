@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on Blowfish</title>
+    <link>http://localhost:1313/tags/arch/</link>
+    <description>Recent content in Arch on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing Arch Linux the EASY WAY! – archfi Guide</title>
+      <link>http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/installing-arch-linux-the-easy-way-archfi-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>No, Manjaro is NOT Arch</title>
+      <link>http://localhost:1313/no-manjaro-is-not-arch/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/no-manjaro-is-not-arch/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/no-manjaro-is-not-arch/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Fedora vs Arch Linux - Battle of the Best!</title>
+      <link>http://localhost:1313/fedora-vs-arch-linux/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fedora-vs-arch-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/fedora-vs-arch-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Switch Arch Linux Kernels</title>
+      <link>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-switch-arch-linux-kernels-lts-zen-hardened/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

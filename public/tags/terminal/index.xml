@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Blowfish</title>
+    <link>http://localhost:1313/tags/terminal/</link>
+    <description>Recent content in Terminal on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sun, 23 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ChatGPT in YOUR Terminal</title>
+      <link>http://localhost:1313/chatgpt-in-your-terminal/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/chatgpt-in-your-terminal/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chatgpt-in-your-terminal/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>7 (more) AWESOME Linux Terminal CLI Applications</title>
+      <link>http://localhost:1313/7-awesome-linux-terminal-utilities/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/7-awesome-linux-terminal-utilities/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/7-awesome-linux-terminal-utilities/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>7 Awesome Linux Terminal Utilities</title>
+      <link>http://localhost:1313/5-awesome-linux-apps-gnome-circle/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/5-awesome-linux-apps-gnome-circle/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/5-awesome-linux-apps-gnome-circle/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

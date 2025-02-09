@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Blowfish</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>the OFFICIAL Windows (lite) from Microsoft</title>
+      <link>http://localhost:1313/windows-lite-ltsc-microsoft/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/windows-lite-ltsc-microsoft/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/windows-lite-ltsc-microsoft/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Guide: Setting Up Windows as a NAS Operating System</title>
+      <link>http://localhost:1313/run-windows-nas-home-server/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/run-windows-nas-home-server/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/run-windows-nas-home-server/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Windows 10 and Pop!_OS (Legacy/GRUB)</title>
+      <link>http://localhost:1313/dual-boot-windows-10-pop-os/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dual-boot-windows-10-pop-os/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/dual-boot-windows-10-pop-os/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to Dual Boot Fedora and Windows 11</title>
+      <link>http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-dual-boot-fedora-and-windows-11/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>How to make ZIP Files in Windows</title>
+      <link>http://localhost:1313/how-to-make-zip-files-in-windows/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-make-zip-files-in-windows/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-make-zip-files-in-windows/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>The BEST Solutions for Running Windows Apps in Linux</title>
+      <link>http://localhost:1313/the-best-solutions-for-running-windows-apps-in-linux/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/the-best-solutions-for-running-windows-apps-in-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/the-best-solutions-for-running-windows-apps-in-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Perfect Windows 11 Virtual Machine on Linux (VMware Guide)</title>
+      <link>http://localhost:1313/windows-11-vmware-guide-linux/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/windows-11-vmware-guide-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/windows-11-vmware-guide-linux/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

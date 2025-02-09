@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computing Basics on Blowfish</title>
+    <link>http://localhost:1313/tags/computing-basics/</link>
+    <description>Recent content in Computing Basics on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/computing-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to make ZIP Files in Windows</title>
+      <link>http://localhost:1313/how-to-make-zip-files-in-windows/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-make-zip-files-in-windows/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-make-zip-files-in-windows/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

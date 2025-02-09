@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Git for Everyone &middot; Blowfish</title>
+  <meta name="title" content="Git for Everyone &middot; Blowfish" />
+  
+  <meta name="description" content="My awesome website" />
+  <meta name="keywords" content="Git, Guides, Github, " />
+  
+  
+  <link rel="canonical" href="http://localhost:1313/git-for-everyone-guide/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1c9cd0d1ebaf117272b5c4f6bd49878475cb210d5e0da4f061632d779f5bb46851881c187e6e634dba5071c4e3d80e7d5cec1dd80443b2fa68acd358f9eda881.css"
+    integrity="sha512-HJzQ0euvEXJytcT2vUmHhHXLIQ1eDaTwYWMtd59btGhRiBwYfm5jTbpQccTj2A59XOwd2ARDsvporNNY&#43;e2ogQ==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.c178288131a2f1ad46910438db47ac5f7e1c48cf949e49f6dc3310c8ec9660e23fe505805eba4e2e73711335808500360d773a2b64322feb35df52856edca286.js"
+    integrity="sha512-wXgogTGi8a1GkQQ420esX34cSM&#43;Unkn23DMQyOyWYOI/5QWAXrpOLnNxEzWAhQA2DXc6K2QyL&#43;s131KFbtyihg==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/git-for-everyone-guide/">
+  <meta property="og:site_name" content="Blowfish">
+  <meta property="og:title" content="Git for Everyone">
+  <meta property="og:description" content="My awesome website">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="2025">
+    <meta property="article:published_time" content="2025-02-03T16:40:55-08:00">
+    <meta property="article:modified_time" content="2025-02-03T16:40:55-08:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Guides">
+    <meta property="article:tag" content="Github">
+    <meta property="og:image" content="http://localhost:1313/git-for-everyone-guide/cover.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/git-for-everyone-guide/cover.jpg">
+  <meta name="twitter:title" content="Git for Everyone">
+  <meta name="twitter:description" content="My awesome website">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Showcase",
+    "name": "Git for Everyone",
+    "headline": "Git for Everyone",
+    
+    
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/git-for-everyone-guide\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-02-03T16:40:55-08:00",
+    "datePublished": "2025-02-03T16:40:55-08:00",
+    
+    "dateModified": "2025-02-03T16:40:55-08:00",
+    
+    "keywords": ["Git","Guides","Github"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3473"
+  }]
+  </script>
+
+
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blowfish</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span  class="mr-1" >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M88 48C101.3 48 112 58.75 112 72V120C112 133.3 101.3 144 88 144H40C26.75 144 16 133.3 16 120V72C16 58.75 26.75 48 40 48H88zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 232C16 218.7 26.75 208 40 208H88C101.3 208 112 218.7 112 232V280C112 293.3 101.3 304 88 304H40C26.75 304 16 293.3 16 280V232zM88 368C101.3 368 112 378.7 112 392V440C112 453.3 101.3 464 88 464H40C26.75 464 16 453.3 16 440V392C16 378.7 26.75 368 40 368H88z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        Navigation
+    </p>
+</a>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class=" flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div  class="mr-2" >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M88 48C101.3 48 112 58.75 112 72V120C112 133.3 101.3 144 88 144H40C26.75 144 16 133.3 16 120V72C16 58.75 26.75 48 40 48H88zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 232C16 218.7 26.75 208 40 208H88C101.3 208 112 218.7 112 232V280C112 293.3 101.3 304 88 304H40C26.75 304 16 293.3 16 280V232zM88 368C101.3 368 112 378.7 112 392V440C112 453.3 101.3 464 88 464H40C26.75 464 16 453.3 16 440V392C16 378.7 26.75 368 40 368H88z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            Navigation
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/git-for-everyone-guide/cover_hu_6cc26ac33c737fa6.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Git for Everyone
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-02-03T16:40:55-08:00">3 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>3473 words</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>In the software development world, Git has become the default choice for a version control system and most professional programmers use it every day. It’s not just used for handling source code though, but also configuration files, documentation, images, and more. That means that even if you never touch source code, there are still plenty of useful reasons to learn some Git basics.</p>
+<p>So this is an introduction to Git for “everyone else”, those of us who aren’t using Git every day as an integral part of our professional workflow. We’ll cover the commands and procedures that are most relevant when using Git on an occasional basis. And hopefully you’ll also get a glimpse into why it can be valuable to commit to learning a even a bit more about this powerful piece of software.</p>
+<p>These days it’s hard to say much about Git without also mentioning Github. Like Git itself, Github has also become a de facto standard for software development. You can think of Github as a Git hosting service with additional collaboration features. There are of course alternatives to Github, including open source options that you can self host. To name a few, there’s Gitlab, Gitea, and SourceHut.</p>
+<p>For the most part though, Git hosting services all have a similar feature set to Github, with some even sharing a similar visual appearance and layout. So anything you learn about Github is largely transferrable and we’ll use it for showing examples of how to interact with a Git hosting service.</p>
+
+
+<h1 class="relative group">What is Version Control? Why Git? 
+    <div id="what-is-version-control-why-git" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#what-is-version-control-why-git" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p><em>Note: this section has some background information on Git that I’m confident most nerds will find fascinating. However, you can safely skip ahead to the next section where the tutorial begins, if you prefer.</em></p>
+<p>Not everyone knows that Git was originally created by Linus Torvalds for use in developing Linux. At the time, existing version control systems were not open source and there were ongoing disputes over the licensing and restricted use of Git’s predecessors. So in true promethean fashion, Linus went ahead and invented another of the world’s most popular pieces of software and gave it away for free.</p>
+<p>Now the rest of us mere mortals can try to learn and understand Git, which to be honest isn’t so easy. Despite being obviously capable and robust, Git has a reputation for being rather complex and not particularly user friendly. There are other open source version control systems that popped up around the same time as Git, such as Mercurial and Fossil. Some people prefer the alternatives and think they are easier to use, but Git is by far the most popular.</p>
+<p>So, what exactly can you do with a version control system? The short answer is that it’s essentially an advanced form of the undo and redo buttons found in many applications. If you ever tried collaborating on a document by emailing copies back and forth, or if you ever saved a document with a title like <code>Essay-Final-v2-ReallyFinal-NotKiddingReallyFinalThisTime.doc</code>, then you understand the main problems that tools like Git solve.</p>
+<p>The version history and collaboration features popularized by Google Docs are an example of the core features of version control software like Git applied in the context of editing documents. However, with Git you have complete control over which versions the system remembers, and rather than just being able to move forward and backward through a single path of changes, it’s possible to create a branching tree of histories.</p>
+<p>If you’re already thinking that this is starting to sound complicated, don’t worry–we haven’t even gotten to the parts of Git that users consider too complex when compared to other version control systems. Jokes aside, there’s plenty you can do with Git while keeping it simple and that’s what we’ll focus on here.</p>
+
+
+<h1 class="relative group">Gitting Started 
+    <div id="gitting-started" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#gitting-started" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>While it’s actually possible to use Git in a limited fashion entirely within the web UI of Github or another Git hosting service, installing Git is generally the first step when using it.</p>
+<p>If you use a Debian based operating system like Ubuntu, installing Git is as simple as <code>apt install git</code>. It’s also available via the package managers of all major Linux distributions. For MacOS and Windows, you can find information and links for how to install Git at the <a href="https://git-scm.com/downloads" target="_blank">official downloads page</a>.</p>
+<p>Once you completed the relevant steps for your operating system, make sure you have a working install by running this command in a shell:</p>
+<p><code>git version</code></p>
+<p>Assuming you see an output with a version number, you are all good.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/01_git-version_hu_14a4e00c763956b6.png 330w,
+        /git-for-everyone-guide/images/01_git-version_hu_643abc9e6a2ddc04.png 660w,
+        /git-for-everyone-guide/images/01_git-version_hu_8f9e479b53da8349.png 1024w,
+        /git-for-everyone-guide/images/01_git-version_hu_14cbf58064440cf.png 2x"
+        src="/git-for-everyone-guide/images/01_git-version_hu_643abc9e6a2ddc04.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h1 class="relative group">Cloning a Git Repository 
+    <div id="cloning-a-git-repository" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#cloning-a-git-repository" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Rather than starting fresh, I’ll first demonstrate how to take an existing Git repository and make it your own. Now you might rightly be wondering what a repository is. You can think of a repository (or “repo”) as a group of files and folders that are tracked by Git as a logical unit. A repository generally represents a project, such as the code for an, the content of a website, or a book (yes some people use Git to write books).</p>
+<p>On your computer, a repository is basically just a folder that contains some special files generated by Git. Any files in this folder or its subfolders can be tracked by Git as part of this repo, but not every file has to be tracked. On the other hand, it’s not possible to add files to the repo which are outside the root folder of the repo.</p>
+<p>For this example we will download a copy of a repository we used in a <a href="https://www.youtube.com/watch?v=vffhtqK3ZUg" target="_blank">recent guide</a> on server monitoring with Grafana. If you’re curious about the contents, go check out that guide next, but otherwise don’t worry these are just some example files to play with.</p>
+<p>In Git, copying a repository is called “cloning” and it works like this:</p>
+<pre tabindex="0"><code>git clone https://github.com/TechHutTV/server-monitoring.git
+</code></pre><p>Now you have a folder called <code>server-monitoring</code> that contains the latest version of what’s hosted in this repository on Github. You can cd in and have a look around:</p>
+<pre tabindex="0"><code>cd server-monitoring
+ls
+</code></pre><p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/02_git-clone_hu_71f1d71fe4758192.png 330w,
+        /git-for-everyone-guide/images/02_git-clone_hu_dfc66d059db8d347.png 660w,
+        /git-for-everyone-guide/images/02_git-clone_hu_6177b20ea7a8bf4e.png 1024w,
+        /git-for-everyone-guide/images/02_git-clone_hu_ad99a84cdb8ba3d3.png 2x"
+        src="/git-for-everyone-guide/images/02_git-clone_hu_dfc66d059db8d347.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Compare to what you see if you visit the <a href="https://github.com/TechHutTV/server-monitoring" target="_blank">repository on Github</a>. Any <code>.git</code> link you see that starts with <code>https</code> is generally also going to be a link to the repository’s page, when you remove the <code>.git</code>. One thing to notice is that this repository has a default branch called “main”. That’s both the first branch we see on Github and also the branch that Git selects when we clone the repo (shown in parenthesis in the screenshot above). Branches are especially useful for collaboration and advanced uses of Git. For the purposes of this tutorial, we’ll just stick with the default branch.</p>
+
+
+<h1 class="relative group">Making and Committing Edits 
+    <div id="making-and-committing-edits" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#making-and-committing-edits" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Okay, so now we have a copy of this repository on our local machine. Let’s go wild! We can see that there’s a <code>README.md</code> file. By convention, any file with this name will get rendered and shown below the file list on Github, both at the top level and subfolders of the repo. Markdown is pretty self explanatory, so we can just jump in here and start editing.</p>
+<p>Let’s start by changing the heading. Since this is my repo now, I want to make that clear. Open README.md in your favorite text editor, and add your name to the first line, like this:</p>
+<pre tabindex="0"><code>nano README.md
+</code></pre><p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/03_git-readme_hu_4f577cb789c991e6.png 330w,
+        /git-for-everyone-guide/images/03_git-readme_hu_49fa6a54eedcce95.png 660w,
+        /git-for-everyone-guide/images/03_git-readme_hu_f3fa53faaafab124.png 1024w,
+        /git-for-everyone-guide/images/03_git-readme_hu_292dc760441104d4.png 2x"
+        src="/git-for-everyone-guide/images/03_git-readme_hu_49fa6a54eedcce95.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Save the file (ctrl-o, enter, ctrl-x in Nano) and return to a shell within the repository. Now let’s store this change with Git:</p>
+<pre tabindex="0"><code>git add README.md
+git commit -m &#34;Update README.md&#34;
+</code></pre><p>Depending on your system setup, Git will probably complain that it doesn’t know your name and maybe also your email address. Keep in mind that if you ever share a repository publicly or contribute to a public repository, the email address you use with Git will also become public. You can enter a fake email address if you want–Git doesn’t care, and this feature is really just for attribution and collaboration purposes. These days most conversations about the contents of Git repos happens on Git hosting sites, rather than by email.</p>
+<p>Anyway, just follow the directions Git prints on screen to set a global name and email to use with all repositories:</p>
+<pre tabindex="0"><code>git config --global user.email &#34;you@example.com&#34;
+git config --global user.name &#34;Your Name&#34;
+</code></pre><p>With that, try the commit again:</p>
+<p><code>git commit -m &quot;Update README.md&quot;</code></p>
+<p>If all went well this time, Git will print some information about the commit to the screen. That will include some random looking letters and numbers known as the commit hash, which we’ll cover later, the number of files changed, and also the commit message. Here we specified the commit message by writing <code>-m</code> and then wrapping the message in quotation marks. It’s also possible to write the commit message into a text editor by shortening the command to <code>git commit</code>. Either way, just try to keep commit messages short and sweet.</p>
+
+
+<h1 class="relative group">A Few Words on Commitment 
+    <div id="a-few-words-on-commitment" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#a-few-words-on-commitment" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Alright, that was fun, but what is a commit? A commit is a snapshot of the state of files that are being tracked by Git in the repository. Whenever a new commit is created, it means that some files in the repository changed, new files were added, or some files were moved or removed. When you change files that were previously committed, you then have uncommitted changes. When you have files in the repo folder that have never been committed, those are untracked files.</p>
+<p>To get a quick overview of whether there are any uncommitted changes or untracked files in the repository, use this command:</p>
+<p><code>git status</code></p>
+<p>The working tree is clean with nothing to commit:</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/04_git-status_hu_f407fef509072538.png 330w,
+        /git-for-everyone-guide/images/04_git-status_hu_467cf3f891607d5.png 660w,
+        /git-for-everyone-guide/images/04_git-status_hu_7a0db47850835908.png 1024w,
+        /git-for-everyone-guide/images/04_git-status_hu_ca5356d8c1367d6a.png 2x"
+        src="/git-for-everyone-guide/images/04_git-status_hu_467cf3f891607d5.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>In other words, there have been no changes since the last commit and all files present are committed in their current state. That’s to be expected, because all the files we have are either in the same state as when we cloned them or in the case of <code>README.md</code> the changes are committed.</p>
+<p>Next let’s create a new file and start tracking it with Git. The <code>touch</code> command creates an empty file if no file by the given name exists:</p>
+<p><code>touch newfile</code></p>
+<p>Before committing this file, let’s try <code>git status</code> again. Now we can see that Git has detected the new file:</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/05_git-newfile_hu_f3b8d779280f4a5a.png 330w,
+        /git-for-everyone-guide/images/05_git-newfile_hu_2e85b33d40f07cca.png 660w,
+        /git-for-everyone-guide/images/05_git-newfile_hu_e80d40d88e8dd4f.png 1024w,
+        /git-for-everyone-guide/images/05_git-newfile_hu_163d0daa2bbc71c0.png 2x"
+        src="/git-for-everyone-guide/images/05_git-newfile_hu_2e85b33d40f07cca.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Like before, we’ll use <code>git add</code> to prepare the file to be committed and then check <code>git status</code> again:</p>
+<pre tabindex="0"><code>git add newfile
+git status
+</code></pre><p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/06_git-changes-committed_hu_4aa84382bcdc17b7.png 330w,
+        /git-for-everyone-guide/images/06_git-changes-committed_hu_53db4cacbf51b30c.png 660w,
+        /git-for-everyone-guide/images/06_git-changes-committed_hu_e197de64d7ab8890.png 1024w,
+        /git-for-everyone-guide/images/06_git-changes-committed_hu_f640cbde97cae7ff.png 2x"
+        src="/git-for-everyone-guide/images/06_git-changes-committed_hu_53db4cacbf51b30c.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>At this point, the new file now appears under Changes to be committed, letting us know it would be included in the next commit we make. If we changed our mind, we could follow the helpful hint Git has printed on screen and use the restore command, but let’s not try that at the moment.</p>
+<p>When we use the add command on a file, it enters the staging area. On each commit command, the staged files are included in the commit. It’s a bit more nuanced than that though, because actually it’s the contents of the file at the time the add command was run that go into the commit. If we change a file and want to commit the changes, we need to run the add command again.</p>
+<p>For example, let’s write the word “hi” into newfile:</p>
+<p><code>echo hi &gt; newfile</code></p>
+<p>This is equivalent to opening the file in a text editor, writing “hi” and saving it. Now we can see that Git has noticed the change if we run <code>git status</code> again:</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/07_git-file-modified_hu_457b22569b1aac9b.png 330w,
+        /git-for-everyone-guide/images/07_git-file-modified_hu_a997b51dbf7594af.png 660w,
+        /git-for-everyone-guide/images/07_git-file-modified_hu_43c3f7ca26a2d61e.png 1024w,
+        /git-for-everyone-guide/images/07_git-file-modified_hu_ee850312aa87998f.png 2x"
+        src="/git-for-everyone-guide/images/07_git-file-modified_hu_a997b51dbf7594af.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>If we want to include the updated file in our next commit, we use add:</p>
+<pre tabindex="0"><code>git add newfile
+git commit -m &#34;Added newfile&#34;
+</code></pre><p>Now all changes are committed and the working tree is again clean.</p>
+
+
+<h1 class="relative group">The Log 
+    <div id="the-log" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-log" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>We’ve made a couple of commits since cloning this repository. Let’s have a look now at Git’s history for this repository:</p>
+<p><code>git log</code></p>
+<p>What we see are our two commits at the top, and below that the history of the repo from before when we cloned it. This is a standard pager view, which responds to the arrow keys or vi style navigation with the j and k keys.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/08_git-log_hu_e2ae2df10818eead.png 330w,
+        /git-for-everyone-guide/images/08_git-log_hu_533f5b834a75ab28.png 660w,
+        /git-for-everyone-guide/images/08_git-log_hu_873cad6e73e93f5.png 1024w,
+        /git-for-everyone-guide/images/08_git-log_hu_4d868fcb33c60c4e.png 2x"
+        src="/git-for-everyone-guide/images/08_git-log_hu_533f5b834a75ab28.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Each commit is labeled with a long string of letters and numbers. This is the commit hash, and it’s guaranteed to be unique for every commit in this repo. If you recall, a shorter version of the hash is also shown when creating each commit. In general, it’s okay to substitute an abbreviated version of the hash, as long as it starts from the beginning (left side) and is long enough to still be unique.</p>
+<p>Hashes are like version numbers. Every commit has a hash and every hash refers to exactly the contents of one commit. Beside some of the hashes are additional labels. These show the state of both our local copy and the “origin” where we cloned the repo from. We can see intuitively that our local copy is two commits ahead of the version we cloned from GitHub.</p>
+
+
+<h1 class="relative group">Creating a fork 
+    <div id="creating-a-fork" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#creating-a-fork" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>So far we have only made edits to our local copy of the repository. Syncing those changes back to Github can serve as a backup and also allow us to share them with others. Since we aren’t the owner of the original remote repository on Github, we can’t upload our changes directly. Instead, we’ll need our own repository on our own account.</p>
+<p>For this, go ahead and sign into Github if you haven’t already. It’s quick and easy to get a free account that you can do quite a lot with. If you prefer not to use Github, you could also use another Git hosting service with a few changes to the steps below, but I won’t cover that in detail.</p>
+<p>Let’s navigate back to the <a href="https://github.com/TechHutTV/server-monitoring" target="_blank">page for the repository</a> we cloned earlier. We are going to make a fork of this repository, which is essentially just a copy. While cloning a repo makes a copy on our local machine, forking a repo creates a copy on Github. One thing to note is that forks of public repos will always be public in Github. If you prefer a private repo, you can accomplish that in a couple ways, including Github’s import <a href="https://github.com/new/import" target="_blank">feature</a>.</p>
+<p>To proceed with a fork, click the <em>Fork</em> button in the upper right hand corner of the page:</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/09_git-new-fork_hu_5c1b67a9f7af9e58.png 330w,
+        /git-for-everyone-guide/images/09_git-new-fork_hu_a8476875c3d38a41.png 660w,
+        /git-for-everyone-guide/images/09_git-new-fork_hu_674d6ef102b3f2a4.png 1024w,
+        /git-for-everyone-guide/images/09_git-new-fork_hu_c58eca04d71b1193.png 2x"
+        src="/git-for-everyone-guide/images/09_git-new-fork_hu_a8476875c3d38a41.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>You can choose to change the name if you want, but accepting the default here is just fine. Hit the green <em>Create Fork</em> button to continue:</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/10_git-create-fork_hu_d6c1e36716586345.png 330w,
+        /git-for-everyone-guide/images/10_git-create-fork_hu_c5dd26a8b9f9a2b6.png 660w,
+        /git-for-everyone-guide/images/10_git-create-fork_hu_4ed2fdb69c8a66ad.png 1024w,
+        /git-for-everyone-guide/images/10_git-create-fork_hu_2a775402e4c7aecc.png 2x"
+        src="/git-for-everyone-guide/images/10_git-create-fork_hu_c5dd26a8b9f9a2b6.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Github will take a moment to prepare your fork and then you’ll automatically end up on the page for your new repository. At this point, the new repository is identical to the original one but we are now able to upload our changes to it. In Git terminology, uploading changes to a remote Git host is called a “push”. Likewise, we can also “pull” changes that exist in the remote copy but not our local copy.</p>
+
+
+<h1 class="relative group">A Note on Git Authentication 
+    <div id="a-note-on-git-authentication" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#a-note-on-git-authentication" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>What we’ll do now is configure our local repository to point to the fork we just created instead of the original repo. There’s a bit of a fork in the road here, depending on how you want to authenticate with Github. To push changes, we’ll need to prove our identity somehow.</p>
+<p>The best way to authenticate with Github, or any remote Git host for that matter, is SSH using an SSH public key. However, that requires some initial setup on your local machine, which will vary based on your operating system. Setting up SSH is outside the scope of this guide, so instead I’ll show how to authenticate using a token.</p>
+<p>If you are already comfortable using SSH with public keys and have that set up on your local system, you could also go add your SSH key to Github now, by following <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank">their docs</a>. In that case, skip over the next section and keep an eye out for a note on one small change in the steps that follow.</p>
+
+
+<h1 class="relative group">Generating a Github Token 
+    <div id="generating-a-github-token" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#generating-a-github-token" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Using token based authentication is convenient because we don’t need to worry about setting up SSH, but it’s also more of a developer oriented feature that’s somewhat buried in the Github settings. You can follow <a href="https://github.com/settings/tokens" target="_blank">this link</a> to go directly to the token management page.</p>
+<p>We’ll use Tokens (<em>Classic</em>) from the left nav bar for a slightly simpler experience. Then click the Generate new token button and select Generate new token (<em>Classic</em>):</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/11_github-new-token_hu_543b412cea87ae6f.png 330w,
+        /git-for-everyone-guide/images/11_github-new-token_hu_31b8ac0f4438afe0.png 660w,
+        /git-for-everyone-guide/images/11_github-new-token_hu_1e89ae294d81cd3.png 1024w,
+        /git-for-everyone-guide/images/11_github-new-token_hu_e96ca1f22e27a83f.png 2x"
+        src="/git-for-everyone-guide/images/11_github-new-token_hu_31b8ac0f4438afe0.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Enter a name for your token in the note field, select an expiration date, and check the repo box. This will allow repo based actions, like push, using this token.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/12_github-token-classic_hu_45459060512b3c4c.png 330w,
+        /git-for-everyone-guide/images/12_github-token-classic_hu_fc26cf44ac8eaba6.png 660w,
+        /git-for-everyone-guide/images/12_github-token-classic_hu_e3d1eab62ef22197.png 1024w,
+        /git-for-everyone-guide/images/12_github-token-classic_hu_39fc3ad58845379f.png 2x"
+        src="/git-for-everyone-guide/images/12_github-token-classic_hu_fc26cf44ac8eaba6.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Then scroll down and hit the green <em>Generate Token</em> button. Copy the token and store it somewhere secure, like a password manager. You won’t be able to view this particular token again in the future, but you can always generate another one.</p>
+
+
+<h1 class="relative group">Pushing to the Fork 
+    <div id="pushing-to-the-fork" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#pushing-to-the-fork" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Back on the Github page of your fork, click the green <em>Code</em> button. Then copy the HTTPS address for the repo. If you’re using SSH, select the SSH tab and copy the address there instead.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/13_github-push-fork_hu_c83ce14b975a82bb.png 330w,
+        /git-for-everyone-guide/images/13_github-push-fork_hu_64789d98d757780b.png 660w,
+        /git-for-everyone-guide/images/13_github-push-fork_hu_e2c875e2a0b092d3.png 1024w,
+        /git-for-everyone-guide/images/13_github-push-fork_hu_dce1c3685b0c2d57.png 2x"
+        src="/git-for-everyone-guide/images/13_github-push-fork_hu_64789d98d757780b.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Inside the repo folder on your local machine, edit the file .git/config:</p>
+<p>```nano .git/config``</p>
+<p>You’ll see a URL line with the existing Github address. Just replace the address with the one you copied from your own repository, and save the file.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/14_github-git-config_hu_9ea266b4120c5d2f.png 330w,
+        /git-for-everyone-guide/images/14_github-git-config_hu_4bc17ee357134695.png 660w,
+        /git-for-everyone-guide/images/14_github-git-config_hu_4df2a58bc122e294.png 1024w,
+        /git-for-everyone-guide/images/14_github-git-config_hu_80ad7637c9a47472.png 2x"
+        src="/git-for-everyone-guide/images/14_github-git-config_hu_4bc17ee357134695.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>With that completed, we can now try a push:</p>
+<p><code>git push</code></p>
+<p>Enter your username and when prompted for a password, enter the token you generated earlier. Once the push is complete, you can head back to Github to see the result.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/15_github-chages-shown_hu_7959892082f654a7.png 330w,
+        /git-for-everyone-guide/images/15_github-chages-shown_hu_977e82e2e6499477.png 660w,
+        /git-for-everyone-guide/images/15_github-chages-shown_hu_6d92bee243ce178e.png 1024w,
+        /git-for-everyone-guide/images/15_github-chages-shown_hu_bc7a8cae6da49352.png 2x"
+        src="/git-for-everyone-guide/images/15_github-chages-shown_hu_977e82e2e6499477.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Our changes are now hosted on Github. Nice.</p>
+<p>We can share the Github link and then anyone can clone the fork or make their own… “subfork”? You get the idea.</p>
+<p>Another cool aspect of public repos is that they can also be copied onto other machines with a simple <code>git clone</code>. So if you wanted to use these files on a server or VM, just install git, copy the HTTPS link, and clone the repo. Since that’s a read only operation, no authentication is required.</p>
+
+
+<h1 class="relative group">Accessing History 
+    <div id="accessing-history" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#accessing-history" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>While sharing files with other people and other computers is cool, Git is after all a version control system. So let’s wrap up by seeing how Git can save our bacon when some change goes awry or allow us to get a feel for how a repository has changed over time.</p>
+<p>Git of course has rich command line tools for dealing with history and restoring older versions. However, this (already long) guide isn’t about how to become a Git CLI pro. So instead we’ll just look at how to access history inside of Github (or your Git hosting service of choice, which will have a similar interface).</p>
+<p>Visiting the repo page, we see a history button that shows the total number of commits in the current branch.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/16_github-history_hu_aaf8d2e1bef71de1.png 330w,
+        /git-for-everyone-guide/images/16_github-history_hu_5c861d6e59929cd0.png 660w,
+        /git-for-everyone-guide/images/16_github-history_hu_834d032af5ad9745.png 1024w,
+        /git-for-everyone-guide/images/16_github-history_hu_b8fb63009c5440ed.png 2x"
+        src="/git-for-everyone-guide/images/16_github-history_hu_5c861d6e59929cd0.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Clicking that pulls up a display that’s something like <code>git log</code>. We see the history of commits and who created them.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/17_github-commits-log_hu_5be65b538a9bff44.png 330w,
+        /git-for-everyone-guide/images/17_github-commits-log_hu_5ec8386f607825fa.png 660w,
+        /git-for-everyone-guide/images/17_github-commits-log_hu_d9f1444d87a1e0fc.png 1024w,
+        /git-for-everyone-guide/images/17_github-commits-log_hu_3108c6bb66f4e05.png 2x"
+        src="/git-for-everyone-guide/images/17_github-commits-log_hu_5ec8386f607825fa.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Clicking on the title of the commit will show the changes in that commit, versus the one before it. That can be a useful view, but it won’t show us whole files as they were at the point of the commit. To do that, click the browse files button.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/18_github-commits-readme_hu_5a70b0f2d04e5b40.png 330w,
+        /git-for-everyone-guide/images/18_github-commits-readme_hu_67413aa03d2d0a5.png 660w,
+        /git-for-everyone-guide/images/18_github-commits-readme_hu_8f5d2b9d7b97825d.png 1024w,
+        /git-for-everyone-guide/images/18_github-commits-readme_hu_96a70ddf0d0f2f50.png 2x"
+        src="/git-for-everyone-guide/images/18_github-commits-readme_hu_67413aa03d2d0a5.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Now we are back in the main view of the repo, but the branch name has been replaced with the commit hash of the commit we’re viewing. We can always return to the most recent changes by clicking there and selecting the branch name.</p>
+<p>From here we can select files in the repo to see their previous state, as of the selected commit. Github’s toolbar has various options for viewing Markdown files, included preview and code view. There’s also buttons to view or download a copy of the raw text.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /git-for-everyone-guide/images/19_github-fork-states_hu_d43bc08eb584f445.png 330w,
+        /git-for-everyone-guide/images/19_github-fork-states_hu_39e6126a5d67fecc.png 660w,
+        /git-for-everyone-guide/images/19_github-fork-states_hu_2b1bcdaea2934c68.png 1024w,
+        /git-for-everyone-guide/images/19_github-fork-states_hu_6a049189c0d31ef7.png 2x"
+        src="/git-for-everyone-guide/images/19_github-fork-states_hu_39e6126a5d67fecc.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>So using these features, it’s always possible to revisit the past and retrieve a copy of the files as they were then. You can download or copy these versions onto your local machine and commit their contents into the repository to revert back to a previous state. Again I’ll note that Git has commands for dealing with history and reverting changes, so if you’re curious to explore more, by all means go ahead.</p>
+
+
+<h1 class="relative group">Conclusion 
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>In this guide we covered the basics of using Git with a Git hosting service like Github to start adding changes to an existing repository and push them to our own fork. This is a solid foundation, but if you’re curious, well, it feels like there’s always more to learn about Git.</p>
+<p>What’s next? Maybe you’re feeling inspired to start your own repository from scratch. While we didn’t cover that specifically in this guide, you now have all the tools to do it, and a fresh repo is just a few clicks away in Github. Or, find another repo to fork. The power is yours.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/git-for-everyone-guide/&amp;title=Git%20for%20Everyone"
+      title="Share on LinkedIn"
+      aria-label="Share on LinkedIn"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/git-for-everyone-guide/&amp;text=Git%20for%20Everyone"
+      title="Tweet on Twitter"
+      aria-label="Tweet on Twitter"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://bsky.app/intent/compose?text=Git%20for%20Everyone&#43;http://localhost:1313/git-for-everyone-guide/"
+      title="Post on Bluesky"
+      aria-label="Post on Bluesky"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,232.562c-21.183,-41.196 -78.868,-117.97 -132.503,-155.834c-51.378,-36.272 -70.978,-29.987 -83.828,-24.181c-14.872,6.72 -17.577,29.554 -17.577,42.988c0,13.433 7.365,110.138 12.169,126.281c15.873,53.336 72.376,71.358 124.413,65.574c2.66,-0.395 5.357,-0.759 8.089,-1.097c-2.68,0.429 -5.379,0.796 -8.089,1.097c-76.259,11.294 -143.984,39.085 -55.158,137.972c97.708,101.165 133.908,-21.692 152.484,-83.983c18.576,62.291 39.972,180.718 150.734,83.983c83.174,-83.983 22.851,-126.674 -53.408,-137.969c-2.71,-0.302 -5.409,-0.667 -8.089,-1.096c2.732,0.337 5.429,0.702 8.089,1.096c52.037,5.785 108.54,-12.239 124.413,-65.574c4.804,-16.142 12.169,-112.847 12.169,-126.281c-0,-13.434 -2.705,-36.267 -17.577,-42.988c-12.85,-5.806 -32.45,-12.09 -83.829,24.181c-53.634,37.864 -111.319,114.635 -132.502,155.831Z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://s2f.kytta.dev/?text=Git%20for%20Everyone%20http://localhost:1313/git-for-everyone-guide/"
+      title=""
+      aria-label=""
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://reddit.com/submit/?url=http://localhost:1313/git-for-everyone-guide/&amp;resubmit=true&amp;title=Git%20for%20Everyone"
+      title="Submit to Reddit"
+      aria-label="Submit to Reddit"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/git-for-everyone-guide/&amp;description=Git%20for%20Everyone"
+      title="Pin on Pinterest"
+      aria-label="Pin on Pinterest"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/git-for-everyone-guide/&amp;quote=Git%20for%20Everyone"
+      title="Share on Facebook"
+      aria-label="Share on Facebook"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="mailto:?body=http://localhost:1313/git-for-everyone-guide/&amp;subject=Git%20for%20Everyone"
+      title="Send via email"
+      aria-label="Send via email"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/git-for-everyone-guide/&amp;resubmit=true&amp;title=Git%20for%20Everyone"
+      title="Share via WhatsApp"
+      aria-label="Share via WhatsApp"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://t.me/share/url?url=http://localhost:1313/git-for-everyone-guide/&amp;resubmit=true&amp;title=Git%20for%20Everyone"
+      title="Share via Telegram"
+      aria-label="Share via Telegram"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+  </section>
+
+
+        
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/windows-lite-ltsc-microsoft/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/windows-lite-ltsc-microsoft/cover_hu_a787bc0fa6ddbe99.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/windows-lite-ltsc-microsoft/">the OFFICIAL Windows (lite) from Microsoft</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-02-03T00:00:00&#43;00:00">3 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1497 words</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/nixos-best-server-os-setup/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/nixos-best-server-os-setup/cover_hu_be1beef951412b23.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/nixos-best-server-os-setup/">NixOS - The New Best Server OS?</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-06-13T00:00:00&#43;00:00">13 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2093 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/7-docker-basics-for-beginners/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/7-docker-basics-for-beginners/cover_hu_468442607aecc83f.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/7-docker-basics-for-beginners/">7 Docker Basics for Beginners</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-02-06T00:00:00&#43;00:00">6 February 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2333 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">11 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+</section>
+
+  
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_2025\/02\/git-for-everyone-guide\/index.md"
+        var oid_likes = "likes_2025\/02\/git-for-everyone-guide\/index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/windows-lite-ltsc-microsoft/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >the OFFICIAL Windows (lite) from Microsoft</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-02-03T00:00:00&#43;00:00">3 February 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/self-host-immich-photo-backup/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Self-Host with Immich!</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-02-06T00:00:00&#43;00:00">6 February 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href=""
+            title="">
+            
+            
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      Copy, <em>right?</em> :thinking_face:
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

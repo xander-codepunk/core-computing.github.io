@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmarking on Blowfish</title>
+    <link>http://localhost:1313/categories/benchmarking/</link>
+    <description>Recent content in Benchmarking on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Mon, 16 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microsoft Edge might WIN on Linux.</title>
+      <link>http://localhost:1313/microsoft-edge-might-win-on-linux/</link>
+      <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/microsoft-edge-might-win-on-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/microsoft-edge-might-win-on-linux/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Flatpak vs. Snap vs. AppImage - Linux Packaging Benchmarks!</title>
+      <link>http://localhost:1313/flatpak-vs-snap-vs-appimage/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/flatpak-vs-snap-vs-appimage/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/flatpak-vs-snap-vs-appimage/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>
