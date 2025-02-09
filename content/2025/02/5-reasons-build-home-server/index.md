@@ -3,10 +3,9 @@ title: 'EVERYONE needs a Home Server'
 date: '2025-02-01'
 url: 5-reasons-build-home-server
 draft: false
-hideSummary: false
 hidemeta: false
-# description: "what is it about" # Short discription that does above metadata/cover
-author: Cameron Knauff
+author:
+  - "Cameron Knauff"
 categories:
   - "Essay"
 tags:

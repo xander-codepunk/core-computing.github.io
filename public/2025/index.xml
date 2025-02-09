@@ -9,5 +9,45 @@
     <copyright>Copy, _right?_ :thinking_face:</copyright>
     <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/2025/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Self-Host with Immich!</title>
+      <link>http://localhost:1313/self-host-immich-photo-backup/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/self-host-immich-photo-backup/</guid>
+      <description>what is it about</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/self-host-immich-photo-backup/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Git for Everyone</title>
+      <link>http://localhost:1313/git-for-everyone-guide/</link>
+      <pubDate>Mon, 03 Feb 2025 16:40:55 -0800</pubDate>
+      
+      <guid>http://localhost:1313/git-for-everyone-guide/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/git-for-everyone-guide/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>the OFFICIAL Windows (lite) from Microsoft</title>
+      <link>http://localhost:1313/windows-lite-ltsc-microsoft/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/windows-lite-ltsc-microsoft/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/windows-lite-ltsc-microsoft/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>EVERYONE needs a Home Server</title>
+      <link>http://localhost:1313/5-reasons-build-home-server/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/5-reasons-build-home-server/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/5-reasons-build-home-server/cover.jpg" />
+    </item>
+    
   </channel>
 </rss>

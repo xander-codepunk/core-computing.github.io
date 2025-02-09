@@ -6,14 +6,13 @@ draft: false
 # hideSummary: false
 hidemeta: false
 # description:
-author: Brandon Hopkins
+author:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Windows"
-showToc: true
-UseHugoToc: false
 cover:
   image: "cover.jpg"
   # alt: "Icons of the popular linux packaging formats with graph."

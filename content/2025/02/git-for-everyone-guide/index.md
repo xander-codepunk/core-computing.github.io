@@ -6,19 +6,17 @@ draft: false
 hideSummary: false
 hidemeta: false
 # description: "what is it about" # Short discription that does above metadata/cover
-author: Scott Yeager
+author:
+  - "Scott Yeager"
 categories:
   - "Guides"
 tags:
   - "Git"
   - "Guides"
   - "Github"
-showToc: true
-UseHugoToc: false
 cover:
   image: "cover.jpg"
   alt: "Cover image for Git for Everyone Guide"
-  # caption: "text"
   relative: false # used in hugo Page-bundles
   responsiveImages: false
 editPost:
