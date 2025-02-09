@@ -1,12 +1,92 @@
-[[main]]
-none = "none"
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+#
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
 
 [[main]]
-name = "Navigation"
-pre = "list"
-pageRef = "Guides"
-identifier = "U4qbGb9QQY"
-weight = 9999
+pre = "briefcase"
+name = "Categories"
+weight = 10
+url = "/categories"
+
+[[main]]
+pre = "globe-hemisphere-east"
+name = "Benchmarking"
+parent = "Categories"
+weight = 11
+url = "/categories/benchmarking"
+
+[[main]]
+pre = "android-logo"
+name = "Essay"
+parent = "Categories"
+weight = 12
+url = "/categories/essay"
+
+[[main]]
+pre = "sidebar"
+name = "Guides"
+parent = "Categories"
+weight = 13
+url = "/categories/guides"
+
+[[main]]
+pre = "sidebar"
+name = "Hardware"
+parent = "Categories"
+weight = 14
+url = "/categories/hardware"
+
+[[main]]
+pre = "sidebar"
+name = "News"
+parent = "Categories"
+weight = 15
+url = "/categories/news"
+
+[[main]]
+pre = "sidebar"
+name = "Software"
+parent = "Categories"
+weight = 16
+url = "/categories/software"
+
+[[main]]
+pre = "newspaper-clipping"
+name = "Tags"
+weight = 20
+url = "/tags"
+
+[[main]]
+identifier = "github"
+pre = "github"
+url = "https://github.com/TechHutTV"
+weight = 25
+
+[[main]]
+identifier = "twitter"
+pre = "twitter"
+url = "https://x.com/techhuttv"
+weight = 30
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
 
 [[footer]]
-none = "none"
+name = "Tags"
+pageRef = "tags"
+weight = 10
+
+[[footer]]
+name = "Categories"
+pageRef = "categories"
+weight = 20

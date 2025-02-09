@@ -6,7 +6,9 @@ draft: false
 # hideSummary: false
 hidemeta: false
 # description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
+  - "Scott Yeager"
 categories:
   - "Guides"
 tags:

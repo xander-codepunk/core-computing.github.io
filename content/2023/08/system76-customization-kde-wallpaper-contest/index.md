@@ -11,10 +11,10 @@ tags:
   - "Archive"
 showToc: true
 UseHugoToc: false
-cover:
-  image: "cover.gif"
-  relative: false
-  responsiveImages: false
+#cover:
+#  image: "cover.gif"
+#  relative: false
+#  responsiveImages: false
 editPost:
   URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
   Text: "Suggest Changes"

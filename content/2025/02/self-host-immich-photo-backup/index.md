@@ -6,7 +6,7 @@ draft: false
 hidemeta: false
 summary: "what is it about" # Short discription that does above metadata/cover.
 showSummary: true
-authors: 
+author:
   - "Brandon Hopkins"
 categories:
   - "Guides"

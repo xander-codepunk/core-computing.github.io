@@ -3,7 +3,6 @@ title: "the OFFICIAL Windows (lite) from Microsoft"
 date: "2025-02-03"
 url: windows-lite-ltsc-microsoft
 draft: false
-# hideSummary: false
 hidemeta: false
 # description:
 author:
