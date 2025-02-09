@@ -3,10 +3,8 @@ title: "5 Things You MUST DO after Installing Pop!_OS"
 date: "2021-11-13"
 url: after-installing-pop-os-cosmic
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Linux"
   - "Distros"
   - "Pop!_OS"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 With the release of Pop!\_OS COSMIC our last article review some of the best things to do after install is now out of date. Thus here is our updated list reviewing 5 things everyone should consider doing after installing Pop!\_OS. Important tweaks, tips, and updates are essential to making sure you have a positive experience with this new Ubuntu based distribution of Linux.

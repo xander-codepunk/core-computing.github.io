@@ -3,27 +3,13 @@ title: "How to Auto-Mount Drives in Linux"
 date: "2021-11-19"
 url: auto-mount-drives-in-linux-fstab
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Linux"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 In many Linux distributions, non-boot drives are not mounted when you boot into the system. They mount when you open them, but it is helpful in many cases to already have the drive mounted when you first boot up your machine. For example, if you have a separate Steam or media library on a drive, some applications may need access to the data before you can manually mount the drives.

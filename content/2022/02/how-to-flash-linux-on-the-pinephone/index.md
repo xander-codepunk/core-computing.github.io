@@ -3,10 +3,8 @@ title: "How to Flash Linux on the PinePhone"
 date: "2022-02-13"
 url: how-to-flash-linux-on-the-pinephone
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+ - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Mobile"
   - "Pine64"
   - "Hardware"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 We will go over how to flash distributions on a PinePhone. You can easily flash Manjaro, Arch, Ubuntu Touch, Mobian, and any other ARM distribution available on the wiki linked below.

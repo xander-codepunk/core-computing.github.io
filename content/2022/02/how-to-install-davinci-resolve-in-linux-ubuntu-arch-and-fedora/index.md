@@ -3,28 +3,14 @@ title: "Install DaVinci Resolve in Linux (Ubuntu, Arch, and Fedora)"
 date: "2022-02-13"
 url: how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "DaVinci Resolve"
   - "Linux"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Installing DaVinci Resolve in Linux is not the easiest thing to do despite its native support. Resolve is a professional-level video editor that requires a very specific environment to run properly. Below are the minimum requirements.

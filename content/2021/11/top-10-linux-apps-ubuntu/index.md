@@ -3,23 +3,11 @@ title: "Top 10 Linux Apps – Truly Essential Software!"
 date: "2021-11-19"
 url: top-10-linux-apps-ubuntu
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
-tags: ["apps", "linux"]
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
+authors:
+  - "Brandon Hopkins"
+tags:
+  - "Apps"
+  - "Linux"
 ---
 
 These are the top 10 Linux apps everyone should have on their computers. There is something here for everyone and items everyone should have. Watch the video below for an overview of everything in this article.

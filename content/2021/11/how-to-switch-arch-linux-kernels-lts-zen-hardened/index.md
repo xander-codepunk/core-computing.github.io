@@ -2,11 +2,8 @@
 title: "How to Switch Arch Linux Kernels"
 date: "2021-11-22"
 url: how-to-switch-arch-linux-kernels-lts-zen-hardened
-draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -14,18 +11,6 @@ tags:
   - "Linux"
   - "Distros"
   - "Arch"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Whatever your reasoning, switching your kernel in Arch Linux is actually a fairly easy process. All we need to do is make sure the proper kernel is installed on your system and configure grub to easily utilize that new kernel.
@@ -40,21 +25,13 @@ First, let's take a look at our options from the official Arch wiki.
 
 ## Officially Supported Kernels
 
-- **Stable** — Vanilla Linux kernel and modules, with a few patches applied.
+- **Stable** — Vanilla Linux kernel and modules, with a few patches applied. [linux](https://archlinux.org/packages/?name=linux&ref=techhut.tv)
 
-[https://www.kernel.org/](https://www.kernel.org/?ref=techhut.tv) || [linux](https://archlinux.org/packages/?name=linux&ref=techhut.tv)
+- **Hardened** — A security-focused Linux kernel applying a set of hardening patches to mitigate kernel and userspace exploits. It also enables more upstream kernel hardening features than the stock kernel. [linux-hardened](https://archlinux.org/packages/?name=linux-hardened&ref=techhut.tv)
 
-- **Hardened** — A security-focused Linux kernel applying a set of hardening patches to mitigate kernel and userspace exploits. It also enables more upstream kernel hardening features than [linux](https://archlinux.org/packages/?name=linux&ref=techhut.tv).
+- **Longterm** — Long-term support (LTS) Linux kernel and modules. [linux-lts](https://archlinux.org/packages/?name=linux-lts&ref=techhut.tv)
 
-[https://github.com/anthraxx/linux-hardened](https://github.com/anthraxx/linux-hardened?ref=techhut.tv) || [linux-hardened](https://archlinux.org/packages/?name=linux-hardened&ref=techhut.tv)
-
-- **Longterm** — Long-term support (LTS) Linux kernel and modules.
-
-[https://www.kernel.org/](https://www.kernel.org/?ref=techhut.tv) || [linux-lts](https://archlinux.org/packages/?name=linux-lts&ref=techhut.tv)
-
-- **Zen Kernel** — Result of a collaborative effort of kernel hackers to provide the best Linux kernel possible for everyday systems. Some more details can be found on [https://liquorix.net](https://liquorix.net/?ref=techhut.tv) (which provides kernel binaries based on Zen for Debian).
-
-[https://github.com/zen-kernel/zen-kernel](https://github.com/zen-kernel/zen-kernel?ref=techhut.tv) || [linux-zen](https://archlinux.org/packages/?name=linux-zen&ref=techhut.tv)
+- **Zen Kernel** — Result of a collaborative effort of kernel hackers to provide the best Linux kernel possible for everyday systems. Some more details can be found on [https://liquorix.net](https://liquorix.net/?ref=techhut.tv) (which provides kernel binaries based on Zen for Debian). [linux-zen](https://archlinux.org/packages/?name=linux-zen&ref=techhut.tv)
 
 ## Installing Kernels
 

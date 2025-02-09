@@ -3,27 +3,13 @@ title: "Easily Install AMD Ryzen CPU and Wraith Prism Cooler"
 date: "2021-11-13"
 url: install-amd-ryzen-cpu-and-wraith-prism-cooler
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Hardware"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This is a guide on how to install AMD Ryzen processors and the stock Wraith Cooler included with some of the higher-end AMD processors. I use the AMD Ryzen 7 3700X. For this example, I am using the ASUS Prime X570-P motherboard.

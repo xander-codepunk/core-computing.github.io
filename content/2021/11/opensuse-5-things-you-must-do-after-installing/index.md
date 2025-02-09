@@ -2,11 +2,8 @@
 title: "OpenSUSE – 5 Things You MUST Do After Installing"
 date: "2021-11-10"
 url: opensuse-5-things-you-must-do-after-installing
-draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -14,18 +11,6 @@ tags:
   - "OpenSUSE"
   - "Linux"
   - "Distros"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpeg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 OpenSUSE is one of the best Linux distributions out there to date. Unfortunately, many people including experienced Debian or Arch users get frustrated with the differences in package management and the YaST software. In this article we will overview some of the main things you should do to jump start your OpenSUSE experience. Watch the video below or checkout the article to quickly get up and running in OpenSUSE.

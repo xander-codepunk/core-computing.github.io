@@ -3,28 +3,14 @@ title: "Monitor AMD RYZEN Temps in Linux"
 date: "2021-11-15"
 url: monitor-amd-ryzen-temps-in-linux
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Linux"
   - "Hardware"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This article will show you how to monitor CPU temperatures in Linux. Although the title mentions AMD processors, this will work for Intel as well. Two useful tools work for all processors and almost all Linux distributions.

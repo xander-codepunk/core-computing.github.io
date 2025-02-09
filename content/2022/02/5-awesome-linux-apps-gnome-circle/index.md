@@ -3,27 +3,13 @@ title: "5 AWESOME LINUX APPS - GNOME Circle"
 date: "2022-02-12"
 url: 5-awesome-linux-apps-gnome-circle
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+ - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Apps"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 The GNOME Circle initiative aims to widen developer outreach and enhance the GNOME ecosystem overall. Developers whose applications are featured within the GNOME Circle have had to apply and meet a strong set of criteria. As a result, the majority of the applications featured are awesome. In this article, we will highlight 5 of my favorites.

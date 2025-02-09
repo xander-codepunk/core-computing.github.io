@@ -3,27 +3,13 @@ title: "10 BEST Linux Applications: Must Have Software (2021)"
 date: "2021-11-13"
 url: 10-best-linux-applications-must-have-software
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Apps"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This is the Top 10 MUST HAVE Linux apps going into the year 2021. All of these applications are free and open source, some do have optional paid features. This list is my opinion of the top Linux applications. Make sure you check out the 2020 video for 10 more great applications, that will be at the end of this article. This list ranges from privacy and security to virtualization and content consumption. There is something here for everyone.

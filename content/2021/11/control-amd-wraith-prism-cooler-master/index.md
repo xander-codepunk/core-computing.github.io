@@ -3,28 +3,14 @@ title: "How to Control AMD Wraith Prism Cooler RGB (and more)"
 date: "2021-11-13"
 url: control-amd-wraith-prism-cooler-master
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Hardware"
   - "Apps"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Controlling RGB lighting on your PC, AMD Wraith Primism Cooler and various components is a critical need for many. This video will overview the software you may need to do this and run some of the recommended RGB ecosystems. OpenRGB for Linux is also featured in this video.
