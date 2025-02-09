@@ -6,7 +6,7 @@
     <description>Recent content in Brandon Hopkins on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <copyright>Copy, _right?_</copyright>
     <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/brandon-hopkins/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,6 +17,36 @@
       <guid>http://localhost:1313/7-docker-basics-for-beginners/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/7-docker-basics-for-beginners/cover.png" />
+    </item>
+    
+    <item>
+      <title>How to Flash Linux on the PinePhone</title>
+      <link>http://localhost:1313/how-to-flash-linux-on-the-pinephone/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-flash-linux-on-the-pinephone/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-flash-linux-on-the-pinephone/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Install DaVinci Resolve in Linux (Ubuntu, Arch, and Fedora)</title>
+      <link>http://localhost:1313/how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/how-to-install-davinci-resolve-in-linux-ubuntu-arch-and-fedora/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>5 AWESOME LINUX APPS - GNOME Circle</title>
+      <link>http://localhost:1313/5-awesome-linux-apps-gnome-circle/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/5-awesome-linux-apps-gnome-circle/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/5-awesome-linux-apps-gnome-circle/cover.jpg" />
     </item>
     
     <item>
