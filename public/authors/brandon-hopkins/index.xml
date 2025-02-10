@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brandon Hopkins on Blowfish</title>
+    <title>Brandon Hopkins on TechHut</title>
     <link>http://localhost:1313/authors/brandon-hopkins/</link>
-    <description>Recent content in Brandon Hopkins on Blowfish</description>
+    <description>Recent content in Brandon Hopkins on TechHut</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copy, _right?_</copyright>
-    <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/brandon-hopkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/brandon-hopkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Self-Host with Immich!</title>
+      <link>http://localhost:1313/self-host-immich-photo-backup/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/self-host-immich-photo-backup/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/self-host-immich-photo-backup/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>the OFFICIAL Windows (lite) from Microsoft</title>
+      <link>http://localhost:1313/windows-lite-ltsc-microsoft/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/windows-lite-ltsc-microsoft/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/windows-lite-ltsc-microsoft/cover.jpg" />
+    </item>
     
     <item>
       <title>7 Docker Basics for Beginners</title>

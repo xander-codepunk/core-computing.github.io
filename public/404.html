@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>404 Page not found &middot; Blowfish</title>
-  <meta name="title" content="404 Page not found &middot; Blowfish" />
+  <title>404 Page not found &middot; TechHut</title>
+  <meta name="title" content="404 Page not found &middot; TechHut" />
   
   <meta name="description" content="open souce fun" />
   
@@ -65,7 +65,7 @@
   
   
   <meta property="og:url" content="http://localhost:1313/404.html">
-  <meta property="og:site_name" content="Blowfish">
+  <meta property="og:site_name" content="TechHut">
   <meta property="og:title" content="404 Page not found">
   <meta property="og:description" content="open souce fun">
   <meta property="og:locale" content="en">
@@ -135,7 +135,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blowfish</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">TechHut</a>
             
 
         </nav>
@@ -733,6 +733,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   

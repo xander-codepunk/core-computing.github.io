@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Self-Host on Blowfish</title>
+    <title>Self-Host on TechHut</title>
     <link>http://localhost:1313/tags/self-host/</link>
-    <description>Recent content in Self-Host on Blowfish</description>
+    <description>Recent content in Self-Host on TechHut</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copy, _right?_</copyright>
@@ -15,7 +15,7 @@
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/self-host-immich-photo-backup/</guid>
-      <description>what is it about</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/self-host-immich-photo-backup/cover.jpg" />
     </item>
     

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Blowfish</title>
+    <title>Authors on TechHut</title>
     <link>http://localhost:1313/authors/</link>
-    <description>Recent content in Authors on Blowfish</description>
+    <description>Recent content in Authors on TechHut</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copy, _right?_</copyright>
-    <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Brandon Hopkins</title>
       <link>http://localhost:1313/authors/brandon-hopkins/</link>
-      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/brandon-hopkins/</guid>
       <description></description>
@@ -22,9 +22,19 @@
     <item>
       <title>Scott Yeager</title>
       <link>http://localhost:1313/authors/scott-yeager/</link>
-      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Feb 2025 16:40:55 -0800</pubDate>
       
       <guid>http://localhost:1313/authors/scott-yeager/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cameron Knauff</title>
+      <link>http://localhost:1313/authors/cameron-knauff/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/cameron-knauff/</guid>
       <description></description>
       
     </item>

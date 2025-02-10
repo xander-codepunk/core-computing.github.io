@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Perfect Windows 11 Virtual Machine on Linux (VMware Guide) &middot; Blowfish</title>
-  <meta name="title" content="Perfect Windows 11 Virtual Machine on Linux (VMware Guide) &middot; Blowfish" />
+  <title>Perfect Windows 11 Virtual Machine on Linux (VMware Guide) &middot; TechHut</title>
+  <meta name="title" content="Perfect Windows 11 Virtual Machine on Linux (VMware Guide) &middot; TechHut" />
   
   <meta name="description" content="open souce fun" />
   <meta name="keywords" content="Guides, Windows, Linux, Virtualization, " />
@@ -65,7 +65,7 @@
   
   
   <meta property="og:url" content="http://localhost:1313/windows-11-vmware-guide-linux/">
-  <meta property="og:site_name" content="Blowfish">
+  <meta property="og:site_name" content="TechHut">
   <meta property="og:title" content="Perfect Windows 11 Virtual Machine on Linux (VMware Guide)">
   <meta property="og:description" content="open souce fun">
   <meta property="og:locale" content="en">
@@ -171,7 +171,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blowfish</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">TechHut</a>
             
 
         </nav>
@@ -770,6 +770,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   
   <div class="relative flex flex-col grow">
@@ -875,7 +885,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/TechHutTV/TechHut.tv/content/2022/03/windows-11-vmware-guide-linux/index.md"
+    href="https://github.com/TechHutTV/techhut.tv/content/2022/03/windows-11-vmware-guide-linux/index.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -1049,6 +1059,46 @@
     $(document).ready(onResize);
   })();
 
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
 
 
 </script>
@@ -1469,6 +1519,10 @@
         </div>
 
         
+        <div class="py-1 prose dark:prose-invert">
+          
+        </div>
+        
       </div>
       <div class="px-6 pt-4 pb-2">
 
@@ -1569,6 +1623,10 @@
         </div>
 
         
+        <div class="py-1 prose dark:prose-invert">
+          
+        </div>
+        
       </div>
       <div class="px-6 pt-4 pb-2">
 
@@ -1668,6 +1726,10 @@
 
         </div>
 
+        
+        <div class="py-1 prose dark:prose-invert">
+          
+        </div>
         
       </div>
       <div class="px-6 pt-4 pb-2">

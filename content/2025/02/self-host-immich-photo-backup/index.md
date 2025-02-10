@@ -3,8 +3,6 @@ title: 'Self-Host with Immich!'
 date: '2025-02-06'
 url: self-host-immich-photo-backup
 draft: false
-summary: "Immich offers a refreshing alternative to services like Google Photos by prioritizing privacy and control. As a self-hosted solution, it keeps your photos and videos entirely on your own hardware, avoiding third-party data mining or subscription fees. You get full ownership of your media, support for RAW files, and customizable organization tools—like auto-sorting photos into folders based on dates, cameras, or custom rules. While setup requires some technical work and , it’s a trade-off for avoiding vendor lock-in and ads. Its local AI features (face/object recognition) may not match Google’s polish, but for users valuing transparency and flexibility, Immich is a compelling, ethical choice. Granted, there are some cons to using Immich. First, it requires more work and effort to manage the service, not having additional backups can be a huge risk to your data. Second, it isn’t as integrated with your smartphone as services like Google Photos or iCloud would be. Despite these drawbacks, I chose Immich because of its excellent mobile application for both Android and iPhone, which includes built-in photo backup support."
-showSummary: true
 authors:
   - "Brandon Hopkins"
 categories:
@@ -13,16 +11,6 @@ tags:
   - "Self-Host"
   - "Homelab"
   - "Docker"
-cover:
-  image: "cover.jpg"
-  alt: Cover image for Self Host Immich Ditch Google Photos
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 Our personal image libraries are one of the most important things we manage. There are many services like Google Photos, Amazon Photos, Dropbox, iCloud, etc., designed to help us do this efficiently. However, these services come with some challenges. One is difficulty accessing data without an internet connection. Another concern is trusting these organizations to stay available and protect our data's
 security. Additionally, some terms and conditions allow them to use or profit from the data we upload. For these reasons, I prefer hosting some of my most important data myself in my own home. After trying many different solution, I have landed on Immich as my go-to self hosted solution.

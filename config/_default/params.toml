@@ -24,9 +24,9 @@ disableTextInHeader = false
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
@@ -42,7 +42,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile" # valid options: page, profile, hero, card, background, custom
+layout = "background" # valid options: page, profile, hero, card, background, custom
 #homepageImage = "IMAGE.jpg" # used in: hero, and card
 showRecent = true
 showRecentItems = 12
@@ -67,7 +67,7 @@ layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
 showBreadcrumbs = false
 showDraftLabel = true
 showEdit = true
-editURL = "https://github.com/TechHutTV/TechHut.tv/content/"
+editURL = "https://github.com/TechHutTV/techhut.tv/content/"
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
@@ -100,10 +100,10 @@ showHero = false
 layoutBackgroundBlur = true        # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
 showBreadcrumbs = false
-showSummary = false
+showSummary = true
 showViews = false
 showLikes = false
-showTableOfContents = false
+showTableOfContents = true
 showCards = false
 orderByWeight = false
 groupByYear = true
