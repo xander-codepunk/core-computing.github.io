@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu 22.10, PolyMC Collapses,  Windows NVIDIA pain, and more!"
+title: "Ubuntu 22.10, PolyMC Collapses, Windows NVIDIA pain, and more!"
 date: "2022-10-24"
 draft: false
 authors:
@@ -10,7 +10,6 @@ tags:
   - "News"
   - "Archive"
 ---
-
 Lots of interesting things over the last two weeks.  We have some major releases, applications going open source, some more Xbox news and more. This is our 3rd edition and talk you all so much for being apart of this. We are almost at 200 subscribers so make sure you share this with your friends!
 
 ## Ubuntu 22.10 is here!
