@@ -19,5 +19,25 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/5-reasons-build-home-server/cover.jpg" />
     </item>
     
+    <item>
+      <title>The Death of Mozilla is the Death of the Open Web</title>
+      <link>http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/the-death-of-mozilla-is-the-death-of-the-open-web/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>http://localhost:1313/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

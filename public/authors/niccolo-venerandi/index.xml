@@ -720,7 +720,7 @@
     </item>
     
     <item>
-      <title>Ubuntu 22.10, PolyMC Collapses,  Windows NVIDIA pain, and more!</title>
+      <title>Ubuntu 22.10, PolyMC Collapses, Windows NVIDIA pain, and more!</title>
       <link>http://localhost:1313/2022/10/ubuntu-polymc-pocket-casts/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       
@@ -737,6 +737,16 @@
       <guid>http://localhost:1313/2022/10/nextcloud-hub3-pop-os-rust/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/2022/10/nextcloud-hub3-pop-os-rust/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>http://localhost:1313/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/</guid>
+      <description></description>
+      
     </item>
     
   </channel>
