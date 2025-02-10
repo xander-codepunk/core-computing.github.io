@@ -3,28 +3,14 @@ title: "The Edge2 Pro is a CRAZY Powerful ARM Single Board Computer"
 date: "2022-09-28"
 url: edge2-powerfull-arm-sb
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Hardware"
 tags:
   - "Single Board Computers"
   - "Khadas"
   - "ARM"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 When I first looked at the [Edge2 Pro by Khadas](https://www.khadas.com/edge2?ref=techhut.tv), the price was shocking. $300 for a single-board computer? Then I read a little further and realized that this is the most powerful SBC I have ever had the opportunity to examine. In this article, we will examine the specs and see how the device actually performs.

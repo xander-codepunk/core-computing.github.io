@@ -3,22 +3,13 @@ title: "Valve making HUGE Investment in Open-Source, Deepin Home, and more!"
 date: "2022-12-19"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 MAJOR investments, new hardware, huge updates, and more in this week of the TechHut Newsletter. First, in some TechHut news, this is a reminder to everyone that soon we will be shutting down our Patreon in favor for this platform. If you're interested in supporting you can do so directly though our newsletter/website. Coming New Year we will start publishing monthly exclusive content for those members. With that onto the news!

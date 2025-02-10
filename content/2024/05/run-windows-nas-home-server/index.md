@@ -6,26 +6,14 @@ draft: false
 hideSummary: false
 hidemeta: false
 description: "what is it about" # Short discription that does above metadata/cover.
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Self-Host"
   - "Windows"
   - "Homelab"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  alt: Cover image for Self Host Immich Ditch Google Photos
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
----
 ---
 
 Recently, I was asked a surprising question: Can you use Windows as a NAS (Network-Attached Storage) operating system? Initially, I reacted with shock and horror, but upon further thought, I realized it’s a valid query worth exploring. Yes, you can use Windows for this purpose, and I'll guide you through the process.

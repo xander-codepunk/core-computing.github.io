@@ -3,10 +3,8 @@ title: "How to Dual Boot Fedora and Windows 11"
 date: "2022-09-16"
 url: how-to-dual-boot-fedora-and-windows-11
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -15,18 +13,6 @@ tags:
   - "Distros"
   - "Windows"
   - "Fedora"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 So, you run Windows, which does everything you need. But you’re done with relying on something so limited and _corporate_. But you aren’t ready to switch to Linux fully yet. There may be some application or game that you want to keep running. But now it is time to move your primary workflow to Linux. So, let’s dual-boot the worst with the best (in my opinion).

@@ -3,10 +3,8 @@ title: "The BEST Solutions for Running Windows Apps in Linux"
 date: "2022-07-26"
 url: the-best-solutions-for-running-windows-apps-in-linux
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Windows"
   - "Apps"
   - "Virtualization"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 One of the biggest difficulties of switching over to Linux is getting used to a completely different ecosystem for applications and trying to switch away from many proprietary applications that are Windows only. Ideally, we should try to convince new users to learn how to use open-source software instead of proprietary software, but there are some cases where that is not an option.

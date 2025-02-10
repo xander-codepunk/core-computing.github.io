@@ -3,10 +3,8 @@ title: "Rocky Linux, AlmaLinux, RHEL, CentOS - Which Is BEST for You?"
 date: "2022-11-02"
 url: rocky-linux-almalinux-rhel-centos-which-is-best-for-you
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Red Hat"
   - "Distros"
   - "Homelab"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Near the end of 2020, Red Hat decided to kill CentOS as we know it—kind of. We’ll get that a bit later. But for now, let's examine Red Hat Enterprise Linux and all of the clones and forks that we have available. So, let’s get to it.

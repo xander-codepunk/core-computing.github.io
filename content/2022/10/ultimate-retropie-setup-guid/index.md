@@ -3,10 +3,8 @@ title: "The ULTIMATE RetroPie Setup Guide"
 date: "2022-10-19"
 url: ultimate-retropie-setup-guide
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -16,18 +14,6 @@ tags:
   - "RaspberryPi"
   - "Single Board Computers"
   - "Gaming"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Nothing is better than sitting back and playing some of your favorite games when you were a kid, or even better, showing the next generation some awesome games we grew up with.

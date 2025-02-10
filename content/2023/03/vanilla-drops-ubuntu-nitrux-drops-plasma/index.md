@@ -3,22 +3,13 @@ title: "VanillaOS 2.0 announced, Nitrux 2.7 released, and more!"
 date: "2023-03-09"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 This week is full of Distro news. Firstly there's the announcement of the next version of VanillaOS, which will officially drop Ubuntu to be instead based on Debian. Which, by the way, is also working on their next release, called Bookwork, and which will include Plasma 5.27. The Nitrux has released version 2.7, now offering two different flavors, ditching KDE Plasma in one of the two in favor of Maui Shell.

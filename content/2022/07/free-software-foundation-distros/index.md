@@ -3,27 +3,13 @@ title: "These Linux Distros are ACTUALLY FREE. Stallman Approved!"
 date: "2022-07-16"
 url: free-software-foundation-distros
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Distros"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Linux is open-source software; however, most Linux distributions usually include some non-free software. Whether it’s proprietary blobs or drivers for running certain types of hardware, or it’s a distribution that ships Google Chrome by default for some reason… While the core of a distribution is usually FOSS software, there are still proprietary elements on most Linux distributions. So, let’s see what running a fully open-source system is like and look at the distributions that the Free Software Foundation recommends.

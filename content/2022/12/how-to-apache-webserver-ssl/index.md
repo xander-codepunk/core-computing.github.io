@@ -3,29 +3,14 @@ title: "How to make an Apache Webserver with SSL"
 date: "2022-12-05"
 url: how-to-apache-webserver-ssl
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
-tags: ["guides", "homelab"]
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Homelab"
   - "Apache"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Creating a basic Apache web server is often the first step in your web development journey. Apache is the base requirement for many web applications and products. Better yet, you can use an Apache web server to host your self-made or generated static websites with something like HUGO.

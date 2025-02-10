@@ -3,28 +3,14 @@ title: "Microsoft Edge might WIN on Linux."
 date: "2022-05-16"
 url: microsoft-edge-might-win-on-linux
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Benchmarking"
 tags:
   - "Benchmarking"
   - "Linux"
   - "Apps"
-showToc: false
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 The time is here! A stable version of Microsoft’s Edge web browser is now available for Linux. There have been beta and developer versions for some time, but the stable release was recently spotted in the [yum repository](https://packages.microsoft.com/yumrepos/edge/?ref=techhut.tv) hosted by Microsoft. If you want to try it out, you can download the rpm package in Fedora or use the command line to upgrade to Ubuntu.

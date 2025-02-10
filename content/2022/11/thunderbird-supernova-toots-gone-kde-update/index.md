@@ -2,23 +2,13 @@
 title: "Thunderbird “Supernova” Update, Toots be gone, and more!"
 date: "2022-11-16"
 draft: false
-description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 ### Thunderbird teases “Supernova” Massive Update

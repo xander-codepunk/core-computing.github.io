@@ -3,27 +3,13 @@ title: "The Future of AI NEEDS to Deal with Copyright Laws"
 date: "2023-03-20"
 url: ai-needs-to-deal-with-copyright-laws
 draft: false
-hideSummary: false
-hidemeta: false
-# description: "what is it about" # Short discription that does above metadata/cover
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "Essay"
 tags:
   - "AI"
   - "Essay"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  alt: "Cover image for EVERYONE needs a Home Server'"
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 Featured Image by [@TheCrazedEB](https://twitter.com/TheCrazedEB/status/1604275137733353472)

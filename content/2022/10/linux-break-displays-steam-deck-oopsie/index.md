@@ -2,23 +2,13 @@
 title: "Linux Bug Could BREAK Displays, Steam Deck Oopsie, and more!"
 date: "2022-10-11"
 draft: false
-description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 Machines running an Intel GPU could face damages due to a Linux kernel bug, Valve accidentally shows something they shouldn't have, new Xbox Streaming device, and more in this edition of the Weekly!

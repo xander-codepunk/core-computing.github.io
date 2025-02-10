@@ -3,18 +3,13 @@ title: "Linux is RISING, KDE updates and more!"
 date: "2023-01-02"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 Welcome to the new year! News is lighter this go around. Feel free to share with your friends! I hope you all have a great start to the year.

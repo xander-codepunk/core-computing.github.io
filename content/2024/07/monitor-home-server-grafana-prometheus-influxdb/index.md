@@ -2,24 +2,15 @@
 title: "BEST Way to Monitor your Home Server! (Grafana, Prometheus, InfluxDB)"
 date: "2024-07-06"
 url: monitor-home-server-grafana-prometheus-influxdb
+draft: false
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Homelab"
   - "Monitoring"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Today I'll be showing you how it can actually be pretty simple to get a self hosted monitoring system set up for your home lab. The idea is to collect and visualize key data about your machines, like how much CPU, RAM, and disk capacity is being used over time.

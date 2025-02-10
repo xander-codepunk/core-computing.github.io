@@ -2,26 +2,13 @@
 title: "MAJOR Nextcloud Release, Pop!_OS Rust, and more!"
 date: "2022-10-04"
 draft: false
-description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
-draft: false
-description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 Welcome to the first newsletter! This is a roundup of the big stories that we’ve seen this week. This newsletter will grow and develop to serve the tech community as a whole. We are always open to suggestions. With that let’s get into some things that happened this week.

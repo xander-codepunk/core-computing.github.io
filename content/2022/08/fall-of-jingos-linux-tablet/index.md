@@ -6,25 +6,14 @@ draft: false
 # hideSummary: false
 hidemeta: false
 # description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Hardware"
 tags:
   - "Essay"
   - "Mobile"
   - "Linux"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 The entire Linux community was hyped about the JingPad. It was the first Linux tablet with amazing build quality, and its own flagship iPad OS-inspired distro helped, too. We could have had one of the best pieces of Linux hardware, complete with features such as [Android app support](https://forum.jingos.com/t/guide-how-to-run-android-app-on-jingpad-a1/2423?ref=techhut.tv). However, this never came to be, and the company behind it seems to be completely dead.

@@ -3,27 +3,13 @@ title: "Top 5 FAVORITE Linux Distros"
 date: "2023-03-03"
 url: top-5-favorite-linux-distros
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Distros"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 It's been a while since we over-viewed some of my top Linux distributions. Creating top lists for anything is difficult to do, as leaving out bias and opinion is near impossible. An actual top or best Linux distro list would probably have Debian at the top and include OpenSUSE, RHEL, and distributions like that. This list is my favorite Linux distributions I've used on physical hardware in the last year and find myself returning to.

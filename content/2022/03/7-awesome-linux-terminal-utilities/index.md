@@ -3,28 +3,14 @@ title: "7 Awesome Linux Terminal Utilities"
 date: "2022-03-21"
 url: 5-awesome-linux-apps-gnome-circle
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Apps"
   - "Terminal"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 The terminal comes loaded with tons of great tools you can use to help you manage your system and workflow. In the article we will list 7 tools you can add to your terminal to improve your workflow.

@@ -3,10 +3,8 @@ title: "How to Dual Boot Windows 10 and Pop!_OS (Legacy/GRUB)"
 date: "2022-09-26"
 url: dual-boot-windows-10-pop-os
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -15,18 +13,6 @@ tags:
   - "Windows"
   - "Distros"
   - "Pop!_OS"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Pop!\_OS is one of, if not the best, distributions based on Ubuntu to date. It has sparked the interest of the dedicated Linux community and new users alike. Dual-booting has helped with this! One major hesitation of the new Linux user is wiping Windows from their life completely. Luckily, this is not a necessity. In this guide, we will go over step-by-step instructions on how to install Pop!\_OS alongside Windows and update the bootloader.

@@ -3,10 +3,8 @@ title: "Installing Arch Linux the EASY WAY! – archfi Guide"
 date: "2022-09-26"
 url: installing-arch-linux-the-easy-way-archfi-guide
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Arch"
   - "Linux"
   - "Distros"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This is a simple installation script written in bash by the developer MatMoul 2. It allows you to install Arch by selecting various options and packages instead of running commands.

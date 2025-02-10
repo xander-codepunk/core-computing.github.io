@@ -3,10 +3,8 @@ title: "COSMIC might be the future of the Linux Desktop."
 date: "2024-05-26"
 url: cosmic-pre-alpha
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Desktop Enviorments"
   - "Distros"
   - "Pop!_OS"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This is my first look at the upcoming Linux desktop developed by System76. For many, desktop Linux has felt stagnant over the past year. Major distribution updates have been largely uneventful, and many distros seem to release gimmick features that aren’t particularly useful. However, there’s a fresh wind of excitement in the air with the upcoming alpha release of the Cosmic desktop environment. Here’s a dive into why Cosmic might be the breath of fresh air that desktop Linux needs.

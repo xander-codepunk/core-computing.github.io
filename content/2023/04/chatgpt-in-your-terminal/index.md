@@ -3,28 +3,14 @@ title: "ChatGPT in YOUR Terminal"
 date: "2023-04-23"
 url: chatgpt-in-your-terminal
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "AI"
   - "Terminal"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 AI and ChatGPT is possible in your Windows, macOS, and Linux terminal! In this article, we cover a small utility called tgpt that will allow you to run AI prompts in your terminal without the need for API keys.

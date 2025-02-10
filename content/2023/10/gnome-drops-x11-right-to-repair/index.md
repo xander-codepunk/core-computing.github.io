@@ -3,7 +3,8 @@ title: "GNOME to drop x11, Right to Repair, OldTechBloke, and more!"
 date: "2023-10-11"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:

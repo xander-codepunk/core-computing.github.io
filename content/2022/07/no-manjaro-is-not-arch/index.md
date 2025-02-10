@@ -3,10 +3,8 @@ title: "No, Manjaro is NOT Arch"
 date: "2022-07-23"
 url: no-manjaro-is-not-arch
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
@@ -14,19 +12,6 @@ tags:
   - "Manjaro"
   - "Distros"
   - "Arch"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
-coverImage: "arch-vs-manjaro.jpg"
 ---
 
 Many people love Manjaro as a clean and easy way to get into Arch or even Linux in general. But many people claim that Manjaro has diverted too far away from Arch to consider it. So, let’s compare both Arch and Manjaro, how they are different, and why more people might need to distinguish that Manjaro isn’t Arch. 

@@ -3,10 +3,8 @@ title: "Favorite GNOME/GTK Themes, Icons, and more!"
 date: "2022-03-21"
 url: favorite-gnome-gtk-themes-icons
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Customization"
   - "Gnome"
   - "Desktop Enviorments"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This is a list of my favorite GNOME themes, which combine the perfect combination of wallpaper, icons, and extensions. This article is a work in progress.

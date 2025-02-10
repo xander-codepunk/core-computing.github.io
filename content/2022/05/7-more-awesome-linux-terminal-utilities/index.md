@@ -3,28 +3,14 @@ title: "7 (more) AWESOME Linux Terminal CLI Applications"
 date: "2022-05-15"
 url: 7-awesome-linux-terminal-utilities
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Apps"
   - "Terminal"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 One of my favorite things to do when playing around with my Linux system is try out CLI applications. They’re just so functional and simple and provide tools to improve your computing experience. Recently I took to Twitter to ask you all what some of your favorites are. I compiled the list from all the submissions. I’ll post the Tweet below so you can browse all the replies if you’d like to.

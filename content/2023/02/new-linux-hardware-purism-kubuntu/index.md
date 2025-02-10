@@ -3,18 +3,13 @@ title: "New Linux hardware from Purism and Kubuntu, and more!"
 date: "2023-02-25"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 The first big topic is new Linux hardware available in Purisms and Kubuntu Focus stores (a Lapdock kit and a new compact computer, respectively). Then, a blogpost by the maintainer of CoreJS where he says that the current state of Open Source has been widely discussed in Linux communities. Finally, Gnome and KDE shared their latest implemented new features and redesigns.

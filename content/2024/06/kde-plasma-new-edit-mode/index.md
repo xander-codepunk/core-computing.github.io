@@ -3,22 +3,13 @@ title: "KDE Plasma 6.1 completely redesigned its Edit Mode"
 date: "2024-06-22"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 On the 18th of June KDE released Plasma 6.1; it features a **completely redesigned Edit Mode**, easier remote desktop access, persistent apps on Wayland, and **the wrong wallpaper**. You heard me right: if you update to 6.1, you will _not_ get "Reef", the wallpaper you can see in the screenshot above. Instead, you'll see the same wallpaper that 6.0 had, and it's my fault.

@@ -3,27 +3,13 @@ title: "The Death of Mozilla is the Death of the Open Web"
 date: "2022-09-25"
 url: the-death-of-mozilla-is-the-death-of-the-open-web
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Cameron Knaff
+authors:
+  - "Cameron Knauff"
 categories:
   - "Software"
 tags:
   - "Apps"
   - "Essay"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 This is a problem because one company, Google, controls every web standard used in our browsers. So, Firefox is our last hope for a non-Chromium-based browser.

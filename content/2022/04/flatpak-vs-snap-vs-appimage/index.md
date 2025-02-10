@@ -3,28 +3,14 @@ title: Flatpak vs. Snap vs. AppImage - Linux Packaging Benchmarks!
 date: 2022-04-16
 url: flatpak-vs-snap-vs-appimage
 draft: false
-hideSummary: false
-hidemeta: false
-description: Comparison of Linux packaging formats—Flatpaks, Snaps, and AppImages—highlights portability, performance, and usability. Benchmarks in Firefox, Kdenlive, GIMP, and Blender show AppImages and Flatpaks often outperform Snaps, though native package managers excel in rendering. Snaps face criticism for proprietary control and auto-updates. Performance varies, encouraging users to test formats for optimal results.
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Benchmarking"
 tags:
   - "Benchmarking"
   - "Linux"
   - "Apps"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 We will check out some of the more popular Linux packaging formats and run some benchmarks to see if there are any clear winners between them. But before we get into the actual benchmarking, we must first discuss these different packaging formats and some of their key differences.

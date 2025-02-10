@@ -3,22 +3,13 @@ title: "The future of Linux Hardware, Flathub, and more!"
 date: "2023-03-01"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 Lately, things have not been going too well for some Linux hardware companies (such as Mycroft), and even HP discontinued their Linux laptop; KDE and GNOME are joining together to raise 100.000 dollars to make Flathub _the_ "Linux App Store"; and of course, both those organizations are also working on new applications and features, as we'll see.

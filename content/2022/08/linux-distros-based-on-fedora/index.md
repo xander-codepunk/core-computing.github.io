@@ -3,28 +3,14 @@ title: "Linux Distros Based on Fedora"
 date: "2022-08-08"
 url: linux-distros-based-on-fedora
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Fedora"
   - "Distros"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 A few weeks ago, I made a YouTube video on risiOS, and a lot of people were surprised that it was Fedora-based because most distros are based on either Debian, Ubuntu, or Arch. Well, there are quite a few other distributions based on Fedora, so let’s go through some of them, specifically the ones mentioned on Fedora’s list of Fedora remixes wiki page.

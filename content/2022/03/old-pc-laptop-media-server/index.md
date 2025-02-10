@@ -3,28 +3,14 @@ title: "Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)"
 date: "2022-03-21"
 url: old-pc-laptop-media-server
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Homelab"
   - "PLEX"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 If you have an old or cheap computer lying around, you should put it to work and create a nice home media server. In this video, we will use Ubuntu server 20.04 and PLEX to stream media easily throughout your home and even when you’re out on the go. Once you have everything set up, you’re not just limited to media. You can use this to run Nextcloud or any other server application.

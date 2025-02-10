@@ -3,9 +3,6 @@ title: "7 Docker Basics for Beginners"
 date: "2024-02-06"
 url: 7-docker-basics-for-beginners
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
 authors:
   - "Brandon Hopkins"
   - "Scott Yeager"
@@ -14,18 +11,6 @@ categories:
 tags:
   - "Guides"
   - "Linux"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 If you've been following recent videos on TechHut, you probably know we're big Docker fans. Whether it's media servers, analytic tools, web services, or download clients, most applications demoed on the channel are running in Docker containers. In this post, we'll go over the why, the how, and some of the basics you need to know to start using Docker and implementing it in your network.

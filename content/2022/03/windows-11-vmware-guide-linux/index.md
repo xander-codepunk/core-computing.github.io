@@ -3,10 +3,8 @@ title: "Perfect Windows 11 Virtual Machine on Linux (VMware Guide)"
 date: "2022-03-11"
 url: windows-11-vmware-guide-linux
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Windows"
   - "Linux"
   - "Virtualization"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 In this guide, we will cover how to set up a Windows 11 guest virtual machine on our Linux host. We’ll do this in VMware, as it provides better graphics performance for gaming and creative applications. This also won’t require GPU passthrough to get decent performance. Learn more about VMware graphics options [here](https://techzone.vmware.com/resource/deploying-hardware-accelerated-graphics-vmware-horizon-7?ref=techhut.tv).

@@ -2,23 +2,13 @@
 title: "Ubuntu 22.10, PolyMC Collapses,  Windows NVIDIA pain, and more!"
 date: "2022-10-24"
 draft: false
-description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 Lots of interesting things over the last two weeks.  We have some major releases, applications going open source, some more Xbox news and more. This is our 3rd edition and talk you all so much for being apart of this. We are almost at 200 subscribers so make sure you share this with your friends!

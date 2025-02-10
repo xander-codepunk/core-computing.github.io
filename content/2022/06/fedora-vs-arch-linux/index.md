@@ -3,10 +3,8 @@ title: "Fedora vs Arch Linux - Battle of the Best!"
 date: "2022-06-11"
 url: fedora-vs-arch-linux
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
@@ -14,18 +12,6 @@ tags:
   - "Arch"
   - "Distros"
   - "Fedora"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Today we are going to be taking a look at, Fedora and Arch Linux. Specifically we will look at some of the main differences between them, as Fedora and some Arch-based Linux distribution seems to be where I always end up when trying to pick a distro.

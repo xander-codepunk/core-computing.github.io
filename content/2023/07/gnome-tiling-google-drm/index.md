@@ -3,22 +3,13 @@ title: "GNOME will get native Tiling, Google wants to DRM the Internet, and more
 date: "2023-07-26"
 draft: false
 description: "This is an archive news post feature tech, Linux, and other open-source news. This is an older article that was part of a migration. There will be missing images, broken links, and potentially other issues."
-author: Niccolo Venerandi
+authors:
+  - "Niccolo Venerandi"
 categories:
   - "News"
 tags:
   - "News"
   - "Archive"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.png"
-  relative: false
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/tree/main/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 
 This newsletter will only cover three stories, but each of them is quite interesting and took some time to research. Firstly, today is the first day of GUADEC, which is similar to last week's Akademy but for GNOME. Then, we have an API proposal to Chromium that might be quite risky for the future of the internet. Finally, we get back to the Cyber Resilience Act, which has been approved by an EU Committee. Let's get started!

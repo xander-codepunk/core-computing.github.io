@@ -3,27 +3,13 @@ title: "Zen browser is making me DITCH Microsoft Edge"
 date: "2024-08-29"
 url: zen-browser-better-firefox
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Apps"
   - "Essay"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 For over a year I have been using Microsoft Edge. In [my testing](https://techhut.tv/microsoft-edge-might-win-on-linux/) it is the most performant browser ranked against many others and with the integration of ChatGPT and many other helpful features I just stuck with the Windows default. A few weeks ago, I started using Firefox off and on, but it just doesn't feel like the best workspace to be in. I love the Firefox engine, but the user interface just isn't it for me. Then I stumbled on [this video by Theo](https://www.youtube.com/watch?v=tKM2N4TQHQY) that introduced me to Zen.

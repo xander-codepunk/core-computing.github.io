@@ -3,10 +3,8 @@ title: "NixOS - The New Best Server OS?"
 date: "2024-06-13"
 url: nixos-best-server-os-setup
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
@@ -15,18 +13,6 @@ tags:
   - "Linux"
   - "Distros"
   - "NixOS"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 NixOS is a Linux distribution based on the Nix package manager. Nix has been trending lately so there's a good chance you've heard of it. But if you went to do some research about Nix you might have gotten a bit lost in concepts like dependency trees and the Nix programming language.

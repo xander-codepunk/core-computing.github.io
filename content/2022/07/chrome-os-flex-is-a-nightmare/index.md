@@ -3,28 +3,14 @@ title: "Chrome OS Flex is a NIGHTMARE!"
 date: "2022-07-15"
 url: chrome-os-flex-is-a-nightmare
 draft: false
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Software"
 tags:
   - "Linux"
   - "Apps"
   - "Essay"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 Chrome OS Flex is a way to run Chrome OS on almost any computer you would like, even if it isn’t a Chromebook. What we’ll be going through is the pros and cons, the installation process, and my personal experience with it, as I’ve been playing around with Chrome OS Flex on all the devices I have available to me. 
