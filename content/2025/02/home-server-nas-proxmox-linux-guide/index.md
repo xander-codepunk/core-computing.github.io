@@ -2,28 +2,14 @@
 title: "Create an AWESOME Home Server/NAS with Proxmox"
 date: "2025-02-03"
 draft: true
-# hideSummary: false
-hidemeta: false
-# description:
-author: Brandon Hopkins
+authors:
+  - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Proxmox"
   - "Homelab"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 Yes, Proxmox has a great operating system that can run your NAS and host many other services. I’ve decided to do a complete walkthrough of building my new media server. This guide will focus on installing Proxmox and a 4-bay NAS and spinning up various services to have a complete home lab experience. This article will be a companion for the part 1 walkthrough video focusing on creating a ZFS pool and setting up network shares.
 

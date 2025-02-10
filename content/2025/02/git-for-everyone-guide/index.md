@@ -3,10 +3,7 @@ title: 'Git for Everyone'
 date: '2025-02-03T16:40:55-08:00'
 url: git-for-everyone-guide
 draft: false
-hideSummary: false
-hidemeta: false
-# description: "what is it about" # Short discription that does above metadata/cover
-author:
+authors:
   - "Scott Yeager"
 categories:
   - "Guides"
@@ -14,15 +11,6 @@ tags:
   - "Git"
   - "Guides"
   - "Github"
-cover:
-  image: "cover.jpg"
-  alt: "Cover image for Git for Everyone Guide"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 In the software development world, Git has become the default choice for a version control system and most professional programmers use it every day. It’s not just used for handling source code though, but also configuration files, documentation, images, and more. That means that even if you never touch source code, there are still plenty of useful reasons to learn some Git basics.
 

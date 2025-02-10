@@ -3,25 +3,13 @@ title: "the OFFICIAL Windows (lite) from Microsoft"
 date: "2025-02-03"
 url: windows-lite-ltsc-microsoft
 draft: false
-hidemeta: false
-# description:
-author:
+authors:
   - "Brandon Hopkins"
 categories:
   - "Guides"
 tags:
   - "Guides"
   - "Windows"
-cover:
-  image: "cover.jpg"
-  # alt: "Icons of the popular linux packaging formats with graph."
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
 ---
 
 You may have seen one of those Lightweight Windows ISOs out there such as Tiny 11, and AtlasOS. These are custom Windows ISOs that debloat Windows, remove things like Windows 11’s ads and copilot, take up less disk space, RAM, and system resources, So, these custom ISOs like Tiny11 are becoming relatively popular.

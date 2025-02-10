@@ -3,26 +3,13 @@ title: 'EVERYONE needs a Home Server'
 date: '2025-02-01'
 url: 5-reasons-build-home-server
 draft: false
-hidemeta: false
-author:
+authors:
   - "Cameron Knauff"
 categories:
   - "Essay"
 tags:
   - "Homelab"
   - "Essay"
-showToc: true
-UseHugoToc: false
-cover:
-  image: "cover.jpg"
-  alt: "Cover image for EVERYONE needs a Home Server'"
-  # caption: "text"
-  relative: false # used in hugo Page-bundles
-  responsiveImages: false
-editPost:
-  URL: "https://github.com/TechHutTV/techhut.tv/content"
-  Text: "Suggest Changes"
-  appendFilePath: true
 ---
 # Why on Earth Would You Need a Home Server?
 
