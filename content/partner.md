@@ -9,7 +9,43 @@ We are committed to delivering fun, engaging, and consumer-centric social media 
 
 Our flagship channel brings detailed guides, tutorials, product reviews and more! We’re tech enthusiasts, hardware admirers, home lab builders, open-source advocates, and overall geeks.
 
-See the charts below. For updated and historical data, please refer to [SocialBlade](https://socialblade.com/youtube/user/techhutus).
+See the data below. For updated and historical data, please refer to [SocialBlade](https://socialblade.com/youtube/user/techhutus).
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['13-17', '18-24', '25-34', '35-44', '45-54', '55+'],
+  datasets: [{
+    label: 'Age distribution',
+    data: [1.4, 27.3, 33.6, 19.6, 10.1, 7.9],
+    backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 159, 64, 0.2)',
+          'rgba(255, 205, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+    ],
+    borderColor: [
+          'rgb(255, 99, 132)',
+          'rgb(255, 159, 64)',
+          'rgb(255, 205, 86)',
+          'rgb(75, 192, 192)',
+          'rgb(54, 162, 235)',
+          'rgb(153, 102, 255)',
+    ],
+  }]
+}
+{{< /chart >}}
+
+| Geography      | Views (Last 28 days) | Percent of Total |  Watch time (hours) | Watch time percent |
+| -------------- | -------------------- | ---------------- | ------------------- | ------------------ |
+| `Total`        | 906,664              |                  | 52,781.3            |                    |
+| __United States__  | __248,890__      | __27.4%__        | __16,274.0__        | __30.8%__          |
+| Canada         | 52,624               | 5.8%             | 3,182.3             | 6.0%               |
+| India          | 50,464               | 5.6%             | 2,132.4             | 4.0%               |
+| United Kingdom | 46,863               | 5.2%             | 2,970.2             | 5.6%               |
+| Germany        | 44,771               | 4.9%             | 2,687.5             | 5.1%               |
 
 ## ✅ Basic Requirements
 

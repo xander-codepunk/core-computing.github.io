@@ -17,64 +17,70 @@ weight = 10
 url = "/categories"
 
 [[main]]
-pre = "globe-hemisphere-east"
 name = "Benchmarking"
 parent = "Categories"
 weight = 11
 url = "/categories/benchmarking"
 
 [[main]]
-pre = "android-logo"
 name = "Essay"
 parent = "Categories"
 weight = 12
 url = "/categories/essay"
 
 [[main]]
-pre = "sidebar"
 name = "Guides"
 parent = "Categories"
 weight = 13
 url = "/categories/guides"
 
 [[main]]
-pre = "sidebar"
 name = "Hardware"
 parent = "Categories"
 weight = 14
 url = "/categories/hardware"
 
 [[main]]
-pre = "sidebar"
 name = "News"
 parent = "Categories"
 weight = 15
 url = "/categories/news"
 
 [[main]]
-pre = "sidebar"
 name = "Software"
 parent = "Categories"
 weight = 16
 url = "/categories/software"
 
 [[main]]
-pre = "newspaper-clipping"
-name = "Tags"
+pre = "option"
+name = "Team"
+weight = 19
+url = "/team"
+
+[[main]]
+pre = "heart"
+name = "Partner"
 weight = 20
-url = "/tags"
+url = "/partner"
+
+[[main]]
+identifier = "youtube"
+pre = "youtube"
+url = "https://youtube.com/@techhut"
+weight = 30
 
 [[main]]
 identifier = "github"
 pre = "github"
 url = "https://github.com/TechHutTV"
-weight = 25
+weight = 40
 
 [[main]]
 identifier = "twitter"
 pre = "twitter"
 url = "https://x.com/techhuttv"
-weight = 30
+weight = 50
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
