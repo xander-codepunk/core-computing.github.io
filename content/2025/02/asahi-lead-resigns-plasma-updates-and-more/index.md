@@ -21,17 +21,17 @@ Last Tuesday, KDE has released version 6.3 of Plasma. It's always special to tal
 
 One of the new goodies is panel cloning (and, as I hinted above, it was implemented by none other than myself!). The feature is simple: it allows you to copy all panel settings and applet to a new panel instance . The idea is to make it a bit easier to set up newly connected monitors, and it finally satisfies a feature request that was created five years ago.
 
-![](images/cloning_panels_cc.webm)
+{{< video src="images/cloning_panels_cc.webm" controls="yes" >}}
 _Here's how you can clone an image [source](https://kde.org/announcements/plasma/6/6.3.0/)_
 
 If I may indulge in a quick behind-the-scenes, panel cloning was implemented during an August 2024 vacation in the beautiful beaches of Dugi Otok. But I'm getting side-tracked: another major revamp is a complete redesign of the drawing tablets KCM (System Settings module). This only affects the few (lucky) owners and users of drawing tablets, but we should nonetheless all appreciate the gorgeous design that was the result of this work:
 
-![](images/tablet_config_cc.webm)
+{{< video src="images/tablet_config_cc.webm" controls="yes" >}}
 _The design of the new drawing tablet KCM [source](https://kde.org/announcements/plasma/6/6.3.0/)_
 
 Feature-wise, the new page allows you to map an area of the drawing tablet to the entire screen, customize pen sensitivity by directly manipulating its graph, re-map all stylus and tablet buttons, and more. Thirdly, as a further gift to designers and artists, 6.3 brings a pixel grid to the zoom effect:
 
-![](images/kwin-zoom_cc.webm)
+{{< video src="images/kwin-zoom_cc.webm" controls="yes" >}}
 _The new zoom effect displays a pixel grid [source](https://kde.org/announcements/plasma/6/6.3.0/)_
 
 Though this might not seem game-changing at first, I can assure you that it makes my job - Plasma development - easier, as often (fair enough, not _that_ often!) I have to debug off-by-one pixel alignments that are almost invisible to the naked eye.
