@@ -32,7 +32,7 @@ Starting with the traditional boot speed test, I started as soon as my finger wa
 ## Reboot Speed Test
 I personal find myself rebooting more than shutting them down. So starting when I clicked on restart, Ubuntu took 29 seconds to reboot, Windows booting at 31 seconds and macOS taking 36 seconds. I was surprised macOS didn't beat either operating system for the boot or reboot speed test, especially cause it's on Apple hardware.
 
-{{< video src="images/2_reboot_speed.mp4" controls="yes" >}}
+{{< video src="images/2_reboot-speed.mp4" controls="yes" >}}
 
 | Battery Life | Boot  | Reboot |
 | ------------ | ----- | ------ |
