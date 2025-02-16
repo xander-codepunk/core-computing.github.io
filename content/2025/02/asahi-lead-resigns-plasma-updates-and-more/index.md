@@ -79,4 +79,4 @@ This comes merely a week after Hector Martin tried to bring more attention to th
 
 > How about you accept the fact that maybe the problem is you.
 
-__Checkout the full article: [https://www.phoronix.com/news/Hector-Martin-Resigns-Asahi]__
+__Checkout the full article: [source](https://www.phoronix.com/news/Hector-Martin-Resigns-Asahi)__
