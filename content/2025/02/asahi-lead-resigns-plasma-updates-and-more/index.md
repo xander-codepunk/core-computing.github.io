@@ -38,11 +38,11 @@ Though this might not seem game-changing at first, I can assure you that it make
 
 The design of desktop applets also improves, as they are now transparent and blur the desktop behind, Kickoff does not switch categories when hovering them anymore (though there's an option to bring the old behavior back), and you can fully customize the icons used in its sidebar.
 
-__Checkout the full announcement: [https://kde.org/announcements/plasma/6/6.3.0/]__
+__Checkout the full announcement: [source](https://kde.org/announcements/plasma/6/6.3.0/)__
 
 There's more to say, but if I allow myself to continue to talk about Plasma I might do so for the full newsletter (or more!). I will however stall for a further paragraph as I'd like to mention that developer Arjen has published a blogpost named _Moving KDE's styling into the future_. It contains a brief explaination of the _Union_ project, which might become the new theming engine that powers all of KDE's customization. It's a great read!
 
-__Checkout the full blogpost: [https://quantumproductions.info/articles/2025-02/moving-kdes-styling-future]__
+__Checkout the full blogpost: [source](https://quantumproductions.info/articles/2025-02/moving-kdes-styling-future)__
 
 ## GNOME lands triple buffering, revamps website
 
@@ -52,7 +52,7 @@ I shall now cover GNOME 48, even if to avoid any impartiality accusation. I'm ha
 
 Talk about a performance improvement! Work had started on this more than four years ago, and the reviewers claim that the improvements are "simply amazing". It's worth mentioning that GNOME 48 also includes "initial bits of HDR", a new default font, many improved applications and more.
 
-__Checkout the full article: [https://www.phoronix.com/news/GNOME-48-Triple-Buffering]__
+__Checkout the full article: [source](https://www.phoronix.com/news/GNOME-48-Triple-Buffering)__
 
 Since we're covering GNOME, it would be criminal not to mention the splendid work done to revamp their default website.
 
@@ -61,7 +61,7 @@ _The new GNOME website_
 
 There's not much to say here except that it is a significant improvement compared to the previous one; though, I only now noticed that they dropped the "foot" logo from their branding!
 
-__Checkout the new site: [https://www.gnome.org/]__
+__Checkout the new site: [source](https://www.gnome.org/)__
 
 ## Asahi Linux project lead resigns
 
