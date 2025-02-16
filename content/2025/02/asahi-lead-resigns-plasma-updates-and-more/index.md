@@ -80,3 +80,7 @@ This comes merely a week after Hector Martin tried to bring more attention to th
 > How about you accept the fact that maybe the problem is you.
 
 __Checkout the full article: [source](https://www.phoronix.com/news/Hector-Martin-Resigns-Asahi)__
+__Also see the full resigniation post: [here](https://marcan.st/2025/02/resigning-as-asahi-linux-project-lead/)__
+
+Editors Note: Checkout the [discussions](https://www.phoronix.com/forums/forum/phoronix/general-discussion/1526426-hector-martin-resigns-from-the-asahi-linux-project) around this for various opinions and user comments. - Brandon Hopkins
+
