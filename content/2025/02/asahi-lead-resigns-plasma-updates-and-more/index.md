@@ -2,7 +2,7 @@
 title: "Asahi Linux Project Lead Resigns, Plasma 6.3, and more!"
 date: "2025-02-16"
 draft: false
-url: asahi-lead-resigns-plasma-updates-and-more
+# url: asahi-lead-resigns-plasma-updates-and-more
 authors:
   - "Niccolo Venerandi"
 categories:
