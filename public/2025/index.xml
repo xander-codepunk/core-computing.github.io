@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copy, _right?_</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/2025/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/2025/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linus ends the Rust for Linux drama, COSMIC Alpha 6 released, and more!</title>
+      <link>http://localhost:1313/2025/02/linus-rust-drama-cosmic-alpha/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2025/02/linus-rust-drama-cosmic-alpha/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/2025/02/linus-rust-drama-cosmic-alpha/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Asahi Linux Project Lead Resigns, Plasma 6.3, and more!</title>
+      <link>http://localhost:1313/2025/02/asahi-lead-resigns-plasma-updates-and-more/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2025/02/asahi-lead-resigns-plasma-updates-and-more/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/2025/02/asahi-lead-resigns-plasma-updates-and-more/cover.png" />
+    </item>
+    
+    <item>
+      <title>Benchmarking Linux, Mac AND Windows on a 2019 MacBook Pro</title>
+      <link>http://localhost:1313/linux-mac-windows-benchmarking/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux-mac-windows-benchmarking/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/linux-mac-windows-benchmarking/cover.webp" />
+    </item>
     
     <item>
       <title>Self-Host with Immich!</title>

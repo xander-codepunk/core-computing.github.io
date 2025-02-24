@@ -1,7 +1,7 @@
 ---
-title: "Linus ends the Rust for Linux drama, COSMIC Alpha 6 released, and more!"
-date: "2025-02-24"
-draft: true
+title: 'Linus ends the Rust for Linux drama, COSMIC Alpha 6 released, and more!'
+date: '2025-02-24'
+draft: false
 authors:
   - "Niccolo Venerandi"
 categories:
@@ -14,11 +14,13 @@ tags:
   - "Linux"
 ---
 
+Linus supports Rust in Linux development; COSMIC Alpha 6 adds features like zooming and snapping windows; OBS faces a potential threat from Fedora but resolved it effectively; GNOME may phase out its foot logo based on Cassidy's article; PewDiePie highlights Linux Mint in his video, while the Pomera D250 offers a minimalist writing device. Additionally, minor updates from KDE and GNOME reflect ongoing efforts to enhance their platforms. Lastly, a fun fact about a minor planet named Linux adds an quirky touch to tech lore.
+
 ## Linus Torvalds defends Rust for Linux
 
 Firstly, I believe you deserve an update on last week's story about Hector Martin. After he resigned from the Asahi Linux project to preserve his mental health, a new Linux kernel mailing list thread emerged about the R4L project, by Miguel Ojeda.
 
-![](images/01_kernal-mail-list.png)
+![](images/01_kernel-mail-list.png)
 _The new Linux kernel mailing list thread_
 
 He has published a page about the policies around using Rust in the Linux kernel. This covers many frequently asked questions, such as "Is there support from Linux maintainers for the R4L project?" (yes), "Will Rust be extra work for Linux maintainers?" (also yes), "Is R4L driven forward by the Rust community?" (no).
@@ -26,7 +28,7 @@ He has published a page about the policies around using Rust in the Linux kernel
 ![](images/02_rust-kernel-policy.png)
 _The beginning of the Rust kernel policy_
 
-As it was quickly pointed out by developer Hellwig, who is vocally against R4L, this policy webpage resides on the `rust-for-linux.com` website and has not been agreed upon by any non-R4L maintainer.
+As it was quickly pointed out by developer Hellwig, who is vocally against R4L, this policy webpage resides on the [rust-for-linux.com](rust-for-linux.com) website and has not been agreed upon by any non-R4L maintainer.
 
 He also claimed that the policy contains incorrect information, such as the fact that "some subsystems may decide they do not want to have Rust code for the
 time being, typically for bandwidth reasons. This is fine and expected". He then claimed that Linus has privately said that he would merge Rust code even if the maintainer objects, rendering the sentence untrue.
@@ -82,7 +84,7 @@ COSMIC also introduces window snapping, which they call "Floating windows gravit
 ![](images/09_cosmic-launcher.jpg)
 _I count 10!_
 
-__Checkout the full blogpost: [source](https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward)
+__Checkout the full blogpost: [source](https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward)__
 
 ## OBS threat to sue Fedora retracted
 
@@ -107,7 +109,7 @@ _Proposal of The Upstream First Act_
 
 Nonetheless, the debate sparked much drama. The Fedora Project Leader, Matthew Miller, was interviewed by Brodie Robertson; during the interview, he said that Fedora Flatpaks are necessary since Flathub apps are _barely_ reviewed and are more insecure or less standardized compared to what they offer. This is not entirely true, and the interview did not sit well with everyone. As an example, [a blogpost](https://blogs.gnome.org/alatiera/author/jpetridis/) was published on GNOME blogs by Jordan Petridis called "The Fedora Project Leader is willfully ignorant about Flathub".
 
-__Checkout the GitLab thread: [source](https://gitlab.com/fedora/sigs/flatpak/fedora-flatpaks/-/issues/39?ref=news.itsfoss.com)
+__Checkout the GitLab thread: [source](https://gitlab.com/fedora/sigs/flatpak/fedora-flatpaks/-/issues/39?ref=news.itsfoss.com)__
 
 ## Cassidy wants to get rid of the GNOME foot logo
 
@@ -120,7 +122,7 @@ As an example, the complaints are that it does not convey anything about the pro
 
 Cassidy proposes to phase out the usage of the current logo, commission a designer to create a new one and immortalize the foot as a _mascot_, as a bit of an easter egg.
 
-__Checkout the full article here: [source](https://cassidyjames.com/blog/gnome-foot-logo-rebrand/)
+__Checkout the full article here: [source](https://cassidyjames.com/blog/gnome-foot-logo-rebrand/)__
 
 ## A Few Goodies
 
@@ -131,7 +133,7 @@ _Yes, it's Mint!_
 
 This is solid proof that Linux eventually wins everyone over.
 
-__Checkout the video: [source](https://youtu.be/tsu0Rw3Nqi8)
+__Checkout the video: [source](https://youtu.be/tsu0Rw3Nqi8)__
 
 If you like distraction-free writing devices, I have seen a few people positively review the "Pomera D250", which has a keyboard and a screen to display what you're writing -- that's it.
 
@@ -140,19 +142,19 @@ _It's pretty barebone, but that's the whole point_
 
 It has just become available internationally, which is why I'm mentioning it.
 
-__Checkout the full article: [source](https://www.theverge.com/news/615854/king-jim-pomera-d250us-distraction-free-writing-tool)
+__Checkout the full article: [source](https://www.theverge.com/news/615854/king-jim-pomera-d250us-distraction-free-writing-tool)__
 
 Finally, both KDE and GNOME published their weekly "What's up this week?" blogposts. Neither contains breathtaking new features, but if you use either desktop environment, you might want to read the corresponding one:
 
-__Checkout the full KDE Plasma article: [source](https://blogs.kde.org/2025/02/22/this-week-in-plasma-refinements-all-around/)
+__Checkout the full KDE Plasma article: [source](https://blogs.kde.org/2025/02/22/this-week-in-plasma-refinements-all-around/)__
 
-__Checkout the full GNOME article: [source](https://thisweek.gnome.org/posts/2025/02/twig-188)
+__Checkout the full GNOME article: [source](https://thisweek.gnome.org/posts/2025/02/twig-188)__
 
 Finally, did you know there's a minor planet called Linux?
 
 ![](16_linux-in-space.jpeg)
-_Maybe it's inhabited by penguins!__
+_Maybe it's inhabited by penguins!_
 
-__Checkout the full Reddit thread: [source](https://www.reddit.com/r/linux/comments/1iq5p1p/til_there_is_a_minorplanet_called_linux/)
+__Checkout the full Reddit thread: [source](https://www.reddit.com/r/linux/comments/1iq5p1p/til_there_is_a_minorplanet_called_linux/)__
 
 __Cover image by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linus_Torvalds_at_the_Annual_Meeting_of_the_New_Champions_in_Tianjin,_China_2012.jpg)__
