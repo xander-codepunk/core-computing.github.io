@@ -1,8 +1,7 @@
 ---
 title: "Linus ends the Rust for Linux drama, COSMIC Alpha 6 released, and more!"
-date: "2025-02-23"
+date: "2025-02-24"
 draft: true
-# url: linus-rust-drama-cosmic-alpha
 authors:
   - "Niccolo Venerandi"
 categories:
