@@ -150,11 +150,12 @@ __Checkout the full KDE Plasma article: [source](https://blogs.kde.org/2025/02/2
 
 __Checkout the full GNOME article: [source](https://thisweek.gnome.org/posts/2025/02/twig-188)__
 
-Finally, did you know there's a minor planet called Linux?
+Finally, did you know there's a minor planet called Linux? Discovered 1994 Oct. 12 by Spacewatch at Kitt Peak.
 
-![](16_linux-in-space.jpeg)
+![](images/16_linux-in-space-nasa.jpg)
+
 _Maybe it's inhabited by penguins!_
 
-__Checkout the full Reddit thread: [source](https://www.reddit.com/r/linux/comments/1iq5p1p/til_there_is_a_minorplanet_called_linux/)__
+__Checkout on NASA!: [source](https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=9885%20Linux&view=VOP)__
 
 __Cover image by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linus_Torvalds_at_the_Annual_Meeting_of_the_New_Champions_in_Tianjin,_China_2012.jpg)__
