@@ -55,8 +55,6 @@ sudo systemctl status prometheus-node-exporter
 
 As an aside, you might be wondering why we're using a system package for the node exporter while using Docker containers for the rest. While it's true that the node exporter can run inside a container too, doing so limits the visibility it has into the system's resources, particularly disk space. Using a system package is the simplest way to ensure that all the data is available.
 
-![](images/android-chrome-192x192.png)
-
 ### Monitoring Linux host metrics with the Node Exporter | Prometheus
 
 An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.
@@ -201,7 +199,6 @@ nano prometheus/prometheus.yml
 
 This file already contains some default values, mostly notably a default global scraping interval of 15 seconds. That means that you would get a data point from each machine you are monitoring every 15 seconds.
 
-.stk-372b0ea{margin-bottom:0px !important}
 
 ```
 global:
@@ -211,10 +208,6 @@ global:
 ```
 
 This is a reasonable default, but you can edit it if you like. Just note that if you do change the interval, it's important that you also set the same interval inside the Grafana interface later. So, keep that in mind and we'll see where to do it in just a bit.
-
-.stk-c13962b{margin-bottom:0px !important}
-
-@media screen and (min-width:768px){.stk-54ca266{flex:var(--stk-flex-grow,1) 1 calc(50% - var(--stk-column-gap,0px) \* 1 / 2 ) !important}}
 
 ```
 alerting:
@@ -226,11 +219,7 @@ alerting:
     api_version: v1
 ```
 
-@media screen and (min-width:768px){.stk-5ca674f{flex:var(--stk-flex-grow,1) 1 calc(50% - var(--stk-column-gap,0px) \* 1 / 2 ) !important}}
-
 After the global settings section at the top, there's an alerts section. Prometheus has the ability to trigger alerts, for example if a disk is getting too full, and actually Grafana has its own separate alerts feature as well. We won't get into that aspect for this tutorial though and so we can leave that part of the config alone.
-
-.stk-b80397f{margin-bottom:0px !important}
 
 ```
 scrape_configs:
@@ -272,19 +261,11 @@ There's also a datasource.yml in the `grafana` folder. We don't need to make any
 
 ## Starting the Services
 
-.stk-147acba{margin-bottom:0px !important}
-
 That concludes the initial config file changes that we need to do. At this point we're ready to start up the containers and connect to our new services. Just make a note of whichever is present on your system and substitute the right form in the commands below if needed. To start the deployment run this:
-
-.stk-ded6301{margin-bottom:0px !important}.stk-ded6301-column{row-gap:0px !important}
-
-@media screen and (min-width:768px){.stk-1f75796{flex:var(--stk-flex-grow,1) 1 calc(46.4% - var(--stk-column-gap,0px) \* 1 / 2 ) !important}}
 
 ```
 docker compose up -d
 ```
-
-@media screen and (min-width:768px){.stk-57258cc{flex:var(--stk-flex-grow,1) 1 calc(53.6% - var(--stk-column-gap,0px) \* 1 / 2 ) !important}}
 
 The `-d` flag here instructs Docker to run the deployment in the background and not print all the logs directly to the screen.
 
@@ -371,8 +352,6 @@ docker compose restart
 ##### Docker Compose Tips
 
 Also, here are a couple quick tips for managing this deployment with Docker compose. If you ever want to bring the deployment down for any reason, use the down command.If you are having issue and want to view the logs from both the Grafana and Prometheus containers, run the logs command.
-
-.stk-c78fa4c{margin-bottom:0px !important}
 
 ```
 docker compose down
