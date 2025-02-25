@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copy, _right?_</copyright>
-    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/brandon-hopkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/brandon-hopkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>5 AWESOME Open Source Apps that I use Everyday</title>
+      <link>http://localhost:1313/5-awesome-open-source-apps/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/5-awesome-open-source-apps/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/5-awesome-open-source-apps/cover.jpg" />
+    </item>
     
     <item>
       <title>Benchmarking Linux, Mac AND Windows on a 2019 MacBook Pro</title>

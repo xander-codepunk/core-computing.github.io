@@ -12,17 +12,15 @@ tags:
   - "Linux"
   - "Terminal"
 ---
-# Zen Browser
+## [Zen Browser](https://zen-browser.app/)
 
-The **Zen Web Browser** is a customisable browser built on Firefox's engine, offering a lightweight and fast experience without compromising privacy or security. It’s designed to be more intuitive than other browsers like Chrome or Firefox by providing **Zen Mods**, which are highly customisable addons tailored to individual needs—often surpassing the functionality of generic browser extensions.
+The Zen Web Browser is a customisable browser built on Firefox's engine, offering a lightweight and fast experience without compromising privacy or security. It’s designed to be more intuitive than other browsers like Chrome or Firefox by providing Zen Mods, which are highly customisable addons tailored to individual needs—often surpassing the functionality of generic browser extensions.
 
 ![](/images/1_zen-browser.png)
 
-Zen Mods focus on productivity and user satisfaction while maintaining Firefox's core privacy features, such as built-in trackers removal and advanced ad-blocker capabilities. For more information, you can visit the [main website](https://www.zenwebbrowser.com) or explore the [documentation page](https://docs.zenwebbrowser.com) to learn about the various **Zen Mods** available.
+Zen Mods focus on productivity and user satisfaction while maintaining Firefox's core privacy features, such as built-in trackers removal and advanced ad-blocker capabilities. For more information, you can visit the [main website](https://www.zenwebbrowser.com) or explore the [documentation page](https://docs.zenwebbrowser.com) to learn about the various Zen Mods available.
 
-**Learn more [here](https://zen-browser.app/).**
-
- # Zed Code Editor
+## [Zed Code Editor](https://zed.dev/)
 
  The ZedCode Editor is an efficient and minimalist integrated development environment (IDE). Its sleek interface offers a distraction-free experience, making it ideal for developers prioritizing simplicity.
 
@@ -37,49 +35,47 @@ Zen Mods focus on productivity and user satisfaction while maintaining Firefox's
  - Transparency: Being open-source ensures trustworthiness and adaptability.
 
  **Cons:**
- - **Minimalist Aesthetic:** Might be overwhelming for those seeking a richer interface.
- - **Customization Limitations:** While plugins exist, flexibility might not match established IDEs like VS Code.
- - **Potential Bottlenecks in Complexity:** Users with larger projects or complex codebases may find it less powerful than other editors.
+ - Minimalist Aesthetic: Might be overwhelming for those seeking a richer interface.
+ - Customization Limitations: While plugins exist, flexibility might not match established IDEs like VS Code.
+ - Potential Bottlenecks in Complexity: Users with larger projects or complex codebases may find it less powerful than other editors.
 
- **Learn more [here](https://zed.dev/).**
+## [Tabby Terminal Emulator](https://tabby.sh/)
 
-# Tabby Terminal Emulator
+Tabby is an open-source terminal emulator built with Electron. It excels in supporting multiple terminal sessions and connects to remote servers via SSH with profiles and an ecrypted vault. Runs on Windows, Mac and Linux
 
- Tabby is an open-source terminal emulator built with Electron. It excels in supporting multiple terminal sessions and connects to remote servers via SSH with profiles and an ecrypted vault.
- Runs on Windows, Mac and Linux
+![](/images/3_tabby-terminal.png)
 
- ![](/images/3_tabby-terminal.png)
+**Key Features:**
+- Integrated SSH client with a connection manager.
+- PowerShell, PS Core, WSL, Git-Bash, Cygwin, Cmder and CMD support.
+- Full Unicode support including double-width characters.
+- File transfer from/to SSH sessions via SFTP and Zmodem.
+- Theming and color schemes.
+- Fully configurable shortcuts and multi-chord shortcuts.
+- Remembers your tabs and split panes.
+- Integrated encrypted container for SSH secrets and configuration.
 
- **Key Feature:**
-- Integrated SSH client with a connection manager
-- Integrated serial terminal
-- PowerShell, PS Core, WSL, Git-Bash, Cygwin, Cmder and CMD support
-- Full Unicode support including double-width characters
-- File transfer from/to SSH sessions via SFTP and Zmodem
-- Theming and color schemes
-- Fully configurable shortcuts and multi-chord shortcuts
-- Remembers your tabs and split panes
-- Proper shell experience on Windows including tab completion
-- Integrated encrypted container for SSH secrets and configuration
-
-**Learn more [here](https://tabby.sh/).**
-
-# Cider for Apple Music
+## [Cider for Apple Music](https://cider.sh/)
 
 Cider is a high-performance cross-platform music player built on Vue.js for Apple Music, designed with modern aesthetics and functionality in mind. It seamlessly integrates with services like Discord, Last.fm, Spotify, and more, offering features such as spatialization, an advanced audio processor, and customizable controls. Cider boasts native backends for Windows, macOS, and Linux, ensuring smooth performance across platforms. Its intuitive interface and robust plugin system allow users to tailor their experience, while its remote control is anticipated for convenience. Reviews highlight Cider's superior performance compared to traditional apps like iTunes and its sleek design, making it a standout choice for music enthusiasts seeking efficiency and style.
 
-![](/images/4_cider-apple-music.webp)
+![](/images/4_cider-apple-music.png)
 
-**Learn more [here](https://cider.sh/).**
+### Self-Hosted Alternatives
 
-# Betterbird Email Client
+Now, I generally prefer self-hosting or non-streaming depenant applications. Here are some I would recommened if Apple Music isn't your thing.
+
+- [Navidrome](https://www.navidrome.org/): Self hosted music streaming. Highly recommened.
+- [PlexAMP](https://www.plex.tv/plexamp/): If you have a Plex Pass and you're not using this you're missing out.
+- [Strawberry](https://www.strawberrymusicplayer.org): Open source desktop client with a classic feel.
+- [Tauon](https://tauonmusicbox.rocks/): This is a modern feature rich music client.
+
+## [Betterbird Email Client](https://www.betterbird.eu/)
 
 Betterbird is a refined version of Mozilla Thunderbird, offering improvements and exclusive features over traditional email clients. It boasts a multi-line view akin to Outlook or Lotus Notes, vertical tabs for better organization, customizable header pane options, and enhanced attachment management compared to standard Thunderbird versions.
 
-![](images/5_betterbird-email.webm)
+![](images/5_betterbird-email.jpg)
 
 While Thunderbird faced critical issues like data loss in certain POP setups and IMAP failures, Betterbird addresses these with fixes that restore functionality post-folder repairs. The 128.x series has seen several updates, each improving specific areas without introducing regressions, ensuring a stable user experience.
 
 Easily integrable with existing Thunderbird profiles, Betterbird allows seamless coexistence, enabling users to switch effortlessly based on their needs.
-
-**Learn more [here](https://www.betterbird.eu/).**
