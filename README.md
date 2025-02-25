@@ -1,5 +1,18 @@
 # Writing Guidelines (wip)
 
+## Cloning and Pushing Repo
+The Blowfish theme that our website uses is added as a submodule. To run the Hugo server locally it is important that this is also pulled with the repo is closed. The `--recurse-submodules` is needed when the repo is cloned. 
+
+```
+git clone --recurse-submodules https://github.com/TechHutTV/techhut.tv.git
+```
+Pushing and committing changes can be done with the following. 
+```
+git add -A
+git commit -m "what I did"
+git push
+```
+
 ## Images and Video
 1. Make sure images have a descriptive file name with the number prefix being the order they appear in the article
 2. All images must be .jpg, .jpeg, or .png with a strong preference twords .jpg.
