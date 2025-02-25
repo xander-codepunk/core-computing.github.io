@@ -14,7 +14,9 @@ tags:
 ---
 # Zen Browser
 
-The **Zen Web Browser** is a customisable browser built on Firefox's engine, offering a lightweight and fast experience without compromising privacy or security. It’s designed to be more intuitive than other browsers like Chrome or Firefox by providing **Zen Mods**, which are highly customisable tools tailored to individual needs—often surpassing the functionality of generic browser extensions.
+The **Zen Web Browser** is a customisable browser built on Firefox's engine, offering a lightweight and fast experience without compromising privacy or security. It’s designed to be more intuitive than other browsers like Chrome or Firefox by providing **Zen Mods**, which are highly customisable addons tailored to individual needs—often surpassing the functionality of generic browser extensions.
+
+![](/images/1_zen-browser.png)
 
 Zen Mods focus on productivity and user satisfaction while maintaining Firefox's core privacy features, such as built-in trackers removal and advanced ad-blocker capabilities. For more information, you can visit the [main website](https://www.zenwebbrowser.com) or explore the [documentation page](https://docs.zenwebbrowser.com) to learn about the various **Zen Mods** available.
 
@@ -23,6 +25,8 @@ Zen Mods focus on productivity and user satisfaction while maintaining Firefox's
  # Zed Code Editor
 
  The ZedCode Editor is an efficient and minimalist integrated development environment (IDE). Its sleek interface offers a distraction-free experience, making it ideal for developers prioritizing simplicity.
+
+![](images/2_zed-code-editor.png)
 
  **Pros:**
  - Minimalist Design: Reduces cognitive load, allowing focus on coding.
@@ -43,6 +47,10 @@ Zen Mods focus on productivity and user satisfaction while maintaining Firefox's
 
  Tabby is an open-source terminal emulator built with Electron. It excels in supporting multiple terminal sessions and connects to remote servers via SSH with profiles and an ecrypted vault.
  Runs on Windows, Mac and Linux
+
+ ![](/images/3_tabby-terminal.png)
+
+ **Key Feature:**
 - Integrated SSH client with a connection manager
 - Integrated serial terminal
 - PowerShell, PS Core, WSL, Git-Bash, Cygwin, Cmder and CMD support
@@ -60,11 +68,15 @@ Zen Mods focus on productivity and user satisfaction while maintaining Firefox's
 
 Cider is a high-performance cross-platform music player built on Vue.js for Apple Music, designed with modern aesthetics and functionality in mind. It seamlessly integrates with services like Discord, Last.fm, Spotify, and more, offering features such as spatialization, an advanced audio processor, and customizable controls. Cider boasts native backends for Windows, macOS, and Linux, ensuring smooth performance across platforms. Its intuitive interface and robust plugin system allow users to tailor their experience, while its remote control is anticipated for convenience. Reviews highlight Cider's superior performance compared to traditional apps like iTunes and its sleek design, making it a standout choice for music enthusiasts seeking efficiency and style.
 
+![](/images/4_cider-apple-music.webp)
+
 **Learn more [here](https://cider.sh/).**
 
 # Betterbird Email Client
 
 Betterbird is a refined version of Mozilla Thunderbird, offering improvements and exclusive features over traditional email clients. It boasts a multi-line view akin to Outlook or Lotus Notes, vertical tabs for better organization, customizable header pane options, and enhanced attachment management compared to standard Thunderbird versions.
+
+![](images/5_betterbird-email.webm)
 
 While Thunderbird faced critical issues like data loss in certain POP setups and IMAP failures, Betterbird addresses these with fixes that restore functionality post-folder repairs. The 128.x series has seen several updates, each improving specific areas without introducing regressions, ensuring a stable user experience.
 
