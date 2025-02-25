@@ -64,6 +64,12 @@ Tabby is an open-source terminal emulator built with Electron. It excels in supp
 
 Cider is a high-performance cross-platform music player built on Vue.js for Apple Music, designed with modern aesthetics and functionality in mind. It seamlessly integrates with services like Discord, Last.fm, Spotify, and more, offering features such as spatialization, an advanced audio processor, and customizable controls. Cider boasts native backends for Windows, macOS, and Linux, ensuring smooth performance across platforms. Its intuitive interface and robust plugin system allow users to tailor their experience, while its remote control is anticipated for convenience. Reviews highlight Cider's superior performance compared to traditional apps like iTunes and its sleek design, making it a standout choice for music enthusiasts seeking efficiency and style.
 
+{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+It has come to my attention that the newest version v2 of Cider is a paid application. The version I'm using in the video is v1 and that is free on Flathub.
+{{< /alert >}}
+
+**Free Version**: Download with [Flathub](https://flathub.org/apps/sh.cider.Cider) or checkout their [archived Github repo](https://github.com/ciderapp/Cider).
+
 ![](/images/4_cider-apple-music.png)
 
 **Key Features:**
