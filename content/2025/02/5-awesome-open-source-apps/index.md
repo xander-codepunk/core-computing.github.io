@@ -12,6 +12,11 @@ tags:
   - "Linux"
   - "Terminal"
 ---
+
+With most of my daily tasks handled through web browsers, there are still a few exceptional desktop applications I cannot function without. Below, you'll find the five open-source tools I rely on every day.
+
+{{< youtube y_8wcMBJrVo >}}
+
 ## [Zen Browser](https://zen-browser.app/)
 
 The Zen Web Browser is a customisable browser built on Firefox's engine, offering a lightweight and fast experience without compromising privacy or security. It’s designed to be more intuitive than other browsers like Chrome or Firefox by providing Zen Mods, which are highly customisable addons tailored to individual needs—often surpassing the functionality of generic browser extensions.
@@ -61,12 +66,18 @@ Cider is a high-performance cross-platform music player built on Vue.js for Appl
 
 ![](/images/4_cider-apple-music.png)
 
+**Key Features:**
+- Modern slick UI similar to the native Mac OS application.
+- Customizable controls.
+- Remote control capabilities.
+- Review highlights its superior performance compared to traditional apps like iTunes.
+
 ### Self-Hosted Alternatives
 
 Now, I generally prefer self-hosting or non-streaming depenant applications. Here are some I would recommened if Apple Music isn't your thing.
 
-- [Navidrome](https://www.navidrome.org/): Self hosted music streaming. Highly recommened.
-- [PlexAMP](https://www.plex.tv/plexamp/): If you have a Plex Pass and you're not using this you're missing out.
+- [Navidrome](https://www.navidrome.org/): A high-quality, self-hosted music streaming service. Highly recommened.
+- [PlexAMP](https://www.plex.tv/plexamp/): Ideal for Plex Pass users seeking a dedicated music client.
 - [Strawberry](https://www.strawberrymusicplayer.org): Open source desktop client with a classic feel.
 - [Tauon](https://tauonmusicbox.rocks/): This is a modern feature rich music client.
 
