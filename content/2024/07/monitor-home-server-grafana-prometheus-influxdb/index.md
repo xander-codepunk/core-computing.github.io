@@ -15,6 +15,8 @@ tags:
 
 Today I'll be showing you how it can actually be pretty simple to get a self hosted monitoring system set up for your home lab. The idea is to collect and visualize key data about your machines, like how much CPU, RAM, and disk capacity is being used over time.
 
+{{< youtube vffhtqK3ZUg >}}
+
 Having monitoring in place can be really useful for understanding if there are adequate resources dedicated to your various services, and it can also just be a lot of fun to look at. Before we go any further, here's a sample screen shot of what our end result will look like:
 
 ![](images/image-2-1024x417.png)
