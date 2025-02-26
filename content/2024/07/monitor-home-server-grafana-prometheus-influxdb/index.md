@@ -65,9 +65,7 @@ An open-source monitoring system with a dimensional data model, flexible query l
 
 Alright, now let's get started with the deployment of the containers. For this part I'll assume you have a machine set up with Docker already. If not, we have an [article and video on getting started with Docker](https://techhut.tv/7-docker-basics-for-beginners/) that will get you up to speed. What I'll show here is using a Docker Compose file and Docker's command line interface.
 
-![](images/docker-basics.png)
-
-### 7 Docker Basics for Beginners
+{{< article link="/7-docker-basics-for-beginners/" >}}
 
 Docker is a platform that allows you to work with containers and containerized applications....
 
@@ -218,7 +216,7 @@ alerting:
     - targets: []
     scheme: http
     timeout: 10s
-    api_version: v1
+    api_version: v2
 ```
 
 After the global settings section at the top, there's an alerts section. Prometheus has the ability to trigger alerts, for example if a disk is getting too full, and actually Grafana has its own separate alerts feature as well. We won't get into that aspect for this tutorial though and so we can leave that part of the config alone.
@@ -295,13 +293,13 @@ First, here in the Grafana interface, let's go to the _Connections_ section and 
 
 ![](images/data-sources-1024x349.png)
 
-##### Prometheus
+**Prometheus**
 
 By default, we should see our Prometheus data source here, which was added according to the Grafana config file. If we open up the Prometheus data source and scroll down a bit, we can see the scrape interval configuration. As I mentioned earlier, if you changed your scrape interval in the Prometheus configuration, you should also change it here so they are the same. Otherwise you can run into issues where the data does not display properly on the graphs.
 
 Scrolling down a bit more, we can see the _Save & test_ button, which also provides a helpful way to confirm that Grafana can reach Prometheus to grab data. Now speaking of diagnostics, let's go take a look in the Prometheus web interface to see how we can check the status of Prometheus scrape jobs.
 
-##### InfluxDB 2
+**InfluxDB 2**
 
 The InfluxDB source won't be loaded in there automatically like our Prometheus data source was. We will need to add this manually. Under 'Connections' in the left navigation pane click on 'Add new connection', then type "InfluxDB" within the search bar. Click on the result to setup the connection. Name this what you'd like, and for my setup I will be using InfluxQL as the language. Flux is another good option, but it is in beta and many of the popular dashboards will not work with Flux.
 
@@ -351,7 +349,7 @@ You can add as many machines as you want like this on new lines. Note that anyti
 docker compose restart
 ```
 
-##### Docker Compose Tips
+**Docker Compose Tips**
 
 Also, here are a couple quick tips for managing this deployment with Docker compose. If you ever want to bring the deployment down for any reason, use the down command.If you are having issue and want to view the logs from both the Grafana and Prometheus containers, run the logs command.
 
