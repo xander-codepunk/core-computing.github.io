@@ -1,5 +1,5 @@
 ---
-title: 'MUST have Home Server Services'
+title: 'MUST have Home Server Services (preview)'
 date: '2025-03-07'
 url: must-have-home-server-services-2025
 draft: false
