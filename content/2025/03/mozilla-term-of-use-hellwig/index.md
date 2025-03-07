@@ -22,6 +22,9 @@ Thursday morning I woke up and took a quick look at the trending threads on r/li
 
 Could that be something worth talking about? I scanned the comments. Some were worried, but the consensus was that this was nothing newsworthy. Reassured, I discarded it and eventually settled for another video topic.
 
+{{< youtube dDpKx-wvD_0 >}}
+Checkout this video from Nicco Loves Linux!
+
 Well, I shouldn't have. Less than 24 hours later, this legal change is everywhere: people are claiming that the new terms of use give Mozilla all of your data, that they disallow pornography, that AI is going to be trained with it, and more.
 
 Let's clarify some things, shall we?
@@ -41,6 +44,8 @@ In particular, the following types of data are shared with commercial partners (
 This is because the new tab page might have advertisements (I'm not sure if this is opt-in).
 
 The issue is: even though this data is only shared in an aggregated way since Mozilla earns from those ads, this could technically be classified as "selling your data" under some jurisdictions (such as California's). To protect themselves from false advertising lawsuits, Mozilla thus decided to entirely drop their "We do not sell your data" statement from their FAQ page, replacing it with "We do not sell your data in the sense that's commonly attributed to it".
+
+![](images/00_firefix-terms-of-use.png)
 
 As they put it:
 
