@@ -1,7 +1,7 @@
 ---
 title: "Mozilla and Thunderbird 136 released, Godot 4.4, and more!"
 date: "2025-03-10"
-draft: true
+draft: false
 authors:
   - "Niccolo Venerandi"
 categories:
