@@ -22,6 +22,11 @@ It’s been over an year since my last home server services tour. Since then qui
 
 Last time around I had a variety of systems keeping everything going this included two NAS systems running Proxmox and Unraid, and then a Intel NUC running Ubuntu Server. Since then we have ditched Unraid in favor using two separates NAS systems together in a Proxmox Node.
 
+### Hardware
+This is all the hardware I'm currently using with affilate links. I will note, I'm using these NAS systems as I got them for free as review units. I plan on building my own rack mount system when funds allow.
+- Zimacube NAS: [affilate link](https://shareasale.com/r.cfm?b=2246431&u=3487632&m=135981&urllink=&afftrack=) | [video](https://youtu.be/pnQHE4TOrIc)
+- Everything else: [amazon store](https://amzn.to/4imX10x)
+
 The first node is running on a ZimaCube is this responsible for all my media servers and management. Additionally it has a windows virtual machine that I can spin up when needed. The second node is virtually everything else running on a single LXC with docker or running independently from a community installation script. I hope in the future to build my own server as to rid my use of desktop NAS systems, granted they have been great thus far.
 
 ![](/images/00_proxmox.png)
@@ -118,14 +123,13 @@ Plex is my main media streaming platform. I have quite a few family members usin
 
 **Resources:** [Video](https://youtu.be/lXcfKTNObOo) | [Github](https://github.com/plexinc) | [Website](https://www.plex.tv/)
 
-
 ### Tautulli
 
 ![](/images/10_tautulli-plex-stats.png)
 
 While Plex does have some statistics and logs to see what’s going on, it is nothing compared to what we get from Tautulli. From their website; “Tautulli is a 3rd party application that you can run alongside your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched.” This data is very helpful when I clean up and remove some media from the server. One of my favorite features of all this is the newsletter option that you can setup giving the users a overview of new media that has been added to the server.
 
-https://tautulli.com/
+**Resources:** [Github](https://github.com/Tautulli/Tautulli) | [Website](https://tautulli.com/)
 
 ## Media Management
 
@@ -137,7 +141,7 @@ Many of the applications below act in similar function with a slightly different
 
 Overseerr is an amazing tool for discovering new movies and shows as well as having Plex users request media they want to see. Overseerr integrates really well into Plex and some of the other services in this category. It can see what is already in your media library and if a request is made it can automatically add that entry to Radarr or Sonarr. I particularity like it because of the discover functionality, you can filter movies and shows by what streaming service they’re on, rating, and more.
 
-https://overseerr.dev/
+**Resources:** [Github](https://github.com/sct/overseerr) | [Website](https://overseerr.dev/)
 
 ### Radarr
 
@@ -312,17 +316,3 @@ https://www.influxdata.com/
 Like InfluxDB this is a data collection tool for monitoring and data analytics. This one this the most popular of what I’m using so there are a ton of different integrations and dashboards to pick from. The most popular and probably the easiest to setup is the Node Exporter, I have this installed and two Raspberry Pi systems for monitoring.
 
 https://prometheus.io/
-
-## Network and Internet
-
-### Omada
-
-![](/images/31_omada-is-slow.png)
-
-TP-Link sent over a few Omada devices a while back and I have not yet tried any of the competitors, so don’t consider this as a full endorsement. Overall it has been working well and it’s easy to mange static addresses, label ports, manage PoE, and much more.
-
-https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-software/omada-software-controller/
-
-### xFinity
-
-xFinity is trash, but it’s my only option in my area. I mean Comcast as a company is SO bad that I’ve even considered paying double for Starlink with much worse ping.
