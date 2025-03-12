@@ -1,6 +1,6 @@
 ---
-title: 'MUST have Home Server Services (preview)'
-date: '2025-03-07'
+title: 'MUST HAVE Homelab Services'
+date: '2025-03-11'
 url: must-have-home-server-services-2025
 draft: false
 authors:
@@ -15,7 +15,8 @@ tags:
 It’s been over an year since my last home server services tour. Since then quite a bit has changed. In this article we will overall all the services and applications I am running on my home server, discuss alternatives, and the overall structure of my ecosystem.
 
 {{< alert >}}
-**Warning!** This article is activily being worked on. Bare with me. :)
+**Warning!** This article is activily being worked on.
+Also, I highly recommend [AirVPN](https://airvpn.org/?referred_by=673908) in combination with Gluetun. Checkout my [video](https://www.youtube.com/watch?v=_tz2wUFT8VQ) on this set up.
 {{< /alert >}}
 
 ## My Setup
@@ -24,8 +25,8 @@ Last time around I had a variety of systems keeping everything going this includ
 
 ### Hardware
 This is all the hardware I'm currently using with affilate links. I will note, I'm using these NAS systems as I got them for free as review units. I plan on building my own rack mount system when funds allow.
-- Zimacube NAS: [affilate link](https://shareasale.com/r.cfm?b=2246431&u=3487632&m=135981&urllink=&afftrack=) | [video](https://youtu.be/pnQHE4TOrIc)
-- Everything else: [amazon store](https://amzn.to/4imX10x)
+- Zimacube NAS: [Affilate Link](https://shareasale.com/r.cfm?b=2246431&u=3487632&m=135981&urllink=&afftrack=) | [Video](https://youtu.be/pnQHE4TOrIc)
+- Everything else: [Amazon Store](https://amzn.to/4imX10x)
 
 The first node is running on a ZimaCube is this responsible for all my media servers and management. Additionally it has a windows virtual machine that I can spin up when needed. The second node is virtually everything else running on a single LXC with docker or running independently from a community installation script. I hope in the future to build my own server as to rid my use of desktop NAS systems, granted they have been great thus far.
 
@@ -39,9 +40,11 @@ Dashboard are used to create a simple webpage with links to all the services, we
 
 ### Glance
 
-![](/images/01_glace-dashboard.png)
+{{< youtube QGONe-NTWuI >}}
 
 This dashboard is a new addition for me, it’s not the most feature rich of the options out there, but for me it’s simplistic and default look and feel is what stands out to me. You can use it to monitor and link to all your applications, like most tools in this category, but it also is great for monitoring various feeds, websites, and a customizable RSS feed. I use the tool as a start page for my web browser and it gives a quick and simple _glance_ of everything that I care about. One of the best things about it, in my opinion, is that everything is customized and configured in a simple yaml file.
+
+![](/images/01_glace-dashboard.png)
 
 **Resources:** [Video](https://youtu.be/QGONe-NTWuI) | [Github](https://github.com/glanceapp/glance)
 
@@ -135,6 +138,8 @@ While Plex does have some statistics and logs to see what’s going on, it is no
 
 Many of the applications below act in similar function with a slightly different goal or media type so the descriptions will be brief. With that these tools are by far some of my favorites in my home server.
 
+{{< youtube Uzqf0qlcQlo >}}
+
 ### Overseerr
 
 ![](/images/11_overseerr-media-reuests.png)
@@ -149,7 +154,7 @@ Overseerr is an amazing tool for discovering new movies and shows as well as hav
 
 Radarr is a media organization tool for movies. This allows you see scan your library to see everything you have. Manage file file names, see the media quality, and even search indexers for media. From their wiki; “Radarr is a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.”
 
-https://radarr.video/
+**Resources:** [Wiki](https://wiki.servarr.com/radarr) | [Github](https://github.com/Radarr/Radarr) | [Website](https://radarr.video/)
 
 ### Sonarr
 
@@ -157,7 +162,7 @@ https://radarr.video/
 
 This does all the same things as Radarr but with TV shows and series. It uses TVDB to see if you’re missing any episodes and even specials. From their wiki; “Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.”
 
-https://sonarr.tv/
+**Resources:** [Wiki](https://wiki.servarr.com/sonarr) | [Github](https://github.com/Sonarr/Sonarr) | [Website](https://sonarr.tv/)
 
 ### Lidarr
 
@@ -165,13 +170,13 @@ https://sonarr.tv/
 
 This acts the same as Radarr and Sonarr, but for music. From their wiki; “Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.”
 
-https://lidarr.audio/
+**Resources:** [Wiki](https://wiki.servarr.com/lidarr) | [Github](https://github.com/Lidarr/Lidarr) | [Website](https://lidarr.audio/)
 
 ### Bazarr
 
 This also acts similar to the other \*arr application, but with a focus on subtitles. From the Bazarr site; “Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements. \[With manual search to\] find all the matching subtitles, choose the one you want and download it to your media directory with the proper name to be used by your media player.”
 
-https://www.bazarr.media/
+**Resources:** [Wiki]() | [Github](https://github.com/morpheus65535/bazarr) | [Website](https://www.bazarr.media/)
 
 ### Prowlarr
 
@@ -179,9 +184,15 @@ https://www.bazarr.media/
 
 Without using Prowlarr you’d need to manually setup your trackers and indexers in each application. This allows a centralized place to manage that aspect of these tools if you’re using it in this way. From their wiki; “Prowlarr is an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports management of both Torrent Trackers and Usenet Indexers. It integrates seamlessly with [LazyLibrarian](https://lazylibrarian.gitlab.io/), [Lidarr](https://wiki.servarr.com/lidarr), [Mylar3](https://github.com/mylar3/mylar3), [Radarr](https://wiki.servarr.com/radarr), [Readarr](https://wiki.servarr.com/readarr), and [Sonarr](https://wiki.servarr.com/sonarr) offering complete management of your indexers with no per app Indexer setup required (we do it all).”
 
-https://prowlarr.com/
+**Resources:** [Wiki](https://wiki.servarr.com/prowlarr) | [Github](https://github.com/Prowlarr/Prowlarr) | [Website](https://prowlarr.com/)
 
 ## Download Clients
+
+{{< youtube _tz2wUFT8VQ >}}
+
+I highly recommened using a VPN for downloading things. Esspecially when using peer-to-peer downloaders. Using a VPN will keep your public IP address hidden. I have tired a few VPN services and so far my favorite is [AirVPN](https://airvpn.org/?referred_by=673908), they're not a sponsor, but that is a affilate link.
+
+[![](images/airvpn.png)](https://airvpn.org/?referred_by=673908)
 
 ### qBittorrent
 
@@ -189,7 +200,7 @@ https://prowlarr.com/
 
 This is a web version of the popular qBittorrent peer-to-peer file sharing client. Overall its clean, simple, and has a fair bit of features. Works well with AirVPN (my favorite VPN service) and integrates well with various \*arr applications.
 
-https://www.qbittorrent.org/
+**Resources:** [Github](https://github.com/qbittorrent/qBittorrent) | [Website](https://www.qbittorrent.org/)
 
 ### NZBGet
 
@@ -198,6 +209,8 @@ https://www.qbittorrent.org/
 This is a Usenet client written is C++. It works very well and out of any that I’ve used it seems to give the least amount of issues. This can pull files, fix them in some cases is the health is low, rename and move files.
 
 https://nzbget.net/
+**Resources:** [Github](https://github.com/nzbgetcom/nzbget) | [Website](https://radarr.video/)
+
 
 ## Files and Images
 
@@ -207,7 +220,7 @@ https://nzbget.net/
 
 Nextcloud is the best in the game for replacing cloud services like Google Drive, Onedrive, and so on. Not only can it act as a great on-premise cloud, but there are many other add-ons and features that it offers. This includes a complete groupware suite, collaborative document editing, tasks, and much more.
 
-https://nextcloud.com/
+**Resources:** [Video](https://www.youtube.com/watch?v=Nh2-LjIymmQ) | [Github](https://github.com/nextcloud) | [Website](https://nextcloud.com/)
 
 ### Immich
 
@@ -215,7 +228,7 @@ https://nextcloud.com/
 
 This is arguably the most important application that I am running. This is what I’ve used to completely replace Google Photos. Myself and a few of my family members use this as their primary Photo back solution. It has a mobile app that supports easy backups and some other key features include facial recognition and a location map of your photos. From their website; “Easily back up, organize, and manage your photos on your own server. Immich helps you browse, search and organize your photos and videos with ease, without sacrificing your privacy.”
 
-https://immich.app/
+**Resources:** [Video](https://www.youtube.com/watch?v=s1ufPvO0BVE) | [Github](https://github.com/immich-app/immich) | [Website](https://immich.app/)
 
 ### Docmost
 
@@ -223,7 +236,7 @@ https://immich.app/
 
 This is a new addition and it’s actually how I’m initially drafting this entire article. In my hunt to replace Notion I’ve started using this. While I’m still on a hunt for a more one-to-one replacement this is doing the trick for now. This tool is used to manage your own personal wiki, knowledge base, and notes. The UI is clean, elegant, and simple.
 
-https://docmost.com/
+**Resources:** [Github](https://github.com/docmost/docmost) | [Website](https://docmost.com/)
 
 ## Smart Home and Automation
 
@@ -234,6 +247,7 @@ https://docmost.com/
 Home Assistant is a great tool that allows the connection of many devices in your smart home and integrate them together with a variety blueprints, automatons, and more. You can create custom dashboards, use their mobile app, and so much more I can’t even properly describe here how much this tool is capable of.
 
 https://www.home-assistant.io/
+**Resources:** [Video](https://www.youtube.com/watch?v=Y8xY4keybnw) | [Github](https://github.com/plexinc) | [Website](https://www.plex.tv/)
 
 ### Frigate
 
@@ -241,7 +255,7 @@ https://www.home-assistant.io/
 
 Frigate is the best open source, self-hosted NVR option that I can find. For a while I was using Blue Iris, but I HATE that you have to use Windows. This tool shines with you hook it up with a Coral TPU for AI object detection. The interface is wonderful and it supports most of what you’d expect of an NVR. Granted depending on your cameras it may be difficult to configure and use all the features a camera may support, for example, two way audio.
 
-https://frigate.video/
+**Resources:** [Video](https://youtu.be/NzbghOfRx3k?si=HY7aHdCbqz1X5ONe) | [Github](https://github.com/blakeblackshear/frigate) | [Website](https://frigate.video/)
 
 ### Zigbee2MQTT
 
@@ -249,7 +263,7 @@ https://frigate.video/
 
 I was originally using this with Home Assistant as an add-on, but I’ve noticed it to be way more reliable if it is separated out. Zigbee2MQTT supports various Zigbee adapters and a bunch of devices.
 
-https://www.zigbee2mqtt.io/
+**Resources:** [Github](https://github.com/Koenkk/zigbee2mqtt) | [Website](https://www.zigbee2mqtt.io/)
 
 ## DNS and Remote Connections
 
@@ -259,21 +273,24 @@ https://www.zigbee2mqtt.io/
 
 By far the most popular “DNS Sinkhole” a Domain Name Service that blocks certain DNS inquires. In the case of Pi-Hole it uses black lists full of domains associated with advertisements and tracking. For example, one of the most blocked domain on my server is [s2s.mparticle.com](https://www.mparticle.com/about-us/) a data collection firm. And with Pi-Hole I can investigate and figure out why this data collection company is being reached out to so much. This is in addition to the main use case of simple ad blocking. Pi-Hole has many other features I’ve yet to dive into, but it’s a wonderful tool that is worth tying out of anyone.
 
-https://pi-hole.net/
+**Resources:** [Video](https://www.youtube.com/watch?v=xtMFcVx3cHU) | [Github](https://github.com/pi-hole/pi-hole) | [Website](https://pi-hole.net/)
 
 ### NGINX Proxy Manager
 
-![](/images/25_nginx-proxy-manager.png)
+{{< youtube 79e6KBYcVmQ >}}
 
 NGINX Proxy Manager is a simple web based proxy manager for setting up and forwarding domain names to your services and generating SSL certifications. I use this for both local top level domains and exposing a few select services to the public internet.
 
-https://nginxproxymanager.com/
+![](/images/25_nginx-proxy-manager.png)
+
+**Resources:** [Video](https://youtu.be/79e6KBYcVmQ?si=1h1daKy-0fZeiBtI) | [Github](https://github.com/NginxProxyManager/nginx-proxy-manager) | [Website](https://nginxproxymanager.com/)
 
 ### Twingate
 
 Full disclosure, Twingate is one of the channel sponsors. This is a VPN alternative for remotely connecting to your home server. It works by spinning up a smaller connector on your local network, then you use a client to establish a secure peer-to-peer connection. All this is managed and verified through the Twingate cloud platform. Something I started using recently is the Twingate service API to connect with a headless client. Connecting to one headless service to another.
 
 https://bit.ly/twingate1024
+**Resources:** [Video](https://www.youtube.com/watch?v=yaw2A3DG664) | [Website](https://www.twingate.com/onboarding?utm_source=youtube&utm_medium=referral&utm_campaign=techhut-q1-25 )
 
 ### Cloudflare DDNS
 
@@ -281,9 +298,11 @@ https://bit.ly/twingate1024
 
 This is a very simple docker container used to update your public IP address within the Cloudflare A records using their API. I need to use this becuase my public IP is dynamic, meaning it will randomly and automatically change every few weeks or sometimes every few days. From their Github it’s; “A feature-rich and robust Cloudflare DDNS updater with a small footprint. The program will detect your machine’s public IP addresses and update DNS records using the Cloudflare API.”
 
-https://github.com/favonia/cloudflare-ddns
+**Resources:** [Video](https://youtu.be/79e6KBYcVmQ?si=1h1daKy-0fZeiBtI) | [Github](https://github.com/favonia/cloudflare-ddns)
 
 ## Data and Metrics
+
+{{< youtube vffhtqK3ZU >}}
 
 ### Grafana
 
@@ -291,7 +310,7 @@ https://github.com/favonia/cloudflare-ddns
 
 Grafana is a BEAUTIFUL dashboard tool that can translate various databases into stunning graphs, charts, and presentation. There is a huge amount of integrations and custom dashboard that many people create for their specific use cases. You can easily add a connection and import a dashboard to display the data. The most popular is for the Node Exporter that you can see above.
 
-https://grafana.com/
+**Resources:** [Video](https://www.youtube.com/watch?v=vffhtqK3ZU) | [Github](https://github.com/grafana/grafana) | [Website](https://grafana.com/)
 
 ### TeslaMate
 
@@ -299,7 +318,7 @@ https://grafana.com/
 
 TeslaMate is a tool that uses the Tesla API to gather every possible data point about the car. This includes trips, mileage, battery, elevation, and much more. This is a stack that includes Teslamate itself, a database, Grafana, and a few others.
 
-https://github.com/teslamate-org/teslamate
+**Resources:** [Github](https://github.com/teslamate-org/teslamate) | [Website](https://docs.teslamate.org)
 
 ### InfluxDB2
 
@@ -308,6 +327,7 @@ https://github.com/teslamate-org/teslamate
 InfluxDB is described as; “Purpose-built database for all types of time series data at any scale.” This database tool has it’s own way to turn data into charts and graphs, but I’m primarily using it for helpful data from my Proxmox server and pulling that data to Grafana dashboards.
 
 https://www.influxdata.com/
+**Resources:** [Video](https://www.youtube.com/watch?v=vffhtqK3ZU) | [Github](https://github.com/influxdata/influxdb) | [Website](https://www.influxdata.com/)
 
 ### Prometheus (with Node Exporter)
 
@@ -315,4 +335,51 @@ https://www.influxdata.com/
 
 Like InfluxDB this is a data collection tool for monitoring and data analytics. This one this the most popular of what I’m using so there are a ton of different integrations and dashboards to pick from. The most popular and probably the easiest to setup is the Node Exporter, I have this installed and two Raspberry Pi systems for monitoring.
 
-https://prometheus.io/
+**Resources:** [Video](https://www.youtube.com/watch?v=vffhtqK3ZU) | [Github](https://github.com/prometheus/prometheus) | [Website](https://prometheus.io/)
+
+{{< alert >}}
+**Warning!** This 'Alternatives and Extras' section is activily being worked on.
+{{< /alert >}}
+
+### Alternatives and Extras
+Dashboards
+- (alt to Glance/Homarr)
+
+Tools and Utilities
+- (alt to File Browser)
+- (alt to Vaultwarden)
+- (alt to Hoarder)
+- (alt to Portainer)
+- (alt to Cockpit)
+- (alt to Octoprint)
+
+Media Server
+- (alt to Jellyfin/Plex)
+- (alt to Tautulli)
+
+Media Management
+- (alt to Overseerr)
+- (alt to Radarr)
+- (alt to Sonarr)
+- (alt to Lidarr)
+- (alt to Bazarr)
+- (alt to Prowlarr)
+
+Download Clients
+- (alt to qBittorrent)
+- (alt to NZBGet)
+
+Files and Images
+- [Owncloud](https://owncloud.com/), [Pydio](https://github.com/pydio) (alts to Nextcloud)
+- [Nextcloud Memories](https://apps.nextcloud.com/apps/memories), [a bunch more](https://github.com/meichthys/foss_photo_libraries) (alts to Immich)
+- (alt to Docmost)
+
+Smart Home and Automation
+- [openHAB](https://www.openhab.org/), [Homey](https://homey.app/en-us/) (alts to Home Assistant)
+- [AgentDVR](https://www.ispyconnect.com/), [Shinobi NVR](https://shinobi.video/) (alts to Frigate)
+
+DNS and Remote Connections
+- [AgdGuard Home](https://adguard.com/en/adguard-home/overview.html) (alt to Pi-Hole)
+- [SWAG](https://docs.linuxserver.io/general/swag/#creating-a-swag-container) (alt to NGINX Proxy Manager)
+- [Tailscale](https://tailscale.com/) (alt to Twingate)
+- [ddns-updater](https://github.com/qdm12/ddns-updater) (alt to Cloudflare DDNS)

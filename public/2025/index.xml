@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copy, _right?_</copyright>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/2025/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/2025/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mozilla and Thunderbird 136 released, Godot 4.4, and more!</title>
+      <link>http://localhost:1313/2025/03/firefox-thunderbird-136-godot/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2025/03/firefox-thunderbird-136-godot/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/2025/03/firefox-thunderbird-136-godot/cover.png" />
+    </item>
+    
+    <item>
+      <title>Mozilla worrying Terms of Use, Hellwig steps down, and more!</title>
+      <link>http://localhost:1313/2025/03/mozilla-term-of-use-hellwig/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2025/03/mozilla-term-of-use-hellwig/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/2025/03/mozilla-term-of-use-hellwig/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>MUST have Home Server Services (preview)</title>
+      <link>http://localhost:1313/must-have-home-server-services-2025/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/must-have-home-server-services-2025/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>5 AWESOME Open Source Apps that I use Everyday</title>
