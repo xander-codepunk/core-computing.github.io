@@ -208,8 +208,7 @@ This is a web version of the popular qBittorrent peer-to-peer file sharing clien
 
 This is a Usenet client written is C++. It works very well and out of any that I’ve used it seems to give the least amount of issues. This can pull files, fix them in some cases is the health is low, rename and move files.
 
-https://nzbget.net/
-**Resources:** [Github](https://github.com/nzbgetcom/nzbget) | [Website](https://radarr.video/)
+**Resources:** [Github](https://github.com/nzbgetcom/nzbget) | [Website](https://nzbget.com/)
 
 
 ## Files and Images
